@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 import pymysql
+import timeit
 
 # Open database connection
+start = timeit.default_timer()
 db = pymysql.connect("localhost","root","arya123","pythonTest" )
 
 # prepare a cursor object using cursor() method
@@ -22,3 +24,5 @@ except:
 
 # disconnect from server
 db.close()
+stop = timeit.default_timer()
+print('Time: ', stop - start)  
