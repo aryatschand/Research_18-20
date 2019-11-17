@@ -13,8 +13,10 @@ cursor = db.cursor()
 for x in range (0, 100):
    waterRand = random.randint(40, 60)
    colorRand = random.randint(40, 100)
+   heatRand = random.randint(10, 30)
+   lightRand = random.randint(100, 300)
    # Prepare SQL query to INSERT a record into the database.
-   sql = "INSERT INTO `irrigation` (`id`,`water`,`color`) VALUES (NULL, '{}', '{}');" .format(waterRand, colorRand)
+   sql = "INSERT INTO `fourdimension` (`id`,`water`,`color`,`heat`, `light`) VALUES (NULL, '{}', '{}', '{}', '{}');" .format(waterRand, colorRand, heatRand, colorRand)
    try:
    # Execute the SQL command
       cursor.execute(sql)
