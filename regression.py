@@ -58,14 +58,14 @@ for x in range(0, 3):
 
 Logslope = ((3*yLogx)-(sumY*sumLogx))/((3*sumLogxSq)-(sumLogx*sumLogx))
 print("Logarithmic Slope = " + str(Logslope))
-"""
+
 plt.scatter(waterVals, colorVals)
-plt.plot([0, 60], [0, 60*slope])
+plt.plot([0, 60], [0, 60*Linslope])
 plt.title('Scatter plot pythonspot.com')
 plt.xlabel('x')
 plt.ylabel('y')
 
 plt.show()
-"""
+
 stop = timeit.default_timer()
 print('Time: ', stop - start)  

@@ -9,13 +9,13 @@ import math
 
 # Open database connection
 start = timeit.default_timer()
-db = pymysql.connect("localhost","root","arya123","pythonTest" )
+db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
 # Prepare SQL query to INSERT a record into the database.
-sql = "SELECT * FROM fourdimension"
+sql = "SELECT * FROM irrigation_data"
 waterVals = []
 colorVals = []
 heatVals = []
