@@ -11,8 +11,8 @@ db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
 cursor = db.cursor()
 
 for x in range (0, 100):
-   waterRand = random.randint(10, 20)
-   colorRand = random.randint(40, 60)
+   waterRand = random.randint(30, 40)
+   colorRand = random.randint(60, 80)
    heatRand = random.randint(10, 30)
    lightRand = random.randint(20, 30)
    # Prepare SQL query to INSERT a record into the database.
