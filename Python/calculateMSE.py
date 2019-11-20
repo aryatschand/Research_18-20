@@ -79,7 +79,8 @@ plt.scatter(waterVals, colorVals)
 x = np.array(range(10, 40))  
 y = yInt+x*Linslope
 plt.plot(x, y)  
-plt.title('Scatter')
+plt.show()
+plt.title('Scatter plot pythonspot.com')
 plt.xlabel('x')
 plt.ylabel('y')
 
