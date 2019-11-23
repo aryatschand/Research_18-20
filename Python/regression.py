@@ -9,13 +9,13 @@ import math
 
 # Open database connection
 start = timeit.default_timer()
-db = pymysql.connect("localhost","root","arya123","pythonTest" )
+db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
 # Prepare SQL query to INSERT a record into the database.
-sql = "SELECT * FROM irrigation"
+sql = "SELECT * FROM irrigation_data"
 waterVals = []
 colorVals = []
 try:
@@ -63,9 +63,9 @@ totalX = 0
 totalXSq = 0
 totalY = 0
 totalMult = 0
-count = len(xVals)
+count = len(waterVals)
 
-for x in range(0, len(xVals)):
+for x in range(0, len(waterVals)):
    totalXSq+=(waterVals[x]*waterVals[x])
    totalX+=waterVals[x]
    totalY+=colorVals[x]
@@ -76,7 +76,6 @@ plt.scatter(waterVals, colorVals)
 x = np.array(range(10, 40))  
 y = yInt+x*Linslope
 plt.plot(x, y)  
-plt.show()
 plt.title('Graph')
 plt.xlabel('x')
 plt.ylabel('y')

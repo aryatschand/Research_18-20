@@ -27,5 +27,3 @@ def collectData():
         print("error")
     db.close()
     return returnArray
-
-print(collectData()[3][1])
