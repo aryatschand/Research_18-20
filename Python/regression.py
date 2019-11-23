@@ -59,6 +59,19 @@ for x in range(0, 3):
 Logslope = ((3*yLogx)-(sumY*sumLogx))/((3*sumLogxSq)-(sumLogx*sumLogx))
 print("Logarithmic Slope = " + str(Logslope))
 
+totalX = 0
+totalXSq = 0
+totalY = 0
+totalMult = 0
+count = len(xVals)
+
+for x in range(0, len(xVals)):
+   totalXSq+=(waterVals[x]*waterVals[x])
+   totalX+=waterVals[x]
+   totalY+=colorVals[x]
+   totalMult+=(colorVals[x]*waterVals[x])
+yInt = ((totalY*totalXSq)-(totalX*totalMult))/((count*totalXSq)-(totalX*totalX))
+
 plt.scatter(waterVals, colorVals)
 x = np.array(range(10, 40))  
 y = yInt+x*Linslope
