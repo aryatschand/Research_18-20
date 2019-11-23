@@ -10,34 +10,14 @@ import random
 from sympy import *
 import insertPoint
 import collectData
+import idealColor
+import sys
 
-# Open database connection
-db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
-
-# prepare a cursor object using cursor() method
-cursor = db.cursor()
-
-# Prepare SQL query to INSERT a record into the database.
-sql = "SELECT * FROM irrigation_data"
-waterVals = []
-colorVals = []
-tempVals = []
-lightVals = []
-try:
-   # Execute the SQL command
-   cursor.execute(sql)
-   # Fetch all the rows in a list of lists.
-   results = cursor.fetchall()
-   for x in range(0,len(results)):
-      waterVals.append(results[x][1])
-      colorVals.append(results[x][2])
-      tempVals.append(results[x][3])
-      lightVals.append(results[x][4])
-except:
-   print ("Error: unable to fetch data")
-
-# disconnect from server
-db.close()
+dataArray = collectData.collectData()
+waterVals = dataArray[0]
+colorVals = dataArray[1]
+tempVals = dataArray[2]
+lightVals = dataArray[3]
 
 def regression(xVals, yVals):
     totalX = 0
@@ -98,6 +78,15 @@ yprime = str(y.diff(x))
 arr = yprime.split(' + ')
 if len(arr) == 1:
     arr = yprime.split(' - ')
-answer = float(arr[1])/(float(arr[0][0:-2]))
+predictedW = float(arr[1])/(float(arr[0][0:-2]))
 
-print(answer)
+idealColor = idealColor.idealColor()
+newTemp = float(sys.argv[1])
+newLight = float(sys.argv[2])
+temporary = float(idealColor)/predictedW
+temporary -= (correlations[1]*newTemp + correlations[2]*newLight)
+if temporary < 0:
+    temporary*=-1
+theoreticalX = temporary/correlations[0]
+
+print(theoreticalX)
