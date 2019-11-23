@@ -60,8 +60,11 @@ Logslope = ((3*yLogx)-(sumY*sumLogx))/((3*sumLogxSq)-(sumLogx*sumLogx))
 print("Logarithmic Slope = " + str(Logslope))
 
 plt.scatter(waterVals, colorVals)
-plt.plot([0, 60], [0, 60*Linslope])
-plt.title('Scatter plot pythonspot.com')
+x = np.array(range(10, 40))  
+y = yInt+x*Linslope
+plt.plot(x, y)  
+plt.show()
+plt.title('Graph')
 plt.xlabel('x')
 plt.ylabel('y')
 

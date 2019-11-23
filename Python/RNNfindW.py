@@ -8,6 +8,8 @@ import pandas as pd  # To read data
 import math
 import random
 from sympy import *
+import insertPoint
+import collectData
 
 # Open database connection
 db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
