@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt  # To visualize
 import pandas as pd  # To read data
 import math
 import random
+from sympy import *
 
 # Open database connection
 db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
@@ -80,7 +81,7 @@ mseArray = []
 wArray = []
 for x in range(0,3):
     w = random.randint(0,100)
-    w = float(w)/100.0
+    w = float(w)/10.0
     totalArr = []
     wArray.append(w)
     for x in range(int(len(colorVals))):
@@ -88,5 +89,13 @@ for x in range(0,3):
         totalArr.append(int(w*total))
     mseArray.append(round(getMSE(totalArr, colorVals)/10,2))
 
+x = Symbol('x')
 A, B, C = np.polyfit(wArray, mseArray,2)
-print(A, 'x^2 +', B, 'x +', C)
+y = A*x**2 + B*x + C
+yprime = str(y.diff(x))
+arr = yprime.split(' + ')
+if len(arr) == 1:
+    arr = yprime.split(' - ')
+answer = float(arr[1])/(float(arr[0][0:-2]))
+
+print(answer)
