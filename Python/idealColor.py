@@ -18,5 +18,3 @@ def idealColor():
     except:
         print("error")
     db.close()
-
-idealColor()

@@ -73,7 +73,6 @@ for x in range(0, len(waterVals)):
     totalLoss += (colorVals[x]-(yInt+waterVals[x]*Linslope))**2
 
 MSE = (1/len(waterVals))*totalLoss
-print(MSE)
 
 plt.scatter(waterVals, colorVals)
 x = np.array(range(10, 40))  
