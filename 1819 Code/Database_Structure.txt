@@ -1,0 +1,15 @@
+CREATE DATABASE plant_data;
+
+CREATE TABLE IF NOT EXISTS plants (
+    plant_number INT(11) not null default 0,
+    title VARCHAR(255) NOT NULL default '',
+    PRIMARY KEY (plant_number)
+)  ENGINE=MYISAM;
+
+CREATE TABLE IF NOT EXISTS plant_water_details (
+    plant_number INT(11) not null default 0,
+    water_volume double NOT NULL default 0,
+    color INT(11) NOT NULL default 0,
+    date_time_collected datetime,
+    PRIMARY KEY (plant_number, date_time_collected)
+)  ENGINE=MYISAM;
