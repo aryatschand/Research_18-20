@@ -4,6 +4,7 @@ import urllib.request
 
 def colorsummarizer(directory):
     response = str(cmd("""C:\\colorsummarizer\\bin\\colorsummarizer -image "{}" -clusters 4""".format(directory), shell=True))
+    print(response)
     respArray = response.split(' ')
     indices = [i for i, x in enumerate(respArray) if x == "hsv"]
 
@@ -27,3 +28,6 @@ def colorsummarizer(directory):
         total += greenArray[x]
 
     return total
+
+if __name__ == "__main__":
+    colorsummarizer("C:\\Users\\Arya\\Documents\\GitHub\\Research-19-20\\RNN Code\\newImage.png")

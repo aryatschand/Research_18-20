@@ -61,7 +61,7 @@ def findW(newTemp, newLight):
     correlations.append(regression(lightVals, colorVals))
     mseArray = []
     wArray = []
-    for x in range(0,3):
+    for x in range(0,len(waterVals)):
         w = random.randint(0,100)
         w = float(w)/10.0
         totalArr = []

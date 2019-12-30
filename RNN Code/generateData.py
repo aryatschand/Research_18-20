@@ -10,13 +10,13 @@ db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-for x in range (0, 100):
+for x in range (0, 850):
    waterRand = random.randint(30, 40)
    colorRand = random.randint(60, 80)
    heatRand = random.randint(10, 30)
    lightRand = random.randint(20, 30)
    # Prepare SQL query to INSERT a record into the database.
-   sql = "INSERT INTO `irrigation_data` (`id`,`water`,`color`,`temperature`, `light`) VALUES (NULL, '{}', '{}', '{}', '{}');" .format(waterRand, colorRand, heatRand, colorRand)
+   sql = "INSERT INTO `irrigation_data` (`id`,`water`,`color`,`temperature`, `photoresistance`) VALUES (NULL, '{}', '{}', '{}', '{}');" .format(waterRand, colorRand, heatRand, colorRand)
    try:
    # Execute the SQL command
       cursor.execute(sql)
