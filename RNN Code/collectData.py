@@ -26,4 +26,8 @@ def collectData():
     except:
         print("error")
     db.close()
+    print(returnArray)
     return returnArray
+
+if __name__ == "__main__":
+    collectData()
