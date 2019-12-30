@@ -1,4 +1,4 @@
-# Intelligent-Irrigation
+# Research_18-20
 
 A Novel and Affordable RNN Based Autonomous Irrigation System Optimized With Integrative Axial Magnetic Flux for Power Self-Sufficiency
 
@@ -8,4 +8,4 @@ US Provisional Patent Application Number 62799365
 
 US Utility Patent Application Number 16730499
 
-Written in Arduino(C++), VB.net, mySQL, Swift, Python
+Written in Arduino(C++), VB.net, MySQL, Swift, Python
