@@ -1,6 +1,6 @@
 # Research_18-20
 
-A Novel and Affordable RNN Based Autonomous Irrigation System Optimized With Integrative Axial Magnetic Flux for Power Self-Sufficiency
+A Novel and Integrative Approach to Developing an Affordable Recurrent Neural Network Based Autonomous Irrigation System Optimized for Power Self-Sufficiency
 
 Written By Arya Tschand 2018-2020
 
