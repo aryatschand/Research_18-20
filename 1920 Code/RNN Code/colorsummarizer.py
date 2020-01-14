@@ -1,5 +1,4 @@
 from subprocess import check_output as cmd
-import requests
 import urllib.request
 
 def colorsummarizer(directory):

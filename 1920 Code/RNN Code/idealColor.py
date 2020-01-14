@@ -2,7 +2,7 @@ import pymysql
 
 def idealColor():
 
-    db = pymysql.connect("localhost","root","arya123","plant_data" )
+    db = pymysql.connect("localhost","root","parWONE123","plant_data" )
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
