@@ -29,10 +29,10 @@ def regression(xVals, yVals):
     return Linslope
 
 def intercept(xVals, yVals):
-    totalX = 0
-    totalXSq = 0
-    totalY = 0
-    totalMult = 0
+    totalX = 0.0
+    totalXSq = 0.0
+    totalY = 0.0
+    totalMult = 0.0
     count = len(xVals)
 
     for x in range(0, len(xVals)):
@@ -40,7 +40,7 @@ def intercept(xVals, yVals):
         totalX+=xVals[x]
         totalY+=yVals[x]
         totalMult+=(yVals[x]*xVals[x])
-    yInt = ((totalY*totalXSq)-(totalX*totalMult))/((count*totalXSq)-(totalX*totalX))
+    yInt = float(((totalY*totalXSq)-(totalX*totalMult))/((count*totalXSq)-(totalX*totalX)))
     return yInt
 
 def getMSE(predict, real):
@@ -49,8 +49,8 @@ def getMSE(predict, real):
         totalLoss += (real[x]-(predict[x]))**2
     return (1/len(real))*totalLoss
 
-def findW(newTemp, newLight):
-    dataArray = collectData.collectData()
+def findW(plant_num, newTemp, newLight):
+    dataArray = collectData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
     tempVals = dataArray[2]
@@ -82,8 +82,23 @@ def findW(newTemp, newLight):
     idealCol = idealColor.idealColor()
     temporary = float(idealCol)/predictedW
     temporary -= (correlations[1]*newTemp + correlations[2]*newLight)
-    if temporary < 0:
-        temporary*=-1
     theoreticalX = temporary/correlations[0]
+    if theoreticalX < 0:
+        theoreticalX*=-1
+    healthy = True
+    if theoreticalX > 30:
+        while theoreticalX > 7:
+            theoreticalX-=1.1837513
+            healthy = False
+            print("change4")
+    if theoreticalX<2:
+        while theoreticalX < 5:
+            theoreticalX*=1.23754
+            healthy = False
+            print("change3")
+            
 
-    return theoreticalX
+    return theoreticalX, healthy
+
+if __name__ == "__main__":
+    print(findW('1', 20, 20))

@@ -26,22 +26,36 @@ def regression(xVals, yVals):
     Linslope = ((count*totalMult)-(totalY*totalX))/((count*totalXSq)-(totalX*totalX))
     return Linslope
 
-def changePredict(collectedColor, idealColor):
-    dataArray = collectData.collectData()
+def changePredict(plant_num, collectedColor, idealColor):
+    dataArray = collectData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
-
     difference = 1-(1.0*collectedColor/idealColor)
-    newWater = 0
-
+    newWater = waterVals[-1]
+    print(newWater)
     if difference > 0.05:
-        slope = regression(waterVals, colorVals)
+        slope = abs(regression(waterVals, colorVals))
         addAmt = slope * abs(collectedColor - idealColor)
-        lastWater = colorVals[-1]
+        print(addAmt)
+        lastWater = waterVals[-1]
         newWater = lastWater + addAmt
     elif difference < -0.05:
-        slope = regression(waterVals, colorVals)
+        slope = abs(regression(waterVals, colorVals))
         addAmt = slope * abs(collectedColor - idealColor)
-        lastWater = colorVals[-1]
+        lastWater = waterVals[-1]
         newWater = lastWater - addAmt
-    return newWater
+    healthy = True
+    if newWater > 30:
+        while newWater > 7:
+            newWater-=1.1837513
+            healthy = False
+            print("change1")
+    if newWater<2:
+        while newWater < 5:
+            newWater+=0.391
+            healthy = False
+            print("change2")
+    return newWater, healthy
+
+if __name__ == "__main__":
+    changePredict('1', 20, 21.49)

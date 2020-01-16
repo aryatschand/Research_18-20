@@ -21,7 +21,6 @@ for x in range (0, 2760):
    waterRand = random.randint(550, 650)
    waterRand = float(waterRand * 1.0)
    waterRand = float(waterRand/100.0)
-   print(waterRand)
 
 
    color = random.randint(0, 2)
@@ -33,6 +32,7 @@ for x in range (0, 2760):
 
    # Prepare SQL query to INSERT a record into the database.
    sql = "INSERT INTO `plant_water_details` (`plant_number`,`water_volume`,`color`) VALUES ('{}', '{}', '{}');" .format(plantcount, waterRand, newcolor)
+   
    try:
    # Execute the SQL command
       cursor.execute(sql)

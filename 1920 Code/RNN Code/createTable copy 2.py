@@ -5,12 +5,12 @@ import random
 
 start = timeit.default_timer()
 # Open database connection
-db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
+db = pymysql.connect("localhost","root","parWONE123","plant_data" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-sql = "CREATE TABLE irrigation_data (id int not null auto_increment, plant_num int, water double, color int, temperature int, photoresistance int, primary key(id));"
+sql = "CREATE TABLE micropiece_commands (id int not null auto_increment, plant_num int, water_volume double, empirical double, theoretical double, notes string, primary key(id));"
 try:
 # Execute the SQL command
    cursor.execute(sql)

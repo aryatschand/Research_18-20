@@ -7,7 +7,7 @@ import insertPoint
 import timeit
 
 #Your statements here
-def getWater(temp, light, color):
+def getWater(plant_num, temp, light, color):
     newTemp = temp
     newLight = light
     #f = open('image.txt', 'w')
@@ -15,12 +15,17 @@ def getWater(temp, light, color):
     #collectedColor = getColor.getColor("image.txt")
     collectedColor = color
     idealcolor = float(idealColor.idealColor())
-
-    theoreticalX = findW.findW(newTemp, newLight)
-    empericalX = changePredict.changePredict(collectedColor, idealcolor)
-    water = min([theoreticalX, empericalX]) * 0.67 + max([theoreticalX, empericalX]) * 0.33
-    insertPoint.insertPoint(water, collectedColor, newTemp, newLight)
-    return water
+    healthy1 = False
+    healthy2 = False
+    theoreticalX, healthy1 = findW.findW(plant_num, newTemp, newLight)
+    empiricalX, healthy2 = changePredict.changePredict(plant_num, collectedColor, idealcolor)
+    healthy = False
+    if healthy1 == True and healthy2 == True:
+        healthy = True
+    else:
+        healthy = False
+    insertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy)
+    return empiricalX, theoreticalX
 
 if __name__ == "__main__":
-    print(getWater(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])))
+    print(getWater('1', int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])))
