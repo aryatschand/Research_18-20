@@ -3,6 +3,9 @@ from flask import request
 import fullRNN
 import getIrrigation
 import random
+import base64
+import imgAnalyze
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -16,8 +19,13 @@ def home():
         elif args["usage"] == "newpoint":
             temp = int(args["temp"])
             light = int(args["light"])
-            color = int(args["color"])
+            img_data = str(args["image"])
+            img_data = img_data.replace(" ", "+")
+            with open("imageToSave.png", "wb") as fh:
+                fh.write(base64.decodebytes(img_data.encode()))
+            color = int(imgAnalyze.color())
             plant_num = args["number"]
+            print(plant_num, temp, light, color)
             fullRNN.getWater(plant_num, temp, light, color)
             return "success"
     else:
@@ -26,4 +34,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='192.168.86.32', port=5000)
+    app.run(debug=False, host='192.168.86.34', port=5000)
