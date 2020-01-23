@@ -21,6 +21,7 @@ def home():
             light = int(args["light"])
             img_data = str(args["image"])
             img_data = img_data.replace(" ", "+")
+            img_data = img_data[2:len(img_data)-1]
             with open("imageToSave.png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
             color = int(imgAnalyze.color())
@@ -34,4 +35,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='192.168.86.34', port=5000)
+    app.run(debug=False, host='192.168.86.41', port=5000)

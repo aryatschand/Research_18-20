@@ -14,11 +14,12 @@
 SoftwareSerial Serial1(19, 18); // RX, TX
 #endif
 
-char ssid[] = "3xA Wi-Fi";            // your network SSID (name)
-char pass[] = "parwan123";        // your network password
+char ssid[] = "AAA";            // your network SSID (name)
+char pass[] = "parWONE123";        // your network password
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
+float oldvolume = 0;
 
-const IPAddress server(192,168,86,32);
+const IPAddress server(192,168,10,149);
 
 Servo myservo;  // create servo object to control a servo
 // twelve servo objects can be created on most boards
@@ -83,16 +84,19 @@ void loop()
 }
 int comma = result.indexOf(",");
 float volume = result.substring(6,comma-1).toFloat()*10;
-if (volume > 0){
-  Serial.println(volume);
+Serial.println(volume);
+Serial.println(oldvolume);
+if (volume > 0 and volume != oldvolume){
+  oldvolume = volume;
   for (pos = 0; pos <= volume; pos += 1) { // goes from 0 degrees to 180 degrees
     // in steps of 1 degree
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
     delay(15);                       // waits 15ms for the servo to reach the position
   }
-  myservo.write(90);
 }
-delay(2000);
+delay(200);
+client.stop();
+delay(200);
   // if the server's disconnected, stop the client
   //if (!client.connected()) {
   //  Serial.println();
@@ -110,8 +114,8 @@ void makeCall() {
     Serial.println("Connected to server");
     // Make a HTTP request
     client.println("GET / HTTP/1.1");
-    client.println("Host: 192.168.86.32:5000");
-    client.println("Connection: Keep-Alive");
+    client.println("Host: 192.168.10.149:5000");
+    client.println("Connection: Close");
     client.println();    
   }
 }
