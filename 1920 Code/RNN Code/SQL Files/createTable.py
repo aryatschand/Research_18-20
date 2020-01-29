@@ -10,7 +10,7 @@ db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-sql = "CREATE TABLE irrigation_data (id int not null auto_increment, plant_num int, water double, color int, temperature int, photoresistance int, primary key(id));"
+sql = "CREATE TABLE irrigation_data (id int not null auto_increment, plant_num int, water double, color int, temperature int, photoresistance int, image varchar(255), primary key(id));"
 try:
 # Execute the SQL command
    cursor.execute(sql)

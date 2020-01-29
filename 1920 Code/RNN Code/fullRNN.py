@@ -7,7 +7,7 @@ import insertPoint
 import timeit
 
 #Your statements here
-def getWater(plant_num, temp, light, color):
+def getWater(plant_num, temp, light, color, now):
     newTemp = temp
     newLight = light
     #f = open('image.txt', 'w')
@@ -24,8 +24,8 @@ def getWater(plant_num, temp, light, color):
         healthy = True
     else:
         healthy = False
-    insertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy)
+    insertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy, now)
     return empiricalX, theoreticalX
 
 if __name__ == "__main__":
-    print(getWater('1', int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])))
+    print(getWater('1', int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), ""))

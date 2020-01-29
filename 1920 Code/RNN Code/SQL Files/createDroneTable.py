@@ -10,7 +10,7 @@ db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-sql = "create table drone (id int not null auto_increment, demo int, image varchar(255), nextLocation varchar(255), primary key(id));"
+sql = "create table drone (id int not null auto_increment, demo int, nextLocation varchar(255), primary key(id));"
 
 try:
 # Execute the SQL command

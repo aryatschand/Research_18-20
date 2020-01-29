@@ -7,6 +7,7 @@ import base64
 import imgAnalyze
 import getCommands
 import updateDrone
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -20,17 +21,20 @@ def home():
             plant_num = args["number"]
             return str(getIrrigation.getIrrigation(plant_num))
         elif args["usage"] == "newpoint":
+            
             temp = int(args["temp"])
             light = int(args["light"])
             img_data = str(args["image"])
             img_data = img_data.replace(" ", "+")
             img_data = img_data[2:len(img_data)-1]
-            with open("imageToSave.png", "wb") as fh:
-                fh.write(base64.decodebytes(img_data.encode()))
-            color = int(imgAnalyze.color())
+            now = datetime.now()
+            #with open("Images/" + str(now) + ".png", "wb") as fh:
+                #fh.write(base64.decodebytes(img_data.encode()))
+            #color = int(imgAnalyze.color())
+            color = 20
             plant_num = args["number"]
-            print(plant_num, temp, light, color)
-            fullRNN.getWater(plant_num, temp, light, color)
+            fullRNN.getWater(plant_num, temp, light, color, str(now))
+            updateDrone.updateDrone(0, plant_num)
             return "success"
         elif args["usage"] == "demo":
             img_data = str(args["image"])
@@ -51,4 +55,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='192.168.86.41', port=5000)
+    app.run(debug=False, host='192.168.86.27', port=5000)

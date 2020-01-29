@@ -19,7 +19,8 @@ for x in range (0, 852):
    lightRand = random.randint(20, 30)
    plant_num = x%12+1
    # Prepare SQL query to INSERT a record into the database.
-   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`) VALUES (NULL, '{}', '{}', '{}', '{}', '{}');" .format(plant_num, waterRand, colorRand, heatRand, colorRand)
+   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`, `image`) VALUES (NULL, {}, {}, {}, {}, {}, {});" .format(plant_num, waterRand, colorRand, heatRand, colorRand, '""')
+   print(sql)
    try:
    # Execute the SQL command
       cursor.execute(sql)

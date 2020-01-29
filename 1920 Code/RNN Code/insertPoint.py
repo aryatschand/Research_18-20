@@ -2,7 +2,7 @@
 import pymysql
 import random
 
-def insertPoint(plant_num, empirical, theoretical, color, heat, light, healthy):
+def insertPoint(plant_num, empirical, theoretical, color, heat, light, healthy, now):
    water = round(min([theoretical, empirical]) * 0.67 + max([theoretical, empirical]) * 0.33,2)
    # Open database connection
    db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
@@ -11,7 +11,8 @@ def insertPoint(plant_num, empirical, theoretical, color, heat, light, healthy):
    cursor = db.cursor()
 
    # Prepare SQL query to INSERT a record into the database.
-   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`) VALUES (NULL, '{}', '{}', '{}', '{}', '{}');" .format(plant_num, water, color, heat, light)
+   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`, `image`) VALUES (NULL, '{}', '{}', '{}', '{}', '{}', '{}');" .format(plant_num, water, color, heat, light, now)
+   print(sql)
    try:
    # Execute the SQL command
       cursor.execute(sql)
