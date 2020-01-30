@@ -5,6 +5,9 @@ import RPi.GPIO as GPIO
 import time
 import sys
 import Adafruit_DHT
+import sys
+
+ip = sys.argv[1]
 
 while True:
     stream1 = os.popen('fswebcam /home/pi/test/Images/image.jpg')
@@ -13,7 +16,7 @@ while True:
 
     with open("/home/pi/test/Images/image.jpg", "rb") as img_file1:
         my_string1 = base64.b64encode(img_file1.read())
-    response = requests.get("http://192.168.86.41:5000/?usage=demo&image=" + str(my_string1))
+    response = requests.get("http://"+ ip + ":5000/?usage=demo&image=" + str(my_string1))
     print(response.text)
     if response.text == "1" or response.text == 1:
         print("ayyyyy")
@@ -65,7 +68,7 @@ while True:
 
         with open("/home/pi/test/Images/image.jpg", "rb") as img_file:
             my_string = base64.b64encode(img_file.read())
-        querystring = "http://192.168.86.41:5000/?usage=newpoint&image="
+        querystring = "http://"+ ip + ":5000/?usage=newpoint&image="
         querystring+= str(my_string)
         querystring+="&light="
         querystring+=str(light)
@@ -74,6 +77,3 @@ while True:
         querystring+="&number=1"
         response = requests.get(querystring)
         print(response.text)
-
-
-
