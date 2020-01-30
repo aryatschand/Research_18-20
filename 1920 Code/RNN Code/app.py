@@ -26,11 +26,10 @@ def home():
             light = int(args["light"])
             img_data = str(args["image"])
             img_data = img_data.replace(" ", "+")
-            img_data = img_data[2:len(img_data)-1]
             now = datetime.now()
-            #with open("Images/" + str(now) + ".png", "wb") as fh:
-                #fh.write(base64.decodebytes(img_data.encode()))
-            #color = int(imgAnalyze.color())
+            with open("Images/" + str(now) + ".png", "wb") as fh:
+                fh.write(base64.decodebytes(img_data.encode()))
+            color = int(imgAnalyze.color())
             color = 20
             plant_num = args["number"]
             fullRNN.getWater(plant_num, temp, light, color, str(now))
@@ -39,8 +38,7 @@ def home():
         elif args["usage"] == "demo":
             img_data = str(args["image"])
             img_data = img_data.replace(" ", "+")
-            img_data = img_data[2:len(img_data)-1]
-            with open("imageToSave.png", "wb") as fh:
+            with open("Images/LiveFeed.png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
             demo, location = getCommands.getCommands()
             updateDrone.updateDrone(0, str(location))
