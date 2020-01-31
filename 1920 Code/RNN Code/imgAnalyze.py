@@ -74,7 +74,7 @@ def kmeans(points, k, min_diff):
     return clusters
 
 
-def color():
-    one, two, three = colorz('imageToSave.png')
+def color(filename):
+    one, two, three = colorz('Images/'+ filename + ".png")
     response = requests.get("http://thecolorapi.com/id?hex=" + one[1:len(one)])
     return response.json()["hsv"]["v"]
