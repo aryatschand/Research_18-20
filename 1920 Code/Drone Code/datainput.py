@@ -2,6 +2,7 @@ import os
 import base64
 import requests
 import RPi.GPIO as GPIO
+import Adafruit_CharLCD as LCD
 import time
 import sys
 import Adafruit_DHT
@@ -9,17 +10,38 @@ import sys
 
 ip = sys.argv[1]
 
+lcd_rs = 25
+lcd_en = 24
+lcd_d4 = 23
+lcd_d5 = 21
+lcd_d6 = 20
+lcd_d7 = 22
+lcd_backlight = 2
+
+# Define LCD column and row size for 16x2 LCD.
+lcd_columns = 16
+lcd_rows = 2
+
+lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows, lcd_backlight)
+
 while True:
+    time.sleep(1.0)
+    lcd.clear()
+    lcd.message('Capturing\nImage')
     stream1 = os.popen('fswebcam /home/pi/test/Images/image.jpg')
     output1 = stream1.read()
     mystring1 = ""
-
+    lcd.clear()
+    lcd.message('Converting\nTo B64')
     with open("/home/pi/test/Images/image.jpg", "rb") as img_file1:
         my_string1 = base64.b64encode(img_file1.read())
     response = requests.get("http://"+ ip + ":5000/?usage=demo&image=" + str(my_string1))
-    print(response.text)
-    if response.text == "1" or response.text == 1:
-        print("ayyyyy")
+    time.sleep(1.0)
+    lcd.clear()
+    lcd.message('Response:\n' + response.text)
+    if response.text == "Demo":
+        lcd.clear()
+        lcd.message('Measuring\nTemperature')
         temp=20
         sensor = Adafruit_DHT.DHT11
         DHT11_pin = 18
@@ -27,7 +49,8 @@ while True:
         humidity, temperature = Adafruit_DHT.read_retry(sensor, DHT11_pin)
         if humidity is not None:
             temp = int(temperature)
-
+        lcd.clear()
+        lcd.message('Measuring\nLight')
         light=20
         mpin=17
         tpin=27
@@ -61,13 +84,16 @@ while True:
                     i=0
                     t=0
         print(temp,light)
-
+        lcd.clear()
+        lcd.message('Capturing\nImage')
         stream = os.popen('fswebcam /home/pi/test/Images/image.jpg')
         output = stream.read()
         mystring = ""
 
         with open("/home/pi/test/Images/image.jpg", "rb") as img_file:
             my_string = base64.b64encode(img_file.read())
+        lcd.clear()
+        lcd.message('Temp: ' + str(temp) + "\nLight: " + str(light))
         querystring = "http://"+ ip + ":5000/?usage=newpoint&image="
         querystring+= str(my_string)
         querystring+="&light="
@@ -76,4 +102,7 @@ while True:
         querystring+=str(temp)
         querystring+="&number=1"
         response = requests.get(querystring)
-        print(response.text)
+        time.sleep(3.0)
+        lcd.clear()
+        lcd.message("Response\n"+response.text)
+        time.sleep(3.0)
