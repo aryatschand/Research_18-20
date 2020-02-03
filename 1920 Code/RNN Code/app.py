@@ -7,6 +7,7 @@ import base64
 import imgAnalyze
 import getCommands
 import updateDrone
+import getRFIDLocation
 from datetime import datetime
 
 app = Flask(__name__)
@@ -52,7 +53,10 @@ def home():
         elif args["usage"] == "giveDemo":
             updateDrone.updateDrone(1, '1-12')
             return "done"
-
+        elif args["usage"] == "rfid":
+            tag = args["tag"]
+            plant_num, xLoc, yLoc = getRFIDLocation.getLocation(str(tag))
+            return str(plant_num) + "," + str(xLoc) + "," + str(yLoc)
     else:
         return "return" + str(getIrrigation.getIrrigation('1'))
     
