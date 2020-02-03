@@ -16,3 +16,9 @@ DECLARE @empirical int
 DECLARE @theoretical int
 DECLARE @notes varchar(255)
 INSERT INTO `micropiece_commands` (`id`, `plant_num`, `water_volume`,`empirical`,`theoretical`, `notes`) VALUES (NULL, @plantNum, @water, @empirical, @theoretical, @notes);
+
+DECLARE @RFID varchar(255)
+DECLARE @plantNum int
+DECLARE @xLocation int
+DECLARE @yLocation int
+INSERT INTO `rfid_location` (`id`, `rfid_num`, `plant_num`, `x_location`, `y_location`) VALUES (NULL, @RFID, @plantNum, @xLocation, @yLocation);
