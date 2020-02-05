@@ -141,7 +141,8 @@ while True:
         querystring+=str(light)
         querystring+="&temp="
         querystring+=str(temp)
-        querystring+="&number=1"
+        querystring+="&number="
+        querystring+=str(plant_num)
         response = requests.get(querystring)
         time.sleep(3.0)
         
