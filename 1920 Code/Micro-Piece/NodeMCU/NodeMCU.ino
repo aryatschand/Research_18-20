@@ -23,7 +23,19 @@ Servo myservo;  // create servo object to control a servo
 
 int pos = 0;
 
+int red_light_pin= D7;
+int green_light_pin = D5;
+int blue_light_pin = D6;
+
+void RGB_color(int red_light_value, int green_light_value, int blue_light_value)
+ {
+  analogWrite(red_light_pin, red_light_value);
+  analogWrite(green_light_pin, green_light_value);
+  analogWrite(blue_light_pin, blue_light_value);
+}
+
 void setup() {
+  RGB_color(255, 0, 0); // White
   myservo.attach(2);
   Serial.begin(115200);
   // Serial.setDebugOutput(true);
@@ -37,6 +49,8 @@ void setup() {
     Serial.flush();
     delay(1000);
   }
+
+  RGB_color(0, 0, 255); // Blue
 
   WiFi.mode(WIFI_STA);
   WiFiMulti.addAP("3xA Wi-Fi", "parwan123");
@@ -53,7 +67,7 @@ void loop() {
     HTTPClient http;
 
     Serial.print("[HTTP] begin...\n");
-    if (http.begin(client, "http://192.168.86.41:5000/")) {  // HTTP
+    if (http.begin(client, "http://192.168.86.27:5000/")) {  // HTTP
 
 
       Serial.print("[HTTP] GET...\n");
@@ -62,6 +76,7 @@ void loop() {
 
       // httpCode will be negative on error
       if (httpCode > 0) {
+        RGB_color(0, 255, 0); // Green
         // HTTP header has been send and Server response header has been handled
         Serial.printf("[HTTP] GET... code: %d\n", httpCode);
 
@@ -85,12 +100,15 @@ void loop() {
   int comma = result.indexOf(",");
 float volume = result.substring(6,comma-1).toFloat()*10;
 if (volume > 0 and volume != oldvolume){
+  RGB_color(0, 0, 255);
   oldvolume = volume;
   for (pos = 0; pos <= volume; pos += 1) { // goes from 0 degrees to 180 degrees
     // in steps of 1 degree
     myservo.write(pos);              // tell servo to go to position in variable 'pos'
     delay(15);                       // waits 15ms for the servo to reach the position
   }
+} else {
+  RGB_color(255, 0, 0); // Green
 }
   delay(1000);
 }
