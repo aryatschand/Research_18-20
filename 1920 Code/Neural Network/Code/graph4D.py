@@ -9,7 +9,7 @@ import math
 
 # Open database connection
 start = timeit.default_timer()
-db = pymysql.connect("localhost","root","arya123","plant_data_1920" )
+db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -26,15 +26,21 @@ try:
    # Fetch all the rows in a list of lists.
    results = cursor.fetchall()
    for x in range(0,len(results)):
-      waterVals.append(results[x][1])
-      colorVals.append(results[x][2])
-      heatVals.append(results[x][3])
-      lightVals.append(results[x][4])
+      waterVals.append(results[x][2])
+      
+      colorVals.append(results[x][3])
+      heatVals.append(results[x][4])
+      lightVals.append(results[x][5])
 except:
    print ("Error: unable to fetch data")
 
 # disconnect from server
 db.close()
+
+print(waterVals)
+print(colorVals)
+print(heatVals)
+print(lightVals)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')

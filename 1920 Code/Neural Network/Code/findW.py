@@ -25,8 +25,8 @@ def regression(xVals, yVals):
         totalX+=xVals[x]
         totalY+=yVals[x]
         totalMult+=(yVals[x]*xVals[x])
-    Linslope = ((count*totalMult)-(totalY*totalX))/((count*totalXSq)-(totalX*totalX))
-    return Linslope
+    Linslope = 100.0*((count*totalMult)-(totalY*totalX))/((count*totalXSq)-(totalX*totalX)/2)
+    return abs(Linslope)
 
 def intercept(xVals, yVals):
     totalX = 0.0
@@ -47,7 +47,8 @@ def getMSE(predict, real):
     totalLoss = 0
     for x in range(0, len(real)):
         totalLoss += (real[x]-(predict[x]))**2
-    return (1/len(real))*totalLoss
+    totalLoss = math.sqrt(totalLoss)/10
+    return 1.0*(1.0/len(real))*totalLoss
 
 def findW(plant_num, newTemp, newLight):
     dataArray = collectData.collectData(plant_num)
@@ -78,7 +79,11 @@ def findW(plant_num, newTemp, newLight):
     arr = yprime.split(' + ')
     if len(arr) == 1:
         arr = yprime.split(' - ')
-    predictedW = float(arr[1])/(float(arr[0][0:-2]))
+    stra = str(arr[1])
+    strb = str(arr[0][0:-2])
+    converta = float(stra[0:10])
+    convertb = float(strb[0:10])
+    predictedW = float(converta)/(float(convertb))
     idealCol = idealColor.idealColor()
     temporary = float(idealCol)/predictedW
     temporary -= (correlations[1]*newTemp + correlations[2]*newLight)
@@ -90,7 +95,6 @@ def findW(plant_num, newTemp, newLight):
         while theoreticalX > 7:
             theoreticalX-=1.1837513
             healthy = False
-            print("change4")
     if theoreticalX<2:
         while theoreticalX < 5:
             theoreticalX*=1.23754

@@ -18,8 +18,8 @@ def getCommands():
     # Fetch all the rows in a list of lists.
         results = cursor.fetchall()
         for x in range(0,len(results)):
-            returnArray[0].append(results[x][1]) #water
-            returnArray[1].append(results[x][2]) #color
+            returnArray[0].append(results[x][1]) 
+            returnArray[1].append(results[x][2])
     # disconnect from server
     except:
         print("error")

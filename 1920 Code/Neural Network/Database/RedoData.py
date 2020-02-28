@@ -50,12 +50,15 @@ for x in range (0, 852):
    waterRand = random.randint(550, 650)
    waterRand = float(waterRand * 1.0)
    waterRand = float(waterRand/100.0)
-   colorRand = random.randint(18, 22)
-   heatRand = random.randint(18, 25)
-   lightRand = random.randint(20, 30)
+   colorRand = random.randint(3200, 4500)*1.0
+   colorRand = waterRand * float((colorRand*1.0)/1000.0)
+   heatRand = random.randint(3000, 3250)*1.0
+   heatRand = waterRand * float((heatRand*1.0)/1000.0)
+   lightRand = random.randint(10000, 11500)*1.0
+   lightRand = waterRand * float((lightRand*1.0)/1000.0)
    plant_num = x%12+1
    # Prepare SQL query to INSERT a record into the database.
-   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`) VALUES (NULL, '{}', '{}', '{}', '{}', '{}');" .format(plant_num, waterRand, colorRand, heatRand, colorRand)
+   sql = "INSERT INTO `irrigation_data` (`id`, `plant_num`, `water`,`color`,`temperature`, `photoresistance`) VALUES (NULL, '{}', '{}', '{}', '{}', '{}');" .format(plant_num, waterRand, colorRand, heatRand, lightRand)
    try:
    # Execute the SQL command
       cursor.execute(sql)

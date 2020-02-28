@@ -2,7 +2,6 @@ import sys
 import findW
 import changePredict
 import idealColor
-import getColor
 import insertPoint
 import timeit
 
