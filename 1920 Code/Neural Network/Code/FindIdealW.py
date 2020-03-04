@@ -8,9 +8,9 @@ import pandas as pd  # To read data
 import math
 import random
 from sympy import *
-import insertPoint
-import collectData
-import idealColor
+import InsertPoint
+import QueryData
+import GetIdealColor
 import sys
 
 def regression(xVals, yVals):
@@ -51,7 +51,7 @@ def getMSE(predict, real):
     return 1.0*(1.0/len(real))*totalLoss
 
 def findW(plant_num, newTemp, newLight):
-    dataArray = collectData.collectData(plant_num)
+    dataArray = QueryData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
     tempVals = dataArray[2]
@@ -84,7 +84,7 @@ def findW(plant_num, newTemp, newLight):
     converta = float(stra[0:10])
     convertb = float(strb[0:10])
     predictedW = float(converta)/(float(convertb))
-    idealCol = idealColor.idealColor()
+    idealCol = GetIdealColor.idealColor()
     temporary = float(idealCol)/predictedW
     temporary -= (correlations[1]*newTemp + correlations[2]*newLight)
     theoreticalX = temporary/correlations[0]

@@ -1,13 +1,13 @@
 from flask import Flask
 from flask import request
-import fullRNN
-import getIrrigation
+import FullRNN
+import GetIrrigation
 import random
 import base64
-import imgAnalyze
-import getCommands
-import updateDrone
-import getRFIDLocation
+import AnalyzeImage
+import GetCommand
+import UpdateDrone
+import GetRFIDLocation
 from datetime import datetime
 
 app = Flask(__name__)
@@ -20,7 +20,7 @@ def home():
     if len(args) >= 1:
         if args["usage"] == "irrigate":
             plant_num = args["number"]
-            return str(getIrrigation.getIrrigation(plant_num))
+            return str(GetIrrigation.getIrrigation(plant_num))
         elif args["usage"] == "newpoint":
             temp = int(args["temp"])
             light = int(args["light"])
@@ -31,11 +31,11 @@ def home():
             now = datetime.now()
             with open("Images/" + str(now) + ".png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
-            color = int(imgAnalyze.color(str(now)))
+            color = int(AnalyzeImage.color(str(now)))
             color = 20
             plant_num = args["number"]
-            fullRNN.getWater(plant_num, temp, light, color, str(now))
-            updateDrone.updateDrone(0, plant_num)
+            FullRNN.getWater(plant_num, temp, light, color, str(now))
+            UpdateDrone.updateDrone(0, plant_num)
             return "success"
         elif args["usage"] == "demo":
             img_data = str(args["image"])
@@ -44,21 +44,21 @@ def home():
                 img_data = img_data[2:len(img_data)-1]
             with open("Images/LiveFeed.png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
-            demo, location = getCommands.getCommands()
-            updateDrone.updateDrone(0, str(location))
+            demo, location = GetCommand.getCommands()
+            UpdateDrone.updateDrone(0, str(location))
             if str(demo) == "0":
                 return "No Demo"
             else:
                 return "Demo"
         elif args["usage"] == "giveDemo":
-            updateDrone.updateDrone(1, '1-12')
+            UpdateDrone.updateDrone(1, '1-12')
             return "done"
         elif args["usage"] == "rfid":
             tag = args["tag"]
-            plant_num, xLoc, yLoc = getRFIDLocation.getLocation(str(tag))
+            plant_num, xLoc, yLoc = GetRFIDLocation.getLocation(str(tag))
             return str(plant_num) + "," + str(xLoc) + "," + str(yLoc)
     else:
-        return "return" + str(getIrrigation.getIrrigation('1'))
+        return "return" + str(GetIrrigation.getIrrigation('1'))
     
 
 

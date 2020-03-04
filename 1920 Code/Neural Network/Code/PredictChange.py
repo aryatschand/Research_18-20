@@ -6,9 +6,9 @@ import pandas as pd  # To read data
 import math
 import random
 from sympy import *
-import insertPoint
-import collectData
-import idealColor
+import InsertPoint
+import QueryData
+import GetIdealColor
 import sys
 
 def regression(xVals, yVals):
@@ -27,7 +27,7 @@ def regression(xVals, yVals):
     return Linslope
 
 def changePredict(plant_num, collectedColor, idealColor):
-    dataArray = collectData.collectData(plant_num)
+    dataArray = QueryData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
     difference = 1-(1.0*collectedColor/idealColor)
