@@ -14,10 +14,10 @@ def getLocation(num):
     yLoc = 0
 
     try:
-    # Execute the SQL command
+        # Execute the SQL command
         cursor.execute(sql)
 
-    # Fetch and save all the rows in a list of lists
+        # Fetch and save all the rows in a list of lists
         results = cursor.fetchall()
         for x in range(0,len(results)):
             plant = results[x][2]

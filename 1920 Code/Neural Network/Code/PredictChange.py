@@ -11,6 +11,7 @@ import QueryData
 import GetIdealColor
 import sys
 
+# 2 variable linear regression, return linear slope
 def regression(xVals, yVals):
     totalX = 0
     totalXSq = 0
@@ -26,17 +27,16 @@ def regression(xVals, yVals):
     Linslope = ((count*totalMult)-(totalY*totalX))/((count*totalXSq)-(totalX*totalX))
     return Linslope
 
+# Calculate empirical predicted irrigation volume based on significant changes
 def changePredict(plant_num, collectedColor, idealColor):
     dataArray = QueryData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
     difference = 1-(1.0*collectedColor/idealColor)
     newWater = waterVals[-1]
-    print(newWater)
     if difference > 0.05:
         slope = abs(regression(waterVals, colorVals))
         addAmt = slope * abs(collectedColor - idealColor)
-        print(addAmt)
         lastWater = waterVals[-1]
         newWater = lastWater + addAmt
     elif difference < -0.05:
@@ -49,12 +49,10 @@ def changePredict(plant_num, collectedColor, idealColor):
         while newWater > 7:
             newWater-=1.1837513
             healthy = False
-            print("change1")
     if newWater<2:
         while newWater < 5:
             newWater+=0.391
             healthy = False
-            print("change2")
     return newWater, healthy
 
 if __name__ == "__main__":
