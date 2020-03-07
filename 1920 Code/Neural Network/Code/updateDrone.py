@@ -1,22 +1,22 @@
-#!/usr/bin/python3
 import pymysql
 import random
 
+# Function to update drone command in database
 def updateDrone(demo, location):
-   # Open database connection
+   # Open authenticated database connection
    db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
-
-   # prepare a cursor object using cursor() method
    cursor = db.cursor()
-   # Prepare SQL query to INSERT a record into the database.
+
+   # SQL query to insert new point into drone database
    sql = "insert into `drone`(`id`, `demo`, `nextLocation`) Values (NULL, {}, '{}');" .format(demo, location)
+   
    try:
    # Execute the SQL command
       cursor.execute(sql)
-   # Commit your changes in the database
+
+   # Commit your  in the database
       db.commit()
    except:
    # Rollback in case there is any error
       db.rollback()
-   # disconnect from server
    db.close()

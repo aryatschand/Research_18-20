@@ -29,11 +29,16 @@ def regression(xVals, yVals):
 
 # Calculate empirical predicted irrigation volume based on significant changes
 def changePredict(plant_num, collectedColor, idealColor):
+    # Save the full data set to a 2D list
     dataArray = QueryData.collectData(plant_num)
     waterVals = dataArray[0]
     colorVals = dataArray[1]
+
+    # Find the difference between the ideal and collected color
     difference = 1-(1.0*collectedColor/idealColor)
     newWater = waterVals[-1]
+
+    # If the difference is significant in either direction, update based on correlation
     if difference > 0.05:
         slope = abs(regression(waterVals, colorVals))
         addAmt = slope * abs(collectedColor - idealColor)
@@ -45,6 +50,8 @@ def changePredict(plant_num, collectedColor, idealColor):
         lastWater = waterVals[-1]
         newWater = lastWater - addAmt
     healthy = True
+
+    # Remove extreme irrigation volume changes
     if newWater > 30:
         while newWater > 7:
             newWater-=1.1837513

@@ -3,25 +3,25 @@
 import pymysql
 import timeit
 import numpy as np
-import matplotlib.pyplot as plt  # To visualize
-import pandas as pd  # To read data
+import matplotlib.pyplot as plt
+import pandas as pd
 import math
 
-# Open database connection
+# Open authenticated database connection
 start = timeit.default_timer()
 db = pymysql.connect("localhost","root","parWONE123","plant_data_1920" )
-
-# prepare a cursor object using cursor() method
 cursor = db.cursor()
 
-# Prepare SQL query to INSERT a record into the database.
+# SQL query to read information from database
 sql = "SELECT * FROM irrigation_data"
 waterVals = []
 colorVals = []
+
 try:
    # Execute the SQL command
    cursor.execute(sql)
-   # Fetch all the rows in a list of lists.
+
+   # Fetch and save all the rows in a list of lists
    results = cursor.fetchall()
    for x in range(0,len(results)):
       waterVals.append(results[x][1])
@@ -29,15 +29,16 @@ try:
 except:
    print ("Error: unable to fetch data")
 
-# disconnect from server
 db.close()
 
+# Initialize empty variables
 totalWater = 0
 totalWaterSq = 0
 totalColor = 0
 totalMult = 0
 count = len(waterVals)
 
+# Find linear slope by running through each element of data and plugging into formula
 for x in range(0, len(waterVals)):
    totalWaterSq+=(waterVals[x]*waterVals[x])
    totalWater+=waterVals[x]
@@ -50,6 +51,7 @@ sumY = 0
 sumLogx = 0
 sumLogxSq = 0
 
+# Find logarithmic slope by running through each element of data and plugging into formula
 for x in range(0, 3):
     yLogx += colorVals[x] * math.log(waterVals[x])
     sumY += colorVals[x]
@@ -65,6 +67,7 @@ totalY = 0
 totalMult = 0
 count = len(waterVals)
 
+# Find linear y-intercept by running through each element of data and plugging into formula
 for x in range(0, len(waterVals)):
    totalXSq+=(waterVals[x]*waterVals[x])
    totalX+=waterVals[x]
@@ -72,6 +75,7 @@ for x in range(0, len(waterVals)):
    totalMult+=(colorVals[x]*waterVals[x])
 yInt = ((totalY*totalXSq)-(totalX*totalMult))/((count*totalXSq)-(totalX*totalX))
 
+# Prepare scatter plot and linear function graph
 plt.scatter(waterVals, colorVals)
 x = np.array(range(10, 40))  
 y = yInt+x*Linslope
@@ -80,6 +84,7 @@ plt.title('Graph')
 plt.xlabel('x')
 plt.ylabel('y')
 
+# Show graph
 plt.show()
 
 stop = timeit.default_timer()
