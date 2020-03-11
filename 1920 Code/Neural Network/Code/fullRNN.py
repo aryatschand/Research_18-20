@@ -27,7 +27,7 @@ def getWater(plant_num, temp, light, color, now):
         healthy = False
 
     # After calculation, insert new point into SQL database
-    insertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy, now)
+    InsertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy, now)
     return empiricalX, theoreticalX
 
 if __name__ == "__main__":
