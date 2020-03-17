@@ -91,14 +91,11 @@ void loop()
           }
           Serial.println(payload);
         }
-      } else 
-      {
+      } else {
         Serial.printf("[HTTP] GET... failed, error: %s\n", http.errorToString(httpCode).c_str());
-      }
-
+      }  
       http.end();
-    } else 
-    {
+    } else {
       Serial.printf("[HTTP} Unable to connect\n");
     }
   }

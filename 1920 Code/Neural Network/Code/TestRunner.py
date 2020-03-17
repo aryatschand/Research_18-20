@@ -26,4 +26,3 @@ plt.plot(xarr, arr, 'o', color='black')
 
 f.close()
 plt.show()
-
