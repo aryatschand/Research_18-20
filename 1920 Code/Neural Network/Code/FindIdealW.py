@@ -6,7 +6,7 @@ import pandas as pd
 import math
 import random
 from sympy import *
-import InsertPoint
+import insertPoint
 import QueryData
 import GetIdealColor
 import sys

@@ -2,7 +2,7 @@ import sys
 import FindIdealW
 import PredictChange
 import GetIdealColor
-import InsertPoint
+import insertPoint
 import timeit
 
 # Main RNN runner function
@@ -27,7 +27,7 @@ def getWater(plant_num, temp, light, color, now):
         healthy = False
 
     # After calculation, insert new point into SQL database
-    InsertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy, now)
+    insertPoint.insertPoint(plant_num, empiricalX, theoreticalX, collectedColor, newTemp, newLight, healthy, now)
     return empiricalX, theoreticalX
 
 if __name__ == "__main__":

@@ -66,7 +66,7 @@ void loop()
     Serial.print("[HTTP] begin...\n");
 
     // Begin request to local ip and port
-    if (http.begin(client, "http://192.168.86.27:5000/")) 
+    if (http.begin(client, "http://192.168.86.41:5000/")) 
     {
       Serial.print("[HTTP] GET...\n");
 

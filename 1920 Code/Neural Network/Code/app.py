@@ -1,13 +1,13 @@
 from flask import Flask
 from flask import request
-import FullRNN
-import GetIrrigation
+import fullRNN
+import getIrrigation
 import random
 import base64
 import AnalyzeImage
 import GetCommand
-import UpdateDrone
-import GetRFIDLocation
+import updateDrone
+import getRFIDLocation
 from datetime import datetime
 
 app = Flask(__name__)
@@ -22,7 +22,7 @@ def home():
         # Request from micropiece, return irrigation volume
         if args["usage"] == "irrigate":
             plant_num = args["number"]
-            return str(GetIrrigation.getIrrigation(plant_num))
+            return str(getIrrigation.getIrrigation(plant_num))
         
         # Request from drone containing data points as parameters
         elif args["usage"] == "newpoint":
@@ -40,8 +40,8 @@ def home():
             color = int(AnalyzeImage.color(str(now)))
             color = 20
             plant_num = args["number"]
-            FullRNN.getWater(plant_num, temp, light, color, str(now))
-            UpdateDrone.updateDrone(0, plant_num)
+            fullRNN.getWater(plant_num, temp, light, color, str(now))
+            updateDrone.updateDrone(0, plant_num)
             return "success"
 
         # From drone asking if a demo is requested from user
@@ -53,7 +53,7 @@ def home():
             with open("Images/LiveFeed.png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
             demo, location = GetCommand.getCommands()
-            UpdateDrone.updateDrone(0, str(location))
+            updateDrone.updateDrone(0, str(location))
             if str(demo) == "0":
                 return "No Demo"
             else:
@@ -61,17 +61,17 @@ def home():
 
         # From iOS app instructing drone to collect point and micropiece update
         elif args["usage"] == "giveDemo":
-            UpdateDrone.updateDrone(1, '1-12')
+            updateDrone.updateDrone(1, '1-12')
             return "done"
 
         # From drone with RFID ASCII string as parameter, return relative locaiton
         elif args["usage"] == "rfid":
             tag = args["tag"]
-            plant_num, xLoc, yLoc = GetRFIDLocation.getLocation(str(tag))
+            plant_num, xLoc, yLoc = getRFIDLocation.getLocation(str(tag))
             return str(plant_num) + "," + str(xLoc) + "," + str(yLoc)
     else:
-        return "return" + str(GetIrrigation.getIrrigation('1'))
+        return "return" + str(getIrrigation.getIrrigation('1'))
     
 # Run server on local IP address on port 5000
 if __name__ == "__main__":
-    app.run(debug=False, host='192.168.86.32', port=5000)
+    app.run(debug=False, host='192.168.86.41', port=5000)
