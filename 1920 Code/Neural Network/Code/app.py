@@ -37,7 +37,7 @@ def home():
             # Decode Base64 image for analysis
             with open("Images/" + str(now) + ".png", "wb") as fh:
                 fh.write(base64.decodebytes(img_data.encode()))
-            color = int(AnalyzeImage.color(str(now)))
+            #color = int(AnalyzeImage.color(str(now)))
             color = 20
             plant_num = args["number"]
             fullRNN.getWater(plant_num, temp, light, color, str(now))
