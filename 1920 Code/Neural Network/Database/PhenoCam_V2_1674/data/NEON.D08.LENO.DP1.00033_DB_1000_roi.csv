@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D08.LENO.DP1.00033
+#
+# Site: NEON.D08.LENO.DP1.00033
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 12:32:35
+# Update Date: 2018-02-26
+# Update Time: 12:32:35
+# Description: canopy level DB in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-05,12:00:06,9999-12-31,00:00:00,NEON.D08.LENO.DP1.00033_DB_1000_01.tif,NEON.D08.LENO.DP1.00033_2016_12_11_120006.jpg
+

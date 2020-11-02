@@ -1,0 +1,16 @@
+#
+# ROI List for arsgreatbasinltar098
+#
+# Site: arsgreatbasinltar098
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:51:46
+# Update Date: 2018-04-02
+# Update Time: 14:51:46
+# Description: canopy level shrubland
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-05-18,13:00:00,9999-12-31,00:00:00,arsgreatbasinltar098_SH_1000_01.tif,arsgreatbasinltar098_2017_05_23_120000.jpg
+

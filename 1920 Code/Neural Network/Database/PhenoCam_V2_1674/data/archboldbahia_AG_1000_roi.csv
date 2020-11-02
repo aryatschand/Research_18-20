@@ -1,0 +1,16 @@
+#
+# ROI List for archboldbahia
+#
+# Site: archboldbahia
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:38:27
+# Update Date: 2018-04-02
+# Update Time: 14:38:27
+# Description: entire land in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-03-21,16:16:14,9999-12-31,00:00:00,archboldbahia_AG_1000_01.tif,archboldbahia_2017_03_24_120009.jpg
+

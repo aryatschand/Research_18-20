@@ -1,0 +1,16 @@
+#
+# ROI List for marcell
+#
+# Site: marcell
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:26
+# Update Date: 2018-05-07
+# Update Time: 12:40:53
+# Description: Deciduous trees on right of scene
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-06-18,08:00:05,9999-12-31,23:59:59,marcell_DB_1000_01.tif,marcell_2014_06_18_100218.jpg
+

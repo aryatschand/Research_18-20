@@ -1,0 +1,17 @@
+#
+# ROI List for barrocolorado
+#
+# Site: barrocolorado
+# Veg Type: EB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:19
+# Update Date: 2018-08-21
+# Update Time: 16:09:25
+# Description: Evergreen broadleaf trees
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-03-21,12:49:54,2013-03-21,13:59:47,barrocolorado_EB_1000_01.tif,barrocolorado_2013_03_21_124954.jpg
+2013-03-21,13:59:48,2014-08-28,16:00:00,barrocolorado_EB_1000_02.tif,barrocolorado_2013_03_21_135948.jpg
+

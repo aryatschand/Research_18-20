@@ -1,0 +1,16 @@
+#
+# ROI List for niwot2
+#
+# Site: niwot2
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-20
+# Creation Time: 14:45:38
+# Update Date: 2018-06-20
+# Update Time: 14:45:38
+# Description: EN veg type. 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2009-07-23,11:53:59,9999-12-31,00:00:00,niwot2_EN_1000_01.tif,niwot2_2009_07_23_115359.jpg
+

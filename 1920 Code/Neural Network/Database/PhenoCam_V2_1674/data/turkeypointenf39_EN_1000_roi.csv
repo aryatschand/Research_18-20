@@ -1,0 +1,25 @@
+#
+# ROI List for turkeypointenf39
+#
+# Site: turkeypointenf39
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-18
+# Creation Time: 15:40:04
+# Update Date: 2018-12-16
+# Update Time: 18:24:26
+# Description: EN veg type. Canopy view. Excluded 2018-08-29 to 2018-11-07 due to FOV shift.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-02-02,12:01:08,2013-04-26,12:01:11,turkeypointenf39_EN_1000_01.tif,turkeypointenf39_2012_07_19_120112.jpg
+2013-04-27,12:01:09,2014-11-15,12:01:09,turkeypointenf39_EN_1000_02.tif,turkeypointenf39_2014_11_15_120109.jpg
+2014-11-16,12:01:09,2014-12-02,11:31:09,turkeypointenf39_EN_1000_03.tif,turkeypointenf39_2014_12_02_113109.jpg
+2014-12-03,11:31:09,2015-12-07,12:01:08,turkeypointenf39_EN_1000_04.tif,turkeypointenf39_2015_12_07_120108.jpg
+2015-12-08,12:01:08,2016-04-28,12:01:08,turkeypointenf39_EN_1000_05.tif,turkeypointenf39_2016_04_28_120108.jpg
+2016-04-29,12:01:07,2016-06-24,12:01:07,turkeypointenf39_EN_1000_06.tif,turkeypointenf39_2016_06_24_120107.jpg
+2016-06-25,12:01:07,2016-08-16,12:01:09,turkeypointenf39_EN_1000_07.tif,turkeypointenf39_2016_07_20_120115.jpg
+2016-08-17,12:01:07,2018-05-22,11:31:06,turkeypointenf39_EN_1000_08.tif,turkeypointenf39_2017_07_20_120110.jpg
+2018-06-07,12:03:02,2018-08-28,12:01:14,turkeypointenf39_EN_1000_09.tif,turkeypointenf39_2018_06_07_120302.jpg
+2018-11-08,12:01:07,9999-12-31,00:00:00,turkeypointenf39_EN_1000_10.tif,turkeypointenf39_2018_11_14_120106.jpg
+

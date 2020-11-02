@@ -1,0 +1,16 @@
+#
+# ROI List for coweeta
+#
+# Site: coweeta
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2018-04-23
+# Creation Time: 11:27:57
+# Update Date: 2018-04-23
+# Update Time: 11:27:57
+# Description: canopy level DB in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-06-22,00:00:00,9999-12-31,00:00:00,coweeta_DB_2000_01.tif,coweeta_2016_11_22_115305.jpg
+

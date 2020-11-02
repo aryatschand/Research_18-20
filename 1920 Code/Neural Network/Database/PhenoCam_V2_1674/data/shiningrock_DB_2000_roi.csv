@@ -1,0 +1,62 @@
+#
+# ROI List for shiningrock
+#
+# Site: shiningrock
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-07-03
+# Creation Time: 11:33:10
+# Update Date: 2018-05-15
+# Update Time: 13:02:17
+# Description: Deciduous trees, shrubs and forbs in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2003-08-08,09:00:00,2003-12-23,11:59:59,shiningrock_DB_2000_28.tif,shiningrock_2003_08_14_120000.jpg
+2003-12-23,12:00:00,2003-12-31,08:59:59,shiningrock_DB_2000_29.tif,shiningrock_2003_12_23_120000.jpg
+2003-12-31,09:00:00,2004-01-23,11:59:59,shiningrock_DB_2000_30.tif,shiningrock_2003_12_31_090000.jpg
+2004-01-23,12:00:00,2004-02-20,08:59:59,shiningrock_DB_2000_31.tif,shiningrock_2004_01_23_120000.jpg
+2004-02-20,09:00:00,2004-03-23,11:59:59,shiningrock_DB_2000_32.tif,shiningrock_2004_02_20_090000.jpg
+2004-03-23,12:00:00,2004-06-01,14:59:59,shiningrock_DB_2000_33.tif,shiningrock_2004_03_23_120000.jpg
+2004-06-01,15:00:00,2004-06-15,14:59:59,shiningrock_DB_2000_34.tif,shiningrock_2004_06_01_150000.jpg
+2004-06-15,15:00:00,2004-07-01,08:59:59,shiningrock_DB_2000_35.tif,shiningrock_2004_06_16_090000.jpg
+2004-07-01,09:00:00,2004-07-23,08:59:59,shiningrock_DB_2000_36.tif,shiningrock_2004_07_01_090000.jpg
+2004-07-23,09:00:00,2004-08-04,11:59:59,shiningrock_DB_2000_37.tif,shiningrock_2004_07_23_150000.jpg
+2004-08-04,12:00:00,2004-08-31,11:59:59,shiningrock_DB_2000_38.tif,shiningrock_2004_08_04_120000.jpg
+2004-08-31,12:00:00,2004-09-14,14:59:59,shiningrock_DB_2000_39.tif,shiningrock_2004_08_31_120000.jpg
+2004-09-14,15:00:00,2004-09-22,11:59:59,shiningrock_DB_2000_40.tif,shiningrock_2004_09_14_150000.jpg
+2004-09-22,12:00:00,2004-09-28,11:59:59,shiningrock_DB_2000_41.tif,shiningrock_2004_09_22_120000.jpg
+2004-09-28,12:00:00,2004-10-21,08:59:59,shiningrock_DB_2000_42.tif,shiningrock_2004_10_05_150000.jpg
+2004-10-21,09:00:00,2004-11-16,11:59:59,shiningrock_DB_2000_43.tif,shiningrock_2004_10_21_090000.jpg
+2004-11-16,12:00:00,2004-12-08,08:59:59,shiningrock_DB_2000_44.tif,shiningrock_2004_11_16_120000.jpg
+2004-12-08,09:00:00,2005-02-22,14:59:59,shiningrock_DB_2000_45.tif,shiningrock_2004_12_08_090000.jpg
+2005-02-22,15:00:00,2005-06-19,08:59:59,shiningrock_DB_2000_46.tif,shiningrock_2005_02_22_150000.jpg
+2005-06-19,09:00:00,2005-12-13,11:59:59,shiningrock_DB_2000_47.tif,shiningrock_2005_06_19_090000.jpg
+2005-12-13,12:00:00,2006-02-07,14:59:59,shiningrock_DB_2000_48.tif,shiningrock_2005_12_13_120000.jpg
+2006-02-07,15:00:00,2006-03-22,08:59:59,shiningrock_DB_2000_49.tif,shiningrock_2006_02_07_150000.jpg
+2006-03-22,09:00:00,2006-06-15,14:59:59,shiningrock_DB_2000_50.tif,shiningrock_2006_03_22_120000.jpg
+2006-06-15,15:00:00,2006-06-27,14:59:59,shiningrock_DB_2000_51.tif,shiningrock_2006_06_15_150000.jpg
+2006-06-27,15:00:00,2006-07-15,08:59:59,shiningrock_DB_2000_52.tif,shiningrock_2006_06_27_150000.jpg
+2006-07-15,09:00:00,2006-08-23,11:59:59,shiningrock_DB_2000_53.tif,shiningrock_2006_07_15_090000.jpg
+2006-08-23,12:00:00,2006-09-05,14:59:59,shiningrock_DB_2000_54.tif,shiningrock_2006_08_23_120000.jpg
+2006-09-05,15:00:00,2006-09-19,14:59:59,shiningrock_DB_2000_55.tif,shiningrock_2006_09_05_150000.jpg
+2006-09-19,15:00:00,2006-10-31,14:59:59,shiningrock_DB_2000_56.tif,shiningrock_2006_09_19_150000.jpg
+2006-10-31,15:00:00,2006-11-28,11:59:59,shiningrock_DB_2000_57.tif,shiningrock_2006_10_31_150000.jpg
+2006-11-28,12:00:00,2007-02-16,11:59:59,shiningrock_DB_2000_58.tif,shiningrock_2006_11_28_120000.jpg
+2007-02-16,12:00:00,2007-02-19,08:59:59,shiningrock_DB_2000_59.tif,shiningrock_2007_02_16_120000.jpg
+2007-02-19,09:00:00,2007-02-20,14:59:59,shiningrock_DB_2000_60.tif,shiningrock_2007_02_19_090000.jpg
+2007-02-20,15:00:00,2007-07-17,11:59:59,shiningrock_DB_2000_61.tif,shiningrock_2007_02_20_150000.jpg
+2007-07-17,12:00:00,2007-09-18,14:59:59,shiningrock_DB_2000_62.tif,shiningrock_2007_07_17_120000.jpg
+2007-09-18,15:00:00,2008-05-13,14:59:59,shiningrock_DB_2000_63.tif,shiningrock_2007_09_18_150000.jpg
+2008-05-13,15:00:00,2008-05-27,14:59:59,shiningrock_DB_2000_64.tif,shiningrock_2008_05_13_150000.jpg
+2008-05-27,15:00:00,2008-06-03,11:59:59,shiningrock_DB_2000_65.tif,shiningrock_2008_05_27_150000.jpg
+2008-06-03,12:00:00,2008-06-17,11:59:59,shiningrock_DB_2000_66.tif,shiningrock_2008_06_03_120000.jpg
+2008-06-17,12:00:00,2008-07-15,11:59:59,shiningrock_DB_2000_67.tif,shiningrock_2008_06_17_120000.jpg
+2008-07-15,12:00:00,2008-07-18,14:59:59,shiningrock_DB_2000_68.tif,shiningrock_2008_07_15_120000.jpg
+2008-07-18,15:00:00,2008-08-01,11:59:59,shiningrock_DB_2000_69.tif,shiningrock_2008_07_18_150000.jpg
+2008-08-01,12:00:00,2008-08-19,14:59:59,shiningrock_DB_2000_70.tif,shiningrock_2008_08_01_120000.jpg
+2008-08-19,15:00:00,2008-09-26,08:59:59,shiningrock_DB_2000_71.tif,shiningrock_2008_08_19_150000.jpg
+2008-09-26,09:00:00,2008-10-02,08:59:59,shiningrock_DB_2000_72.tif,shiningrock_2008_09_28_150000.jpg
+2008-10-02,09:00:00,2008-10-14,11:59:59,shiningrock_DB_2000_73.tif,shiningrock_2008_10_02_090000.jpg
+2008-10-14,12:00:00,2009-09-15,15:23:59,shiningrock_DB_2000_74.tif,shiningrock_2008_10_14_120000.jpg
+

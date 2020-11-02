@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D09.PRLA.DP1.20002
+#
+# Site: NEON.D09.PRLA.DP1.20002
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-21
+# Creation Time: 09:21:29
+# Update Date: 2018-08-21
+# Update Time: 09:21:29
+# Description: grasses in the background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-10-30,14:00:06,9999-12-31,00:00:00,NEON.D09.PRLA.DP1.20002_GR_1000_01.tif,NEON.D09.PRLA.DP1.20002_2018_01_05_120005.jpg
+

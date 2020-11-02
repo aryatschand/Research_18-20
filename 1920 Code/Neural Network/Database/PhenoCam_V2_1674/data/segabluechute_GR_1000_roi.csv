@@ -1,0 +1,16 @@
+#
+# ROI List for segabluechute
+#
+# Site: segabluechute
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-10-15
+# Creation Time: 09:42:43
+# Update Date: 2018-10-15
+# Update Time: 09:42:43
+# Description: grass in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2018-02-27,12:06:06,9999-12-31,00:00:00,segabluechute_GR_1000_01.tif,segabluechute_2018_02_27_120606.jpg
+

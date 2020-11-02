@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D06.KONZ.DP1.00033
+#
+# Site: NEON.D06.KONZ.DP1.00033
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 12:11:53
+# Update Date: 2018-02-26
+# Update Time: 12:11:53
+# Description: canopy level GR in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-02-24,12:00:07,9999-12-31,00:00:00,NEON.D06.KONZ.DP1.00033_GR_1000_01.tif,NEON.D06.KONZ.DP1.00033_2017_06_06_181505.jpg
+

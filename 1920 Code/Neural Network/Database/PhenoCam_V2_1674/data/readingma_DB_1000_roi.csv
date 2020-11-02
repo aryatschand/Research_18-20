@@ -1,0 +1,16 @@
+#
+# ROI List for readingma
+#
+# Site: readingma
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:23
+# Update Date: 2018-05-14
+# Update Time: 16:34:01
+# Description: Deciduous trees in background center left
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-01-01,00:00:00,9999-12-31,23:59:59,readingma_DB_1000_01.tif,readingma_2012_04_25_120103.jpg
+

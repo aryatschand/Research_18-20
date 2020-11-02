@@ -1,0 +1,16 @@
+#
+# ROI List for grandrivergrass
+#
+# Site: grandrivergrass
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-17
+# Creation Time: 13:55:51
+# Update Date: 2018-04-17
+# Update Time: 13:55:51
+# Description: entire GR in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-08,12:00:07,9999-12-31,00:00:00,grandrivergrass_GR_1000_01.tif,grandrivergrass_2015_08_08_120007.jpg
+

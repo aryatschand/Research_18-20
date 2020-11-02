@@ -1,0 +1,16 @@
+#
+# ROI List for joycekilmer
+#
+# Site: joycekilmer
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2016-06-28
+# Creation Time: 20:15:09
+# Update Date: 2018-05-25
+# Update Time: 12:59:53
+# Description: Deciduous trees and shrubs in forground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-04-08,14:00:00,9999-12-31,23:59:59,joycekilmer_DB_2000_01.tif,joycekilmer_2017_07_24_120040.jpg
+

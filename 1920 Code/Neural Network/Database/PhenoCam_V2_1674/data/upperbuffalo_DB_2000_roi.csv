@@ -1,0 +1,37 @@
+#
+# ROI List for upperbuffalo
+#
+# Site: upperbuffalo
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2016-07-19
+# Creation Time: 15:17:00
+# Update Date: 2018-05-15
+# Update Time: 14:15:25
+# Description: DB patch in background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2007-01-19,12:00:00,2007-04-22,11:59:59,upperbuffalo_DB_2000_01.tif,upperbuffalo_2007_01_19_150000.jpg
+2007-04-22,12:00:00,2007-05-10,14:59:59,upperbuffalo_DB_2000_02.tif,upperbuffalo_2007_04_22_120000.jpg
+2007-05-10,15:00:00,2007-06-13,14:59:59,upperbuffalo_DB_2000_03.tif,upperbuffalo_2007_05_11_090000.jpg
+2007-06-13,15:00:00,2007-06-21,11:59:59,upperbuffalo_DB_2000_04.tif,upperbuffalo_2007_06_13_150000.jpg
+2007-06-21,12:00:00,2007-09-06,14:59:59,upperbuffalo_DB_2000_05.tif,upperbuffalo_2007_06_21_150000.jpg
+2007-09-06,15:00:00,2007-09-17,11:59:59,upperbuffalo_DB_2000_06.tif,upperbuffalo_2007_09_06_150000.jpg
+2007-09-17,12:00:00,2007-10-10,08:59:59,upperbuffalo_DB_2000_07.tif,upperbuffalo_2007_09_17_120000.jpg
+2007-10-10,09:00:00,2008-01-11,11:59:59,upperbuffalo_DB_2000_08.tif,upperbuffalo_2007_10_10_090000.jpg
+2008-01-11,12:00:00,2008-01-30,08:59:59,upperbuffalo_DB_2000_09.tif,upperbuffalo_2008_01_11_150000.jpg
+2008-01-30,09:00:00,2008-03-10,08:59:59,upperbuffalo_DB_2000_10.tif,upperbuffalo_2008_01_30_150000.jpg
+2008-03-10,09:00:00,2008-05-05,14:59:59,upperbuffalo_DB_2000_11.tif,upperbuffalo_2008_03_01_150000.jpg
+2008-05-05,15:00:00,2008-08-04,14:59:59,upperbuffalo_DB_2000_12.tif,upperbuffalo_2008_05_05_150000.jpg
+2008-08-04,15:00:00,2008-09-08,14:59:59,upperbuffalo_DB_2000_13.tif,upperbuffalo_2008_08_04_150000.jpg
+2008-09-08,15:00:00,2008-09-17,08:59:59,upperbuffalo_DB_2000_14.tif,upperbuffalo_2008_09_08_150000.jpg
+2008-09-17,09:00:00,2008-09-27,08:59:59,upperbuffalo_DB_2000_15.tif,upperbuffalo_2008_09_17_090000.jpg
+2008-09-27,09:00:00,2008-10-03,11:59:59,upperbuffalo_DB_2000_16.tif,upperbuffalo_2008_09_27_150000.jpg
+2008-10-03,12:00:00,2008-11-12,08:59:59,upperbuffalo_DB_2000_17.tif,upperbuffalo_2008_10_03_120000.jpg
+2008-11-12,09:00:00,2008-12-03,11:59:59,upperbuffalo_DB_2000_18.tif,upperbuffalo_2008_11_12_150000.jpg
+2008-12-03,12:00:00,2008-12-19,14:59:59,upperbuffalo_DB_2000_19.tif,upperbuffalo_2008_12_04_150000.jpg
+2008-12-19,15:00:00,2008-12-31,14:59:59,upperbuffalo_DB_2000_20.tif,upperbuffalo_2008_12_19_150000.jpg
+2008-12-31,15:00:00,2009-01-23,11:59:59,upperbuffalo_DB_2000_21.tif,upperbuffalo_2008_12_31_150000.jpg
+2009-01-23,12:00:00,2009-02-19,11:59:59,upperbuffalo_DB_2000_22.tif,upperbuffalo_2009_01_23_120000.jpg
+

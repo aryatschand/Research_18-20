@@ -1,0 +1,17 @@
+#
+# ROI List for mayberry
+#
+# Site: mayberry
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-07
+# Creation Time: 12:11:20
+# Update Date: 2019-01-08
+# Update Time: 09:47:55
+# Description: wetland plants in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-11-17,11:45:00,2011-08-28,11:45:00,mayberry_WL_1000_01.tif,mayberry_2011_08_17_114500.jpg
+2011-09-29,11:45:00,9999-12-31,00:00:00,mayberry_WL_1000_02.tif,mayberry_2011_11_06_114500.jpg
+

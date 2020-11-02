@@ -1,0 +1,16 @@
+#
+# ROI List for arsgacp2
+#
+# Site: arsgacp2
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:50:06
+# Update Date: 2018-04-02
+# Update Time: 14:50:06
+# Description: entire AG land in FOV (too many FOV shifts, only common portion of FOV is used across images)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-04-27,14:30:00,2018-01-23,23:59:59,arsgacp2_AG_1000_01.tif,arsgacp2_2017_07_13_120000.jpg
+

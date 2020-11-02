@@ -1,0 +1,16 @@
+#
+# ROI List for bernatchez
+#
+# Site: bernatchez
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 16:04:24
+# Update Date: 2018-04-02
+# Update Time: 16:04:24
+# Description: canopy level EN in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-05-11,13:32:00,9999-12-31,00:00:00,bernatchez_EN_1000_01.tif,bernatchez_2015_05_14_120200.jpg
+

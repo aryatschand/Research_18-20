@@ -1,0 +1,16 @@
+#
+# ROI List for vaira
+#
+# Site: vaira
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-06
+# Creation Time: 16:58:39
+# Update Date: 2018-08-06
+# Update Time: 16:58:39
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-10-18,00:00:00,9999-12-31,00:00:00,vaira_GR_1000_01.tif,vaira_2011_10_18_100102.jpg
+

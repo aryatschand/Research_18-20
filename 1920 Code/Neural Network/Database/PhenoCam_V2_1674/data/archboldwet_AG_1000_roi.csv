@@ -1,0 +1,16 @@
+#
+# ROI List for archboldwet
+#
+# Site: archboldwet
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:44:37
+# Update Date: 2018-10-08
+# Update Time: 16:33:48
+# Description: wetland AG site  (the site has too many FOV shifts, the time series was generated from small portion of FOV that is common across images)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-10-31,14:00:05,9999-12-31,00:00:00,archboldwet_AG_1000_01.tif,archboldwet_2017_07_12_093005.jpg
+

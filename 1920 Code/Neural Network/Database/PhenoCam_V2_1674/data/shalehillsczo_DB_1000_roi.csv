@@ -1,0 +1,19 @@
+#
+# ROI List for shalehillsczo
+#
+# Site: shalehillsczo
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:27
+# Update Date: 2018-05-14
+# Update Time: 16:36:07
+# Description: Deciduous trees in foreground center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-05-18,09:01:07,2013-04-05,09:31:02,shalehillsczo_DB_1000_01.tif,shalehillsczo_2013_04_01_110102.jpg
+2013-04-05,09:31:03,2013-04-26,10:01:02,shalehillsczo_DB_1000_02.tif,shalehillsczo_2013_04_05_093103.jpg
+2013-04-26,10:01:03,2013-06-19,13:01:02,shalehillsczo_DB_1000_03.tif,shalehillsczo_2013_04_26_100103.jpg
+2013-06-19,13:01:03,2016-02-19,11:00:00,shalehillsczo_DB_1000_04.tif,shalehillsczo_2013_11_04_093102.jpg
+

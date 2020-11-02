@@ -1,0 +1,16 @@
+#
+# ROI List for laurentides
+#
+# Site: laurentides
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-03-26
+# Creation Time: 12:20:04
+# Update Date: 2018-05-07
+# Update Time: 12:23:47
+# Description: Deciduous tree in foreground center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-09-20,10:00:46,9999-12-31,23:59:59,laurentides_DB_1000_01.tif,laurentides_2013_09_20_100046.jpg
+

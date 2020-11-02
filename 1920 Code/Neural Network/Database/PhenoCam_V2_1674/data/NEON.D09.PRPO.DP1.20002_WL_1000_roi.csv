@@ -1,0 +1,15 @@
+#
+# ROI List for NEON.D09.PRPO.DP1.20002
+#
+# Site: NEON.D09.PRPO.DP1.20002
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-21
+# Creation Time: 09:24:07
+# Update Date: 2018-08-21
+# Update Time: 09:24:07
+# Description: grasses by the water
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2018-03-21,12:50:00,9999-12-31,23:59:59,NEON.D09.PRPO.DP1.20002_WL_1000_02.tif,NEON.D09.PRPO.DP1.20002_2018_04_06_120006.jpg

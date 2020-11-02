@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D01.HARV.DP1.00033
+#
+# Site: NEON.D01.HARV.DP1.00033
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 10:50:27
+# Update Date: 2018-02-26
+# Update Time: 10:50:27
+# Description: canopy level DB in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-12-13,14:00:06,9999-12-31,00:00:00,NEON.D01.HARV.DP1.00033_DB_1000_01.tif,NEON.D01.HARV.DP1.00033_2016_12_13_140006.jpg
+

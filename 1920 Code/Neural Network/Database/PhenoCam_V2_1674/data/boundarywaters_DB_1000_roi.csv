@@ -1,0 +1,16 @@
+#
+# ROI List for boundarywaters
+#
+# Site: boundarywaters
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2016-05-20
+# Creation Time: 16:47:38
+# Update Date: 2018-04-23
+# Update Time: 10:34:40
+# Description: Deciduous tree in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2006-01-01,00:00:00,2007-03-12,23:59:59,boundarywaters_DB_1000_01.tif,boundarywaters_2006_09_22_120000.jpg
+

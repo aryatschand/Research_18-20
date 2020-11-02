@@ -1,0 +1,16 @@
+#
+# ROI List for donanaresoliman
+#
+# Site: donanaresoliman
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 15:43:33
+# Update Date: 2018-04-09
+# Update Time: 15:43:33
+# Description: entire wetland in  FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-11-12,12:12:08,9999-12-31,00:00:00,donanaresoliman_WL_1000_01.tif,donanaresoliman_2018_01_25_121211.jpg
+

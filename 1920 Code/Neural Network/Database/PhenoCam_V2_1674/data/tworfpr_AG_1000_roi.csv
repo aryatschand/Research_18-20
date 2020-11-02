@@ -1,0 +1,16 @@
+#
+# ROI List for tworfpr
+#
+# Site: tworfpr
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: tmilliman
+# Creation Date: 2018-07-12
+# Creation Time: 19:57:03
+# Update Date: 2018-07-12
+# Update Time: 19:57:03
+# Description: Foreground of FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2018-04-18,00:00:00,9999-12-31,00:00:00,tworfpr_AG_1000_01.tif,tworfpr_2018_04_18_080628.jpg
+  

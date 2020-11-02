@@ -1,0 +1,16 @@
+#
+# ROI List for arsgacp1
+#
+# Site: arsgacp1
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:48:23
+# Update Date: 2018-04-02
+# Update Time: 14:48:23
+# Description: canopy level AG, not the entire land is planted all the time
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-10,12:00:00,9999-12-31,00:00:00,arsgacp1_AG_1000_01.tif,arsgacp1_2016_05_13_120000.jpg
+

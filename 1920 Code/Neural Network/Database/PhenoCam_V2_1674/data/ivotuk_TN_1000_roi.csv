@@ -1,0 +1,18 @@
+#
+# ROI List for ivotuk
+#
+# Site: ivotuk
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-07
+# Creation Time: 14:48:15
+# Update Date: 2018-06-11
+# Update Time: 10:43:45
+# Description: foreground TN
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2004-01-14,15:00:00,2004-08-28,12:00:00,ivotuk_TN_1000_01.tif,ivotuk_2004_08_28_120000.jpg
+2004-08-29,12:00:00,2005-08-11,12:30:00,ivotuk_TN_1000_02.tif,ivotuk_2005_08_11_123000.jpg
+2005-08-12,10:31:00,2011-09-12,12:00:01,ivotuk_TN_1000_03.tif,ivotuk_2011_09_12_120001.jpg
+

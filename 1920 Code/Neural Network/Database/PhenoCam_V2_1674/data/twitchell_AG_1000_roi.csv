@@ -1,0 +1,16 @@
+#
+# ROI List for twitchell
+#
+# Site: twitchell
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 15:24:59
+# Update Date: 2018-08-06
+# Update Time: 15:24:59
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-11-16,11:45:00,9999-12-31,00:00:00,twitchell_AG_1000_01.tif,twitchell_2011_11_16_114500.jpg
+

@@ -1,0 +1,18 @@
+#
+# ROI List for missouriozarks
+#
+# Site: missouriozarks
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:22
+# Update Date: 2018-05-07
+# Update Time: 14:41:53
+# Description: Deciduous trees in near background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-03-05,13:31:11,2012-03-05,14:01:09,missouriozarks_DB_1000_02.tif,missouriozarks_2012_03_05_133111.jpg
+2012-03-05,14:01:10,2012-04-23,11:31:19,missouriozarks_DB_1000_03.tif,missouriozarks_2012_03_05_140110.jpg
+2012-04-23,11:31:20,9999-12-31,23:59:59,missouriozarks_DB_1000_04.tif,missouriozarks_2012_04_23_113120.jpg
+

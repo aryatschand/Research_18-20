@@ -1,0 +1,16 @@
+#
+# ROI List for cafboydnorthltar01
+#
+# Site: cafboydnorthltar01
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 13:47:30
+# Update Date: 2018-04-09
+# Update Time: 13:47:30
+# Description: Entire FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-09-14,12:18:29,9999-12-31,00:00:00,cafboydnorthltar01_AG_1000_01.tif,cafboydnorthltar01_2017_09_30_115305.jpg
+

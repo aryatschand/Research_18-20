@@ -1,0 +1,17 @@
+#
+# ROI List for kendall
+#
+# Site: kendall
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 15:13:22
+# Update Date: 2018-07-23
+# Update Time: 15:13:22
+# Description: mid ground grases
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-07-06,12:12:24,2012-08-03,11:31:14,kendall_GR_1000_01.tif,kendall_2012_08_03_113114.jpg
+2012-08-04,12:01:18,9999-12-31,00:00:00,kendall_GR_1000_02.tif,kendall_2018_07_05_120115.jpg
+

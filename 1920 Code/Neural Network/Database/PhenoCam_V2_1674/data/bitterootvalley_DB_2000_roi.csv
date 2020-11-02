@@ -1,0 +1,16 @@
+#
+# ROI List for bitterootvalley
+#
+# Site: bitterootvalley
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-03-20
+# Creation Time: 09:45:43
+# Update Date: 2018-04-23
+# Update Time: 09:44:01
+# Description: Deciduous trees in center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2009-09-15,00:00:00,2011-09-15,18:00:15,bitterootvalley_DB_2000_01.tif,bitterootvalley_2009_09_15_120000.jpg
+

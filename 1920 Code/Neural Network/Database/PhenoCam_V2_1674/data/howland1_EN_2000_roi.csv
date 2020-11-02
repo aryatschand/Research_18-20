@@ -1,0 +1,16 @@
+#
+# ROI List for howland1
+#
+# Site: howland1
+# Veg Type: EN
+# ROI ID Number: 2000
+# Owner: amyoung
+# Creation Date: 2018-07-17
+# Creation Time: 13:25:21
+# Update Date: 2019-01-01
+# Update Time: 15:53:17
+# Description: EN veg type, canopy view.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-04-29,12:01:45,2010-02-16,12:01:44,howland1_EN_2000_01.tif,howland1_2010_02_16_120144.jpg
+

@@ -74,4 +74,4 @@ def home():
     
 # Run server on local IP address on port 5000
 if __name__ == "__main__":
-    app.run(debug=False, host='192.168.86.41', port=5000)
+    app.run(debug=False, host='192.168.86.27', port=5000)

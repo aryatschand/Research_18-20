@@ -7,7 +7,6 @@
 
 // Set WiFI and servo object
 ESP8266WiFiMulti WiFiMulti;
-Servo myservo;
 
 float oldvolume = 0;
 int pos = 0;
@@ -30,7 +29,6 @@ void setup()
 {
   // Initialize LED and servo
   RGB_color(255, 0, 0);
-  myservo.attach(2);
   Serial.begin(115200);
 
   // Begin Wifi setup procedure
@@ -66,7 +64,7 @@ void loop()
     Serial.print("[HTTP] begin...\n");
 
     // Begin request to local ip and port
-    if (http.begin(client, "http://192.168.86.41:5000/")) 
+    if (http.begin(client, "http://010f0f50.ngrok.io/hardwareConnect/")) 
     {
       Serial.print("[HTTP] GET...\n");
 
@@ -114,7 +112,12 @@ void loop()
     for (pos = 0; pos <= volume; pos += 1) 
     {
       myservo.write(pos);
-      delay(15);
+      delay(200);
+      openservo.write(180);
+      delay(500);
+      openservo.write(180);
+      delay(200);
+      myservo.write(0);
     }
   } else 
   {

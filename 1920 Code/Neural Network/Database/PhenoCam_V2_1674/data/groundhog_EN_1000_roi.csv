@@ -1,0 +1,16 @@
+#
+# ROI List for groundhog
+#
+# Site: groundhog
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-06
+# Creation Time: 18:00:05
+# Update Date: 2018-07-19
+# Update Time: 11:11:00
+# Description: Mixed forest, EN and DB. 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-10-21,17:08:27,2012-03-05,23:59:59,groundhog_EN_1000_01.tif,groundhog_2009_03_20_121032.jpg
+

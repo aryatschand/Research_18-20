@@ -1,0 +1,17 @@
+#
+# ROI List for kamuela
+#
+# Site: kamuela
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 14:46:06
+# Update Date: 2018-07-23
+# Update Time: 14:46:06
+# Description: midground grassland
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-02-22,12:01:43,2010-05-12,11:01:40,kamuela_GR_1000_01.tif,kamuela_2010_05_12_110140.jpg
+2010-12-05,12:05:18,9999-12-31,00:00:00,kamuela_GR_1000_02.tif,kamuela_2018_03_23_120145.jpg
+

@@ -1,0 +1,17 @@
+#
+# ROI List for ibp
+#
+# Site: ibp
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 13:06:12
+# Update Date: 2018-10-15
+# Update Time: 18:23:40
+# Description: small shrubs in mid right
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-02-15,12:01:14,2015-12-25,12:00:05,ibp_SH_1000_01.tif,ibp_2015_12_25_120005.jpg
+2015-12-26,12:00:06,9999-12-31,00:00:00,ibp_SH_1000_02.tif,ibp_2016_07_10_120006.jpg
+

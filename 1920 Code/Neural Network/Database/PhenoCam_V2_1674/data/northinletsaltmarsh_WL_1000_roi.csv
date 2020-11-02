@@ -1,0 +1,16 @@
+#
+# ROI List for northinletsaltmarsh
+#
+# Site: northinletsaltmarsh
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 09:42:48
+# Update Date: 2018-09-27
+# Update Time: 10:14:47
+# Description: foreground wetland plants
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-10-12,14:50:35,9999-12-31,00:00:00,northinletsaltmarsh_WL_1000_01.tif,northinletsaltmarsh_2018_06_10_120405.jpg
+

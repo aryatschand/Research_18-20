@@ -1,0 +1,17 @@
+#
+# ROI List for wolfesneckfarm
+#
+# Site: wolfesneckfarm
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 12:33:47
+# Update Date: 2018-08-06
+# Update Time: 12:33:47
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-03-18,11:59:05,2018-03-01,11:59:05,wolfesneckfarm_AG_1000_01.tif,wolfesneckfarm_2017_05_17_115905.jpg
+2018-03-19,11:59:05,9999-12-31,00:00:00,wolfesneckfarm_AG_1000_02.tif,wolfesneckfarm_2018_05_15_115906.jpg
+

@@ -1,0 +1,17 @@
+#
+# ROI List for barrocolorado
+#
+# Site: barrocolorado
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-05-20
+# Creation Time: 09:39:55
+# Update Date: 2018-08-21
+# Update Time: 16:09:04
+# Description: Continuation of DB_0001 after camera change
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-10-16,12:00:00,2014-11-20,12:49:29,barrocolorado_DB_2000_01.tif,barrocolorado_2014_10_16_123519.jpg
+2014-11-20,12:49:30,2015-10-06,17:00:00,barrocolorado_DB_2000_02.tif,barrocolorado_2014_11_20_124930.jpg
+

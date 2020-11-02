@@ -1,0 +1,16 @@
+#
+# ROI List for ninemileprairie
+#
+# Site: ninemileprairie
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: amyoung
+# Creation Date: 2018-05-07
+# Creation Time: 15:59:02
+# Update Date: 2019-01-08
+# Update Time: 10:33:46
+# Description: DB tree behind the prairie
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-05-08,11:50:06,9999-12-31,00:00:00,ninemileprairie_DB_2000_01.tif,ninemileprairie_2017_05_24_122006.jpg
+

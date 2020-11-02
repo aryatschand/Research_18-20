@@ -1,0 +1,15 @@
+#
+# ROI List for kingmanfarm
+#
+# Site: kingmanfarm
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: tmilliman
+# Creation Date: 2018-02-09
+# Creation Time: 18:22:38
+# Update Date: 2018-02-09
+# Update Time: 18:22:38
+# Description: Hay/Corn field in mid-ground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-07-16,00:00:00,9999-12-31,00:00:00,kingmanfarm_AG_1000_01.tif,kingmanfarm_2016_07_06_111705.jpg

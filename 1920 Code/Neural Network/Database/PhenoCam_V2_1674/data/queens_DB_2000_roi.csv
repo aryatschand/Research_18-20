@@ -1,0 +1,16 @@
+#
+# ROI List for queens
+#
+# Site: queens
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:27
+# Update Date: 2018-05-14
+# Update Time: 16:31:48
+# Description: Deciduous trees in foreground center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-05-06,19:00:09,9999-12-31,23:59:59,queens_DB_2000_01.tif,queens_2014_05_06_190009.jpg
+

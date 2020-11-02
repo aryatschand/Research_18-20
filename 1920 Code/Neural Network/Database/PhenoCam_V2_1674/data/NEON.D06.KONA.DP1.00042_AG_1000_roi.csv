@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D06.KONA.DP1.00042
+#
+# Site: NEON.D06.KONA.DP1.00042
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-20
+# Creation Time: 09:02:13
+# Update Date: 2018-08-20
+# Update Time: 09:02:13
+# Description: foreground agriculture
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-06,12:45:06,9999-12-31,00:00:00,NEON.D06.KONA.DP1.00042_AG_1000_01.tif,NEON.D06.KONA.DP1.00042_2017_08_31_120006.jpg
+

@@ -1,0 +1,26 @@
+#
+# ROI List for mammothcave
+#
+# Site: mammothcave
+# Veg Type: DB
+# ROI ID Number: 3000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:22
+# Update Date: 2018-05-07
+# Update Time: 12:33:51
+# Description: Deciduous trees in near background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2006-06-25,12:00:00,2006-07-22,11:59:59,mammothcave_DB_3000_01.tif,mammothcave_2005_05_25_120000.jpg
+2006-07-22,12:00:00,2006-08-05,11:59:59,mammothcave_DB_3000_02.tif,mammothcave_2006_07_22_120000.jpg
+2006-08-05,12:00:00,2007-06-12,11:59:59,mammothcave_DB_3000_03.tif,mammothcave_2006_08_05_120000.jpg
+2007-06-12,12:00:00,2007-08-25,11:59:59,mammothcave_DB_3000_04.tif,mammothcave_2007_06_12_120000.jpg
+2007-08-25,12:00:00,2008-04-17,11:59:59,mammothcave_DB_3000_05.tif,mammothcave_2007_08_25_120000.jpg
+2008-04-17,12:00:00,2008-05-06,11:59:59,mammothcave_DB_3000_06.tif,mammothcave_2008_04_17_120000.jpg
+2008-05-06,12:00:00,2008-07-25,11:59:59,mammothcave_DB_3000_07.tif,mammothcave_2008_05_06_120000.jpg
+2008-07-25,12:00:00,2008-10-16,15:14:59,mammothcave_DB_3000_08.tif,mammothcave_2008_07_25_120000.jpg
+2008-10-16,15:15:00,2009-09-15,14:09:59,mammothcave_DB_3000_09.tif,mammothcave_2008_10_16_141500.jpg
+2009-09-15,14:10:00,2010-01-07,16:12:59,mammothcave_DB_3000_10.tif,mammothcave_2009_09_15_131000.jpg
+2010-01-07,16:13:00,2010-04-01,18:00:00,mammothcave_DB_3000_11.tif,mammothcave_2010_01_07_151300.jpg
+

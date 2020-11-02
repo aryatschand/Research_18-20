@@ -1,0 +1,16 @@
+#
+# ROI List for windriver
+#
+# Site: windriver
+# Veg Type: EN
+# ROI ID Number: 2000
+# Owner: amyoung
+# Creation Date: 2018-06-18
+# Creation Time: 15:20:45
+# Update Date: 2018-06-18
+# Update Time: 15:20:45
+# Description: EN veg type. Canopy view.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-08-25,12:01:35,9999-12-31,00:00:00,windriver_EN_2000_01.tif,windriver_2015_07_24_120136.jpg
+

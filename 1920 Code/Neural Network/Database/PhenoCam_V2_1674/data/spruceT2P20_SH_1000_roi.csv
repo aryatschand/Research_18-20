@@ -1,0 +1,16 @@
+#
+# ROI List for spruceT2P20
+#
+# Site: spruceT2P20
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-09
+# Creation Time: 10:45:19
+# Update Date: 2018-02-09
+# Update Time: 10:45:19
+# Description: 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-25,06:00:00,9999-12-31,00:00:00,spruceT2P20_SH_1000_01.tif,spruceT2P20_2015_08_29_120006.jpg
+

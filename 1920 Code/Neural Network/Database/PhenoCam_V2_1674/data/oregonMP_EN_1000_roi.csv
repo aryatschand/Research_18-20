@@ -1,0 +1,16 @@
+#
+# ROI List for oregonMP
+#
+# Site: oregonMP
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-14
+# Creation Time: 13:58:24
+# Update Date: 2018-06-14
+# Update Time: 13:58:24
+# Description: EN veg type. Canopy view.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-06-15,12:01:12,9999-12-31,00:00:00,oregonMP_EN_1000_01.tif,oregonMP_2018_05_18_120109.jpg
+

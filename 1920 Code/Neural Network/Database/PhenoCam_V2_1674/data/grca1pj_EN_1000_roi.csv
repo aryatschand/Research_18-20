@@ -1,0 +1,16 @@
+#
+# ROI List for grca1pj
+#
+# Site: grca1pj
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-17
+# Creation Time: 14:05:00
+# Update Date: 2018-04-17
+# Update Time: 14:05:00
+# Description: EN trees in the FOV (background signals not good)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-08-20,12:32:20,9999-12-31,00:00:00,grca1pj_EN_1000_01.tif,grca1pj_2017_10_19_121405.jpg
+

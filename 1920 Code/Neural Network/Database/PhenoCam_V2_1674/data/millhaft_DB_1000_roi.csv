@@ -1,0 +1,16 @@
+#
+# ROI List for millhaft
+#
+# Site: millhaft
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-05-07
+# Creation Time: 14:33:55
+# Update Date: 2018-05-07
+# Update Time: 14:33:55
+# Description: canopy in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-17,13:30:06,9999-12-31,00:00:00,millhaft_DB_1000_01.tif,millhaft_2016_05_17_133006.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for burdettericec
+#
+# Site: burdettericec
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 16:30:15
+# Update Date: 2018-04-02
+# Update Time: 16:30:15
+# Description: canopy level AG in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-07-02,08:33:31,9999-12-31,00:00:00,burdettericec_AG_1000_01.tif,burdettericec_2015_11_10_121016.jpg
+

@@ -1,0 +1,21 @@
+#
+# Transition date estimate for hawbeckereddy
+#
+# Site: hawbeckereddy
+# Veg Type: AG
+# ROI ID Number: 2000
+# Aggregation period: 3day
+# Year min: 2018
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:27:43
+# Spline RMSE gcc_mean: 0.00521
+# Spline RMSE gcc_50: 0.00574
+# Spline RMSE gcc_75: 0.00577
+# Spline RMSE gcc_90: 0.00617
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+hawbeckereddy,AG,2000,falling,gcc_90,2018-09-20,2018-09-18,2018-09-11,2018-09-21,2018-09-19,2018-09-13,2018-09-19,2018-09-16,2018-09-08,0.36219,0.37292,0.40021,0.35461,0.44384
+hawbeckereddy,AG,2000,falling,gcc_75,2018-09-20,2018-09-18,2018-09-11,2018-09-21,2018-09-19,2018-09-14,2018-09-18,2018-09-16,2018-09-10,0.3597,0.36973,0.39744,0.3527,0.43712
+hawbeckereddy,AG,2000,falling,gcc_50,2018-09-20,2018-09-18,2018-09-12,2018-09-21,2018-09-19,2018-09-14,2018-09-19,2018-09-16,2018-09-11,0.35792,0.36788,0.39307,0.351,0.43073
+hawbeckereddy,AG,2000,falling,gcc_mean,2018-09-20,2018-09-18,2018-09-12,2018-09-21,2018-09-19,2018-09-14,2018-09-19,2018-09-16,2018-09-11,0.35809,0.36796,0.3929,0.3512,0.42989

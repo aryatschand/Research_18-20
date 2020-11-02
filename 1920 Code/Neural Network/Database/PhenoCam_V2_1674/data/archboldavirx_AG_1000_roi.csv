@@ -1,0 +1,16 @@
+#
+# ROI List for archboldavirx
+#
+# Site: archboldavirx
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:30:00
+# Update Date: 2018-04-02
+# Update Time: 14:30:00
+# Description: entire AG land in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-15,19:00:06,9999-12-31,00:00:00,archboldavirx_AG_1000_01.tif,archboldavirx_2016_05_21_120006.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for snipelake
+#
+# Site: snipelake
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-11
+# Creation Time: 11:08:40
+# Update Date: 2018-06-11
+# Update Time: 11:08:40
+# Description: TN in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-08-12,12:00:00,2012-12-31,00:00:00,snipelake_TN_1000_01.tif,snipelake_2010_08_12_120000.jpg
+

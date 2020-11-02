@@ -1,0 +1,16 @@
+#
+# ROI List for spruceT2P20SH
+#
+# Site: spruceT2P20SH
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 10:20:55
+# Update Date: 2018-06-18
+# Update Time: 10:20:55
+# Description: shrubs in the chamber
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-11-29,11:58:07,9999-12-31,00:00:00,spruceT2P20SH_SH_1000_01.tif,spruceT2P20SH_2018_06_15_115806.jpg
+

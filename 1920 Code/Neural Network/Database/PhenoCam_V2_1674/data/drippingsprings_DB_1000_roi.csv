@@ -1,0 +1,93 @@
+#
+# ROI List for drippingsprings
+#
+# Site: drippingsprings
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:25
+# Update Date: 2018-04-23
+# Update Time: 11:47:19
+# Description: Deciduous trees in riparian gully
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2001-04-06,15:00:00,2001-04-18,11:59:59,drippingsprings_DB_1000_01.tif,drippingsprings_2001_04_06_150000.jpg
+2001-04-18,12:00:00,2001-05-13,14:59:59,drippingsprings_DB_1000_02.tif,drippingsprings_2001_04_18_120000.jpg
+2001-05-13,15:00:00,2001-05-14,08:59:59,drippingsprings_DB_1000_03.tif,drippingsprings_2001_05_13_150000.jpg
+2001-05-14,09:00:00,2001-07-03,14:59:59,drippingsprings_DB_1000_04.tif,drippingsprings_2001_05_14_090000.jpg
+2001-07-03,15:00:00,2001-07-15,11:59:59,drippingsprings_DB_1000_05.tif,drippingsprings_2001_07_03_150000.jpg
+2001-07-15,12:00:00,2001-07-17,14:59:59,drippingsprings_DB_1000_06.tif,drippingsprings_2001_07_15_120000.jpg
+2001-07-17,15:00:00,2001-08-28,14:59:59,drippingsprings_DB_1000_07.tif,drippingsprings_2001_07_17_150000.jpg
+2001-08-28,15:00:00,2001-10-10,08:59:59,drippingsprings_DB_1000_08.tif,drippingsprings_2001_08_28_150000.jpg
+2001-10-10,09:00:00,2001-10-25,11:59:59,drippingsprings_DB_1000_09.tif,drippingsprings_2001_10_10_090000.jpg
+2001-10-25,12:00:00,2001-11-07,08:59:59,drippingsprings_DB_1000_10.tif,drippingsprings_2001_10_25_120000.jpg
+2001-11-07,09:00:00,2001-11-20,08:59:59,drippingsprings_DB_1000_11.tif,drippingsprings_2001_11_07_090000.jpg
+2001-11-20,09:00:00,2001-12-20,08:59:59,drippingsprings_DB_1000_12.tif,drippingsprings_2001_11_20_090000.jpg
+2001-12-20,09:00:00,2002-01-02,11:59:59,drippingsprings_DB_1000_13.tif,drippingsprings_2001_12_20_090000.jpg
+2002-01-02,12:00:00,2002-02-13,11:59:59,drippingsprings_DB_1000_14.tif,drippingsprings_2002_01_02_120000.jpg
+2002-02-13,12:00:00,2002-03-12,08:59:59,drippingsprings_DB_1000_15.tif,drippingsprings_2002_02_13_120000.jpg
+2002-03-12,09:00:00,2002-04-09,08:59:59,drippingsprings_DB_1000_16.tif,drippingsprings_2002_03_12_090000.jpg
+2002-04-09,09:00:00,2002-05-07,11:59:59,drippingsprings_DB_1000_17.tif,drippingsprings_2002_04_09_090000.jpg
+2002-05-07,12:00:00,2002-08-13,14:59:59,drippingsprings_DB_1000_18.tif,drippingsprings_2002_05_07_120000.jpg
+2002-08-13,15:00:00,2002-08-28,14:59:59,drippingsprings_DB_1000_19.tif,drippingsprings_2002_08_13_150000.jpg
+2002-08-28,15:00:00,2002-09-27,08:59:59,drippingsprings_DB_1000_20.tif,drippingsprings_2002_08_28_150000.jpg
+2002-09-27,09:00:00,2002-12-03,08:59:59,drippingsprings_DB_1000_21.tif,drippingsprings_2002_07_27_090000.jpg
+2002-12-03,09:00:00,2003-02-25,08:59:59,drippingsprings_DB_1000_22.tif,drippingsprings_2002_12_03_090000.jpg
+2003-02-25,09:00:00,2003-03-12,08:59:59,drippingsprings_DB_1000_23.tif,drippingsprings_2003_02_25_090000.jpg
+2003-03-12,09:00:00,2003-05-20,11:59:59,drippingsprings_DB_1000_24.tif,drippingsprings_2003_03_12_090000.jpg
+2003-05-20,12:00:00,2003-07-29,11:59:59,drippingsprings_DB_1000_25.tif,drippingsprings_2003_05_20_120000.jpg
+2003-07-29,12:00:00,2003-08-28,08:59:59,drippingsprings_DB_1000_26.tif,drippingsprings_2003_07_29_120000.jpg
+2003-08-28,09:00:00,2003-11-04,08:59:59,drippingsprings_DB_1000_27.tif,drippingsprings_2003_08_28_090000.jpg
+2003-11-04,09:00:00,2003-11-18,08:59:59,drippingsprings_DB_1000_28.tif,drippingsprings_2003_11_04_090000.jpg
+2003-11-18,09:00:00,2003-12-02,08:59:59,drippingsprings_DB_1000_29.tif,drippingsprings_2003_11_18_090000.jpg
+2003-12-02,09:00:00,2003-12-16,08:59:59,drippingsprings_DB_1000_30.tif,drippingsprings_2003_12_02_090000.jpg
+2003-12-16,09:00:00,2003-12-26,08:59:59,drippingsprings_DB_1000_31.tif,drippingsprings_2003_12_16_090000.jpg
+2003-12-26,09:00:00,2003-12-30,14:59:59,drippingsprings_DB_1000_32.tif,drippingsprings_2003_12_26_090000.jpg
+2003-12-30,15:00:00,2003-12-31,08:59:59,drippingsprings_DB_1000_33.tif,drippingsprings_2003_12_30_150000.jpg
+2003-12-31,09:00:00,2004-01-30,08:59:59,drippingsprings_DB_1000_34.tif,drippingsprings_2003_12_31_090000.jpg
+2004-01-30,09:00:00,2004-02-26,08:59:59,drippingsprings_DB_1000_35.tif,drippingsprings_2004_01_30_090000.jpg
+2004-02-26,09:00:00,2004-03-23,11:59:59,drippingsprings_DB_1000_36.tif,drippingsprings_2004_02_26_090000.jpg
+2004-03-23,12:00:00,2004-05-28,11:59:59,drippingsprings_DB_1000_37.tif,drippingsprings_2004_03_23_120000.jpg
+2004-05-28,12:00:00,2004-06-29,14:59:59,drippingsprings_DB_1000_38.tif,drippingsprings_2004_05_28_120000.jpg
+2004-06-29,15:00:00,2004-08-16,11:59:59,drippingsprings_DB_1000_39.tif,drippingsprings_2004_06_29_150000.jpg
+2004-08-16,12:00:00,2004-09-28,11:59:59,drippingsprings_DB_1000_40.tif,drippingsprings_2004_08_16_120000.jpg
+2004-09-28,12:00:00,2004-11-02,11:59:59,drippingsprings_DB_1000_41.tif,drippingsprings_2004_09_28_120000.jpg
+2004-11-02,12:00:00,2005-03-08,11:59:59,drippingsprings_DB_1000_42.tif,drippingsprings_2004_11_02_120000.jpg
+2005-03-08,12:00:00,2005-04-14,08:59:59,drippingsprings_DB_1000_43.tif,drippingsprings_2005_03_08_120000.jpg
+2005-04-14,09:00:00,2005-09-13,08:59:59,drippingsprings_DB_1000_44.tif,drippingsprings_2005_04_14_090000.jpg
+2005-09-13,09:00:00,2005-11-22,08:59:59,drippingsprings_DB_1000_45.tif,drippingsprings_2005_09_13_090000.jpg
+2005-11-22,09:00:00,2005-12-13,08:59:59,drippingsprings_DB_1000_46.tif,drippingsprings_2005_11_22_090000.jpg
+2005-12-13,09:00:00,2006-01-10,11:59:59,drippingsprings_DB_1000_47.tif,drippingsprings_2005_12_13_090000.jpg
+2006-01-10,12:00:00,2006-02-28,11:59:59,drippingsprings_DB_1000_48.tif,drippingsprings_2006_01_10_120000.jpg
+2006-02-28,12:00:00,2006-03-22,11:59:59,drippingsprings_DB_1000_49.tif,drippingsprings_2006_02_28_120000.jpg
+2006-03-22,12:00:00,2006-11-08,11:59:59,drippingsprings_DB_1000_50.tif,drippingsprings_2006_03_22_120000.jpg
+2006-11-08,12:00:00,2006-11-29,11:59:59,drippingsprings_DB_1000_51.tif,drippingsprings_2006_11_08_120000.jpg
+2006-11-29,12:00:00,2006-12-29,11:59:59,drippingsprings_DB_1000_52.tif,drippingsprings_2006_11_29_120000.jpg
+2006-12-29,12:00:00,2007-01-09,11:59:59,drippingsprings_DB_1000_53.tif,drippingsprings_2006_12_19_120000.jpg
+2007-01-09,12:00:00,2007-01-23,08:59:59,drippingsprings_DB_1000_54.tif,drippingsprings_2007_01_09_120000.jpg
+2007-01-23,09:00:00,2007-01-26,08:59:59,drippingsprings_DB_1000_55.tif,drippingsprings_2007_01_23_090000.jpg
+2007-01-26,09:00:00,2007-02-14,08:59:59,drippingsprings_DB_1000_56.tif,drippingsprings_2007_01_26_090000.jpg
+2007-02-14,09:00:00,2007-02-27,14:59:59,drippingsprings_DB_1000_57.tif,drippingsprings_2007_02_14_090000.jpg
+2007-02-27,15:00:00,2007-04-03,08:59:59,drippingsprings_DB_1000_58.tif,drippingsprings_2007_02_27_150000.jpg
+2007-04-03,09:00:00,2007-04-18,08:59:59,drippingsprings_DB_1000_59.tif,drippingsprings_2007_04_03_090000.jpg
+2007-04-18,09:00:00,2007-06-12,11:59:59,drippingsprings_DB_1000_60.tif,drippingsprings_2007_04_18_090000.jpg
+2007-06-12,12:00:00,2007-06-26,14:59:59,drippingsprings_DB_1000_61.tif,drippingsprings_2007_06_12_120000.jpg
+2007-06-26,15:00:00,2007-08-14,11:59:59,drippingsprings_DB_1000_62.tif,drippingsprings_2007_06_26_150000.jpg
+2007-08-14,12:00:00,2007-12-04,11:59:59,drippingsprings_DB_1000_63.tif,drippingsprings_2007_08_14_120000.jpg
+2007-12-04,12:00:00,2007-12-20,11:59:59,drippingsprings_DB_1000_64.tif,drippingsprings_2007_12_04_120000.jpg
+2007-12-20,12:00:00,2008-02-19,11:59:59,drippingsprings_DB_1000_65.tif,drippingsprings_2007_12_20_120000.jpg
+2008-02-19,12:00:00,2008-03-04,08:59:59,drippingsprings_DB_1000_66.tif,drippingsprings_2008_02_19_120000.jpg
+2008-03-04,09:00:00,2008-05-14,08:59:59,drippingsprings_DB_1000_67.tif,drippingsprings_2008_03_04_090000.jpg
+2008-05-14,09:00:00,2008-08-26,11:59:59,drippingsprings_DB_1000_68.tif,drippingsprings_2008_05_14_090000.jpg
+2008-08-26,12:00:00,2008-10-03,11:59:59,drippingsprings_DB_1000_69.tif,drippingsprings_2008_08_26_120000.jpg
+2008-10-03,12:00:00,2008-10-16,11:59:59,drippingsprings_DB_1000_70.tif,drippingsprings_2008_10_03_120000.jpg
+2008-10-16,12:00:00,2008-10-28,11:59:59,drippingsprings_DB_1000_71.tif,drippingsprings_2008_10_16_120000.jpg
+2008-10-28,12:00:00,2008-11-11,11:59:59,drippingsprings_DB_1000_72.tif,drippingsprings_2008_10_28_120000.jpg
+2008-11-11,12:00:00,2008-12-09,08:59:59,drippingsprings_DB_1000_73.tif,drippingsprings_2008_11_11_120000.jpg
+2008-12-09,09:00:00,2008-12-21,08:59:59,drippingsprings_DB_1000_74.tif,drippingsprings_2008_12_09_090000.jpg
+2008-12-21,09:00:00,2009-01-17,11:59:59,drippingsprings_DB_1000_75.tif,drippingsprings_2008_12_21_090000.jpg
+2009-01-17,12:00:00,2009-01-28,11:59:59,drippingsprings_DB_1000_76.tif,drippingsprings_2009_01_17_120000.jpg
+2009-01-28,12:00:00,2009-02-10,08:59:59,drippingsprings_DB_1000_77.tif,drippingsprings_2009_01_28_120000.jpg
+2009-03-03,12:00:00,9999-12-31,23:59:59,drippingsprings_DB_1000_79.tif,drippingsprings_2009_03_03_120000.jpg
+

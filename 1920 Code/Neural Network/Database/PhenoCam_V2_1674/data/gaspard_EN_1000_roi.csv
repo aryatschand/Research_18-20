@@ -1,0 +1,16 @@
+#
+# ROI List for gaspard
+#
+# Site: gaspard
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-07-03
+# Creation Time: 13:57:39
+# Update Date: 2018-08-08
+# Update Time: 12:36:00
+# Description: EN veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-04-30,13:32:00,2015-10-26,23:59:59,gaspard_EN_1000_01.tif,gaspard_2015_06_02_120200.jpg
+

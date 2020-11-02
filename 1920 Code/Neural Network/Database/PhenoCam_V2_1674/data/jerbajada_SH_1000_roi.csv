@@ -1,0 +1,16 @@
+#
+# ROI List for jerbajada
+#
+# Site: jerbajada
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 09:44:54
+# Update Date: 2018-06-18
+# Update Time: 09:44:54
+# Description: Shrubs  in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-04-21,12:10:19,9999-12-31,00:00:00,jerbajada_SH_1000_01.tif,jerbajada_2014_04_21_121019.jpg
+

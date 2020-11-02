@@ -1,0 +1,16 @@
+#
+# ROI List for thompsonfarm2N
+#
+# Site: thompsonfarm2N
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:28
+# Update Date: 2018-05-15
+# Update Time: 14:05:24
+# Description: Deciduous trees in foreground right
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2009-01-11,00:00:00,2010-05-16,23:59:59,thompsonfarm2N_DB_1000_01.tif,thompsonfarm2N_2009_02_01_080500.jpg
+

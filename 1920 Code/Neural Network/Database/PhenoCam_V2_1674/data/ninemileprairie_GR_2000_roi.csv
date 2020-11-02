@@ -1,0 +1,16 @@
+#
+# ROI List for ninemileprairie
+#
+# Site: ninemileprairie
+# Veg Type: GR
+# ROI ID Number: 2000
+# Owner: amyoung
+# Creation Date: 2018-08-07
+# Creation Time: 09:39:38
+# Update Date: 2019-01-08
+# Update Time: 10:06:44
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-05-08,11:50:06,9999-12-31,00:00:00,ninemileprairie_GR_2000_01.tif,ninemileprairie_2017_05_24_122006.jpg
+

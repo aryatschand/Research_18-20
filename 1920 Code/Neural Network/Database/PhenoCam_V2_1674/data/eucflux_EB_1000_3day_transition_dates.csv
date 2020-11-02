@@ -1,0 +1,21 @@
+#
+# Transition date estimate for eucflux
+#
+# Site: eucflux
+# Veg Type: EB
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2018
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:13:22
+# Spline RMSE gcc_mean: 0.00232
+# Spline RMSE gcc_50: 0.00257
+# Spline RMSE gcc_75: 0.00346
+# Spline RMSE gcc_90: 0.00375
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+eucflux,EB,1000,falling,gcc_90,2018-06-23,2018-06-20,2018-06-15,2018-06-24,2018-06-21,2018-06-16,2018-06-21,2018-06-18,2018-06-14,0.34069,0.35145,0.37635,0.33452,0.41515
+eucflux,EB,1000,falling,gcc_75,2018-06-23,2018-06-20,2018-06-15,2018-06-24,2018-06-21,2018-06-17,2018-06-21,2018-06-18,2018-06-14,0.33872,0.34955,0.37474,0.33294,0.41185
+eucflux,EB,1000,falling,gcc_50,2018-06-22,2018-06-19,2018-06-15,2018-06-24,2018-06-20,2018-06-16,2018-06-21,2018-06-18,2018-06-14,0.33793,0.34985,0.36994,0.3308,0.40706
+eucflux,EB,1000,falling,gcc_mean,2018-06-22,2018-06-19,2018-06-14,2018-06-24,2018-06-20,2018-06-16,2018-06-21,2018-06-18,2018-06-13,0.33823,0.34926,0.37433,0.33094,0.40587

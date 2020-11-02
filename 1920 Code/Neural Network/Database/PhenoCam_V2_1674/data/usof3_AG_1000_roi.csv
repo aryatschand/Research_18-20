@@ -1,0 +1,20 @@
+#
+# ROI List for usof3
+#
+# Site: usof3
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 11:53:39
+# Update Date: 2018-08-06
+# Update Time: 11:53:39
+# Description: AG veg type. Flooded in beginning of time series (summer 2017)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-06-22,11:05:17,2017-09-15,12:09:05,usof3_AG_1000_01.tif,usof3_2017_07_04_120906.jpg
+2017-10-25,12:09:05,2017-10-30,12:09:05,usof3_AG_1000_02.tif,usof3_2017_10_25_120905.jpg
+2017-10-31,12:09:05,2017-11-28,12:09:05,usof3_AG_1000_03.tif,usof3_2017_10_31_120905.jpg
+2017-11-29,12:09:05,2018-04-11,11:09:05,usof3_AG_1000_04.tif,usof3_2018_03_17_120905.jpg
+2018-05-02,12:21:46,9999-12-31,00:00:00,usof3_AG_1000_05.tif,usof3_2018_05_09_120905.jpg
+

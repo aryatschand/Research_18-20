@@ -1,0 +1,18 @@
+#
+# ROI List for greenridge1
+#
+# Site: greenridge1
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-17
+# Creation Time: 14:11:46
+# Update Date: 2018-04-17
+# Update Time: 14:11:46
+# Description: canopy level DB
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-06-17,19:50:06,2017-08-21,11:45:05,greenridge1_DB_1000_01.tif,greenridge1_2017_08_21_114505.jpg
+2017-08-23,11:45:05,2017-11-05,11:45:06,greenridge1_DB_1000_02.tif,greenridge1_2017_08_23_114505.jpg
+2018-02-28,11:45:06,9999-12-31,00:00:00,greenridge1_DB_1000_03.tif,greenridge1_2018_02_28_114506.jpg
+

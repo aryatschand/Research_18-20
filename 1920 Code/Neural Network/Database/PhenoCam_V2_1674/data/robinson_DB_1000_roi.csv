@@ -1,0 +1,17 @@
+#
+# ROI List for robinson
+#
+# Site: robinson
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-06
+# Creation Time: 17:32:55
+# Update Date: 2018-08-06
+# Update Time: 17:32:55
+# Description: forground DB trees
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-04-07,12:40:44,2017-04-25,11:55:06,robinson_DB_1000_01.tif,robinson_2017_04_07_124044.jpg
+2017-04-26,11:55:05,9999-12-31,00:00:00,robinson_DB_1000_02.tif,robinson_2017_04_26_115505.jpg
+

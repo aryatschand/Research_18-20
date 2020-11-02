@@ -1,0 +1,19 @@
+#
+# ROI List for kelloggcorn2
+#
+# Site: kelloggcorn2
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 13:26:28
+# Update Date: 2018-08-06
+# Update Time: 13:26:28
+# Description: AG veg type. Camera view close to canopy. Building in background.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-07-14,06:00:07,2018-02-16,12:02:03,kelloggcorn2_AG_1000_01.tif,kelloggcorn2_2016_08_12_121734.jpg
+2018-03-05,18:00:41,2018-03-19,09:21:34,kelloggcorn2_AG_1000_02.tif,kelloggcorn2_2018_03_19_092134.jpg
+2018-03-21,14:22:41,2018-03-29,12:22:33,kelloggcorn2_AG_1000_03.tif,kelloggcorn2_2018_03_29_122233.jpg
+2018-03-30,12:12:13,9999-12-31,00:00:00,kelloggcorn2_AG_1000_04.tif,kelloggcorn2_2018_06_13_120812.jpg
+

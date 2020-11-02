@@ -1,0 +1,21 @@
+#
+# Transition date estimate for cedarcreek
+#
+# Site: cedarcreek
+# Veg Type: DB
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2010
+# Year max: 2010
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:04:32
+# Spline RMSE gcc_mean: 0.00098
+# Spline RMSE gcc_50: 0.00098
+# Spline RMSE gcc_75: 0.00094
+# Spline RMSE gcc_90: 0.00129
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+cedarcreek,DB,1000,rising,gcc_90,2010-04-17,2010-04-29,2010-05-11,2010-04-13,2010-04-28,2010-05-10,2010-04-20,2010-05-01,2010-05-12,0.37899,0.38724,0.40327,0.37306,0.43288
+cedarcreek,DB,1000,rising,gcc_75,2010-04-16,2010-04-30,2010-05-12,2010-04-14,2010-04-29,2010-05-10,2010-04-20,2010-05-02,2010-05-13,0.37788,0.38635,0.4027,0.37234,0.43051
+cedarcreek,DB,1000,rising,gcc_50,2010-04-18,2010-04-30,2010-05-12,2010-04-16,2010-04-29,2010-05-11,2010-04-21,2010-05-02,2010-05-13,0.37735,0.38502,0.40041,0.37201,0.42782
+cedarcreek,DB,1000,rising,gcc_mean,2010-04-19,2010-04-30,2010-05-12,2010-04-17,2010-04-29,2010-05-11,2010-04-22,2010-05-02,2010-05-13,0.37761,0.38526,0.4004,0.37235,0.42754

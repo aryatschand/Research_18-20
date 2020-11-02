@@ -1,0 +1,17 @@
+#
+# ROI List for rosemountnprs
+#
+# Site: rosemountnprs
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-03
+# Creation Time: 15:47:31
+# Update Date: 2018-08-03
+# Update Time: 15:47:31
+# Description: AG veg type in fore ground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-10-30,12:00:00,2016-07-22,12:00:00,rosemountnprs_AG_1000_01.tif,rosemountnprs_2016_07_22_120000.jpg
+2016-07-23,12:00:00,9999-12-31,00:00:00,rosemountnprs_AG_1000_02.tif,rosemountnprs_2018_06_22_120000.jpg
+

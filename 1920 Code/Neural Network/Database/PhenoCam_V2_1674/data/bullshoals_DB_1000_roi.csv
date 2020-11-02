@@ -1,0 +1,16 @@
+#
+# ROI List for bullshoals
+#
+# Site: bullshoals
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 16:23:27
+# Update Date: 2018-04-02
+# Update Time: 16:23:27
+# Description: canopy level DB FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-11-20,12:00:01,9999-12-31,00:00:00,bullshoals_DB_1000_01.tif,bullshoals_2018_02_21_115935.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for ashburnham
+#
+# Site: ashburnham
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2018-05-22
+# Creation Time: 10:00:59
+# Update Date: 2018-05-30
+# Update Time: 09:38:26
+# Description: canopy level DB (major FOV shift)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-04-19,12:05:06,9999-12-31,00:00:00,ashburnham_DB_2000_01.tif,ashburnham_2018_05_09_120505.jpg
+

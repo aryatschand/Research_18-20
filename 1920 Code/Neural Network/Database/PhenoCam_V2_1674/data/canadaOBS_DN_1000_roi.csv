@@ -1,0 +1,16 @@
+#
+# ROI List for canadaOBS
+#
+# Site: canadaOBS
+# Veg Type: DN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 14:01:19
+# Update Date: 2018-04-09
+# Update Time: 14:01:19
+# Description: canopy level DN (Larix laricina)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-07-05,15:31:33,9999-12-31,00:00:00,canadaOBS_DN_1000_01.tif,canadaOBS_2015_06_10_120127.jpg
+

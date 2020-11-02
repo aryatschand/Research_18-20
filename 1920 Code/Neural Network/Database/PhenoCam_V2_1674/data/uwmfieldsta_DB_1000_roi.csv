@@ -1,0 +1,16 @@
+#
+# ROI List for uwmfieldsta
+#
+# Site: uwmfieldsta
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:28
+# Update Date: 2018-05-15
+# Update Time: 14:19:12
+# Description: Deciduous trees in center left
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-03-14,04:49:11,9999-12-31,23:59:59,uwmfieldsta_DB_1000_01.tif,uwmfieldsta_2013_12_01_090108.jpg
+

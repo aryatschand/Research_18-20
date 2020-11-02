@@ -1,0 +1,24 @@
+#
+# Transition date estimate for barrocolorado3
+#
+# Site: barrocolorado3
+# Veg Type: EB
+# ROI ID Number: 1000
+# Aggregation period: 1day
+# Year min: 2015
+# Year max: 2015
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 15:50:19
+# Spline RMSE gcc_mean: 0.00362
+# Spline RMSE gcc_50: 0.00362
+# Spline RMSE gcc_75: 0.00305
+# Spline RMSE gcc_90: 0.00337
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+barrocolorado3,EB,1000,rising,gcc_90,2015-05-04,2015-05-09,2015-05-15,2015-05-01,2015-05-07,2015-05-13,2015-05-08,2015-05-12,2015-05-17,0.39147,0.39513,0.4009,0.38982,0.41191
+barrocolorado3,EB,1000,rising,gcc_75,2015-05-05,2015-05-09,2015-05-17,2015-05-02,2015-05-07,2015-05-14,2015-05-08,2015-05-12,2015-05-19,0.39004,0.39245,0.39821,0.38826,0.40754
+barrocolorado3,EB,1000,rising,gcc_50,2015-04-25,2015-05-01,2015-05-13,2015-04-22,2015-04-29,2015-05-10,2015-04-30,2015-05-05,2015-05-15,0.38201,0.38488,0.39068,0.38036,0.40067
+barrocolorado3,EB,1000,rising,gcc_mean,2015-04-24,2015-05-01,2015-05-14,2015-04-20,2015-04-27,2015-05-10,2015-04-28,2015-05-05,2015-05-15,0.37887,0.38216,0.38839,0.37691,0.3985
+barrocolorado3,EB,1000,falling,gcc_90,2015-09-06,2015-08-23,2015-08-16,2015-09-12,2015-09-04,2015-08-17,2015-08-25,2015-08-18,2015-08-14,0.4013,0.40309,0.40641,0.4001,0.41234
+barrocolorado3,EB,1000,falling,gcc_75,2015-09-05,2015-08-23,2015-08-17,2015-09-12,2015-09-01,2015-08-20,2015-08-24,2015-08-19,2015-08-15,0.39793,0.39962,0.40249,0.39687,0.40799
+barrocolorado3,EB,1000,falling,gcc_50,2015-09-02,2015-08-25,2015-08-19,2015-09-13,2015-09-02,2015-08-23,2015-08-24,2015-08-21,2015-08-16,0.39299,0.39428,0.39662,0.39212,0.40108

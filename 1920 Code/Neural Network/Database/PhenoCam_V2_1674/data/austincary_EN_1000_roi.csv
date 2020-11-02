@@ -1,0 +1,16 @@
+#
+# ROI List for austincary
+#
+# Site: austincary
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-10-18
+# Creation Time: 11:07:05
+# Update Date: 2018-10-18
+# Update Time: 11:07:05
+# Description: canopy level EN, understory may get in the background signal due to sparse canopy
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-01-11,17:00:06,9999-12-31,00:00:00,austincary_EN_1000_01.tif,austincary_2016_03_19_120007.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for rosemount
+#
+# Site: rosemount
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 16:42:31
+# Update Date: 2018-08-06
+# Update Time: 16:42:31
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-04-01,12:00:00,9999-12-31,00:00:00,rosemount_AG_1000_01.tif,rosemount_2008_07_01_120300.jpg
+

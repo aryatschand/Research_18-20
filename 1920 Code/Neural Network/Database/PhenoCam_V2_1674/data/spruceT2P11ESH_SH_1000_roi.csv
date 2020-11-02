@@ -1,0 +1,16 @@
+#
+# ROI List for spruceT2P11ESH
+#
+# Site: spruceT2P11ESH
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 10:19:30
+# Update Date: 2018-06-18
+# Update Time: 10:19:30
+# Description: entire plot
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-11-29,11:45:06,9999-12-31,00:00:00,spruceT2P11ESH_SH_1000_01.tif,spruceT2P11ESH_2017_11_29_114506.jpg
+

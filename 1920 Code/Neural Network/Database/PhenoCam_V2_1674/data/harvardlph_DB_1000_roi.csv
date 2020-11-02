@@ -1,0 +1,17 @@
+#
+# ROI List for harvardlph
+#
+# Site: harvardlph
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:21
+# Update Date: 2018-04-30
+# Update Time: 10:07:00
+# Description:  DB forest in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-06-15,10:08:34,2011-05-06,08:56:50,harvardlph_DB_1000_01.tif,harvardlph_2011_04_16_073142.jpg
+2011-05-06,08:56:51,2011-06-30,23:59:59,harvardlph_DB_2000_02.tif,harvardlph_2011_05_06_085651.jpg
+

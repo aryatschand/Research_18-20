@@ -1,0 +1,25 @@
+#
+# Transition date estimate for northinletsaltmarsh
+#
+# Site: northinletsaltmarsh
+# Veg Type: WL
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2018
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 17:22:19
+# Spline RMSE gcc_mean: 0.00333
+# Spline RMSE gcc_50: 0.00333
+# Spline RMSE gcc_75: 0.00418
+# Spline RMSE gcc_90: 0.00524
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+northinletsaltmarsh,WL,1000,rising,gcc_90,2018-05-03,2018-05-12,2018-05-23,2018-03-30,2018-05-09,2018-05-19,2018-05-08,2018-05-15,2018-05-27,0.35641,0.36524,0.38214,0.35048,0.41352
+northinletsaltmarsh,WL,1000,rising,gcc_75,2018-04-05,2018-05-12,2018-05-22,2018-03-30,2018-05-09,2018-05-18,2018-04-12,2018-05-14,2018-05-25,0.35187,0.36123,0.37755,0.34604,0.40747
+northinletsaltmarsh,WL,1000,rising,gcc_50,2018-05-01,2018-05-12,2018-05-22,2018-04-01,2018-05-09,2018-05-19,2018-05-06,2018-05-14,2018-05-24,0.3495,0.35783,0.37295,0.34386,0.40096
+northinletsaltmarsh,WL,1000,rising,gcc_mean,2018-04-06,2018-05-11,2018-05-21,2018-03-31,2018-05-09,2018-05-18,2018-04-13,2018-05-14,2018-05-24,0.34921,0.35732,0.37259,0.34348,0.40158
+northinletsaltmarsh,WL,1000,falling,gcc_90,2018-11-23,2018-11-08,2018-10-19,2018-11-29,2018-11-13,2018-10-25,2018-11-16,2018-11-03,2018-09-20,0.35484,0.36442,0.38139,0.34875,0.41277
+northinletsaltmarsh,WL,1000,falling,gcc_75,2018-11-18,2018-11-04,2018-09-26,2018-11-24,2018-11-09,2018-10-18,2018-11-12,2018-10-30,2018-09-17,0.35475,0.36344,0.37891,0.34911,0.40835
+northinletsaltmarsh,WL,1000,falling,gcc_50,2018-11-19,2018-11-01,2018-10-02,2018-11-25,2018-11-05,2018-10-19,2018-11-12,2018-10-28,2018-09-20,0.35146,0.35943,0.3743,0.34586,0.4026
+northinletsaltmarsh,WL,1000,falling,gcc_mean,2018-11-19,2018-11-02,2018-09-28,2018-11-25,2018-11-07,2018-10-18,2018-11-13,2018-10-29,2018-09-17,0.35143,0.35985,0.37459,0.34582,0.4031

@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D03.JERC.DP1.00033
+#
+# Site: NEON.D03.JERC.DP1.00033
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 11:32:19
+# Update Date: 2018-12-16
+# Update Time: 16:58:05
+# Description: canopy level EN in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-02-09,12:00:06,2018-10-10,12:00:05,NEON.D03.JERC.DP1.00033_EN_1000_01.tif,NEON.D03.JERC.DP1.00033_2016_12_25_120006.jpg
+

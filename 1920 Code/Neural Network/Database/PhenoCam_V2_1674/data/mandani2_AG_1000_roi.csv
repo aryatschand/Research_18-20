@@ -1,0 +1,16 @@
+#
+# ROI List for mandani2
+#
+# Site: mandani2
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:39:52
+# Update Date: 2018-07-30
+# Update Time: 15:39:52
+# Description: midground cropland
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-04-22,13:02:32,9999-12-31,00:00:00,mandani2_AG_1000_01.tif,mandani2_2016_04_24_120006.jpg
+

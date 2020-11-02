@@ -1,0 +1,16 @@
+#
+# ROI List for harvardbarn2
+#
+# Site: harvardbarn2
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-30
+# Creation Time: 09:26:38
+# Update Date: 2018-04-30
+# Update Time: 09:26:38
+# Description: canopy level DB forest
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-03-28,12:01:01,9999-12-31,00:00:00,harvardbarn2_DB_1000_01.tif,harvardbarn2_2012_03_28_120108.jpg
+

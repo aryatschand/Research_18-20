@@ -1,0 +1,16 @@
+#
+# ROI List for spruceA0P07
+#
+# Site: spruceA0P07
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-21
+# Creation Time: 15:44:28
+# Update Date: 2018-08-21
+# Update Time: 15:44:28
+# Description: shrubs in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-03-30,12:00:05,9999-12-31,00:00:00,spruceA0P07_SH_1000_01.tif,spruceA0P07_2016_03_30_120005.jpg
+

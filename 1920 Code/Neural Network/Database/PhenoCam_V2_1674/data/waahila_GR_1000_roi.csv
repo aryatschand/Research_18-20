@@ -1,0 +1,16 @@
+#
+# ROI List for waahila
+#
+# Site: waahila
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-06
+# Creation Time: 17:03:05
+# Update Date: 2018-08-06
+# Update Time: 17:03:05
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-11-16,11:59:06,9999-12-31,00:00:00,waahila_GR_1000_01.tif,waahila_2016_11_16_115906.jpg
+

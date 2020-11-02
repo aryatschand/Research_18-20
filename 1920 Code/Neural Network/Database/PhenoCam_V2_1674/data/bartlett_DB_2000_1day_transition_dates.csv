@@ -1,0 +1,21 @@
+#
+# Transition date estimate for bartlett
+#
+# Site: bartlett
+# Veg Type: DB
+# ROI ID Number: 2000
+# Aggregation period: 1day
+# Year min: 2006
+# Year max: 2006
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 15:50:53
+# Spline RMSE gcc_mean: 0.00356
+# Spline RMSE gcc_50: 0.00378
+# Spline RMSE gcc_75: 0.00356
+# Spline RMSE gcc_90: 0.00353
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+bartlett,DB,2000,falling,gcc_90,2006-09-28,2006-09-24,2006-09-16,2006-09-29,2006-09-25,2006-09-18,2006-09-25,2006-09-22,2006-09-15,0.34073,0.34944,0.36313,0.33718,0.38868
+bartlett,DB,2000,falling,gcc_75,2006-09-26,2006-09-22,2006-09-15,2006-09-27,2006-09-24,2006-09-17,2006-09-23,2006-09-20,2006-09-14,0.34368,0.35259,0.36537,0.34077,0.38843
+bartlett,DB,2000,falling,gcc_50,2006-09-27,2006-09-22,2006-09-15,2006-09-28,2006-09-24,2006-09-18,2006-09-24,2006-09-20,2006-09-14,0.34067,0.34908,0.36443,0.33634,0.38792
+bartlett,DB,2000,falling,gcc_mean,2006-09-27,2006-09-23,2006-09-15,2006-09-29,2006-09-24,2006-09-17,2006-09-24,2006-09-20,2006-09-14,0.34098,0.34754,0.36242,0.33628,0.38786

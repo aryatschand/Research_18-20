@@ -1,0 +1,16 @@
+#
+# ROI List for rosemountg21
+#
+# Site: rosemountg21
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-03
+# Creation Time: 15:38:23
+# Update Date: 2018-08-03
+# Update Time: 15:38:23
+# Description: AG veg type in fore ground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-10-30,12:00:00,9999-12-31,00:00:00,rosemountg21_AG_1000_01.tif,rosemountg21_2015_10_30_120000.jpg
+

@@ -1,0 +1,71 @@
+last_updated: 2019-01-14
+project: PhenoCam Network
+project_url: https://phenocam.sr.unh.edu/
+fairuse_statement:
+    PhenoCam Fair Use Data Policy: Since its inception, the objective
+    of the PhenoCam network has been to serve as a repository for
+    phenologically-relevant, digital, repeat (time-lapse) imagery, and
+    to make that imagery, and derived data products, freely available
+    to a wide array of third-party data end-users, including
+    researchers, educators, and the general public. Thus, imagery from
+    the PhenoCam archive is made publicly available, without
+    restriction, for non-commercial scientific and educational
+    purposes, and we encourage you to download imagery and datasets
+    for use in your own research and teaching.  We request that all
+    publications using the dataset (1) properly cite the PhenoCam
+    dataset, the associated data descriptor, and other relevant
+    publications; and (2) include both a general acknowledgement for
+    the PhenoCam project and the appropriate site-specific
+    acknowledgements for every site used in your analysis. The text
+    for these acknowledgments is included in the metadata file
+    associated with each PhenoCam site.  Distribution and Re-use
+    Policy: The PhenoCam Dataset version 1.0 is distributed under a
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+    International License.  Acknowledgments: The development of
+    PhenoCam has been supported by the Northeastern States Research
+    Cooperative, NSF’s Macrosystems Biology program (award
+    EF-1065029), DOE’s Regional and Global Climate Modeling program
+    (award DE-SC0016011), and the US National Park Service Inventory
+    and Monitoring Program and the USA National Phenology Network
+    (grant number G10AP00129 from the United States Geological
+    Survey). PhenoCam collaborators, including site PIs and
+    technicians, are thanked for their efforts in support of PhenoCam.
+project_fairuse_url: https://phenocam.sr.unh.edu/webcam/fairuse_statement/
+phenocam_site:
+    sitename: woodshole
+    long_name: Woods Hole Research Center, Falmouth, Massachusetts
+    lat: 41.5495
+    lon: -70.6432
+    elevation: 10
+    contact1: Kathleen Savage <savage AT whrc DOT org>
+    contact2: Michael Ernst <mernst AT whrc DOT org>
+    active: True
+    date_start: 2011-04-14
+    date_end: 2019-01-13
+    nimage: 239658
+    site_type: II
+    infrared_enabled: N
+    method: ftppush
+    utc_offset: -5
+    camera_description: Axis 211
+    camera_orientation: E
+    group: PhenoCam
+    flux_data: False
+    flux_networks: 
+    flux_sitenames: 
+    ecoregion: 8
+    MAP_site: 1275.0
+    MAP_daymet: 1240.0
+    MAP_worldclim: 1178.0
+    MAT_site: 9.6
+    MAT_daymet: 10.35
+    MAT_worldclim: 10.0
+    primary_veg_type: DB
+    secondary_veg_type: 
+    dominant_species: Acer rubrum, Fagus grandifollia
+    landcover_igbp: 5
+    wwf_biome: 5
+    koeppen_geiger: Cfa
+    site_acknowledgements:
+        Logistical support is provided by the Woods Hole Research
+        Center.

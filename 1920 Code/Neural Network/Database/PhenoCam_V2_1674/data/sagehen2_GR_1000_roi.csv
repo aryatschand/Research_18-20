@@ -1,0 +1,16 @@
+#
+# ROI List for sagehen2
+#
+# Site: sagehen2
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 09:16:25
+# Update Date: 2018-08-07
+# Update Time: 09:16:25
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-10-14,11:58:06,9999-12-31,00:00:00,sagehen2_GR_1000_01.tif,sagehen2_2017_10_14_115806.jpg
+

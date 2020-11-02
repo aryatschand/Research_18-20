@@ -1,0 +1,23 @@
+#
+# ROI List for uiefmaize
+#
+# Site: uiefmaize
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 16:12:38
+# Update Date: 2018-08-06
+# Update Time: 16:12:38
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-11-05,12:01:14,2009-05-29,12:57:39,uiefmaize_AG_1000_01.tif,uiefmaize_2008_11_24_115944.jpg
+2009-05-22,12:50:59,2009-07-29,12:18:48,uiefmaize_AG_1000_02.tif,uiefmaize_2009_07_03_121844.jpg
+2009-07-30,12:18:48,2009-11-04,12:21:20,uiefmaize_AG_1000_03.tif,uiefmaize_2009_08_16_121852.jpg
+2009-11-05,12:21:23,2010-06-21,11:36:06,uiefmaize_AG_1000_04.tif,uiefmaize_2010_06_21_113606.jpg
+2010-06-22,12:29:58,2010-07-05,11:30:00,uiefmaize_AG_1000_05.tif,uiefmaize_2010_07_05_113000.jpg
+2010-07-06,11:30:00,2011-12-31,11:30:57,uiefmaize_AG_1000_06.tif,uiefmaize_2011_06_27_113749.jpg
+2012-01-01,11:30:58,2016-06-27,12:00:00,uiefmaize_AG_1000_07.tif,uiefmaize_2015_08_04_120000.jpg
+2016-06-28,12:00:00,9999-12-31,00:00:00,uiefmaize_AG_1000_08.tif,uiefmaize_2016_06_28_120000.jpg
+

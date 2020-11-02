@@ -1,0 +1,16 @@
+#
+# ROI List for arsmnswanlake1
+#
+# Site: arsmnswanlake1
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:55:48
+# Update Date: 2018-04-02
+# Update Time: 14:55:48
+# Description: entire AG land in FOV 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-10-02,14:30:06,9999-12-31,00:00:00,arsmnswanlake1_AG_1000_01.tif,arsmnswanlake1_2015_11_14_120009.jpg
+

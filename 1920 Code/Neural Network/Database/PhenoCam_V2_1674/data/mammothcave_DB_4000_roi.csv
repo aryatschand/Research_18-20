@@ -1,0 +1,20 @@
+#
+# ROI List for mammothcave
+#
+# Site: mammothcave
+# Veg Type: DB
+# ROI ID Number: 4000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:22
+# Update Date: 2018-05-07
+# Update Time: 12:34:07
+# Description: Deciduous trees in near background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-06-11,06:01:00,2010-06-14,12:04:59,mammothcave_DB_4000_01.tif,mammothcave_2010_06_11_060100.jpg
+2010-06-14,12:05:00,2010-09-12,15:00:59,mammothcave_DB_4000_02.tif,mammothcave_2010_06_14_120500.jpg
+2010-09-12,15:01:00,2012-03-02,22:59:59,mammothcave_DB_4000_03.tif,mammothcave_2010_09_12_150100.jpg
+2012-03-02,23:00:00,2012-03-26,22:59:59,mammothcave_DB_4000_04.tif,mammothcave_2012_03_03_130242.jpg
+2012-03-26,23:00:00,9999-12-31,23:59:59,mammothcave_DB_4000_05.tif,mammothcave_2012_03_27_110252.jpg
+

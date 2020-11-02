@@ -1,0 +1,16 @@
+#
+# ROI List for hubbardbrook
+#
+# Site: hubbardbrook
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:21
+# Update Date: 2018-04-30
+# Update Time: 12:23:49
+# Description: Deciduous trees in foreground left
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-04-03,13:00:00,2017-04-10,12:01:34,hubbardbrook_DB_2000_01.tif,hubbardbrook_2011_05_01_080132.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for missouriozarks
+#
+# Site: missouriozarks
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-09
+# Creation Time: 11:40:01
+# Update Date: 2018-08-09
+# Update Time: 11:40:01
+# Description: foreground evergreens
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-03-05,13:31:11,9999-12-31,00:00:00,missouriozarks_EN_1000_01.tif,missouriozarks_2018_08_06_120114.jpg
+

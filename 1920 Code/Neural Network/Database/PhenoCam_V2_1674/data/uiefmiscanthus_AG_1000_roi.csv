@@ -1,0 +1,16 @@
+#
+# ROI List for uiefmiscanthus
+#
+# Site: uiefmiscanthus
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-07
+# Creation Time: 10:26:26
+# Update Date: 2019-01-08
+# Update Time: 10:42:44
+# Description: multi-plant agriculture
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-11-11,12:01:52,2018-04-30,11:58:44,uiefmiscanthus_AG_1000_01.tif,uiefmiscanthus_2010_12_17_113404.jpg
+

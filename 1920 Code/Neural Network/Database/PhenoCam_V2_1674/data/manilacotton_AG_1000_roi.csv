@@ -1,0 +1,16 @@
+#
+# ROI List for manilacotton
+#
+# Site: manilacotton
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:41:36
+# Update Date: 2018-07-30
+# Update Time: 15:41:36
+# Description: midground cropland
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-06-22,12:14:05,9999-12-31,00:00:00,manilacotton_AG_1000_01.tif,manilacotton_2016_09_02_121405.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for harvardfarmsouth
+#
+# Site: harvardfarmsouth
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 09:22:36
+# Update Date: 2018-09-14
+# Update Time: 14:46:19
+# Description: AG land in mid left
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-11-06,14:00:26,9999-12-31,00:00:00,harvardfarmsouth_AG_1000_01.tif,harvardfarmsouth_2015_11_06_140026.jpg
+

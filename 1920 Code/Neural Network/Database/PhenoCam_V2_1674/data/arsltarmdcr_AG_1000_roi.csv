@@ -1,0 +1,16 @@
+#
+# ROI List for arsltarmdcr
+#
+# Site: arsltarmdcr
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:52:44
+# Update Date: 2018-04-02
+# Update Time: 14:52:44
+# Description: entire AG land in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-05-10,16:51:05,9999-12-31,00:00:00,arsltarmdcr_AG_1000_01.tif,arsltarmdcr_2017_06_04_115105.jpg
+

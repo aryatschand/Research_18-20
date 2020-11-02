@@ -1,0 +1,16 @@
+#
+# ROI List for joycekilmer
+#
+# Site: joycekilmer
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-30
+# Creation Time: 13:46:13
+# Update Date: 2018-05-25
+# Update Time: 13:19:48
+# Description: Deciduous trees in foreground, many shifts covered by only including the common ROI
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2006-06-06,12:00:00,2013-06-26,10:03:09,joycekilmer_DB_1000_01.tif,joycekilmer_2013_06_26_100309.jpg
+

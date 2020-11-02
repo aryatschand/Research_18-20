@@ -1,0 +1,16 @@
+#
+# ROI List for nevcansnk3a
+#
+# Site: nevcansnk3a
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-06
+# Creation Time: 17:23:43
+# Update Date: 2018-06-06
+# Update Time: 17:23:43
+# Description: EN forest below canopy.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-09-19,18:00:05,9999-12-31,00:00:00,nevcansnk3a_EN_1000_01.tif,nevcansnk3a_2016_10_23_115506.jpg
+

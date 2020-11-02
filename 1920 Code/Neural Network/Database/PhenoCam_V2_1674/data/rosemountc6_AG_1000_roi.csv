@@ -1,0 +1,16 @@
+#
+# ROI List for rosemountc6
+#
+# Site: rosemountc6
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-03
+# Creation Time: 15:30:10
+# Update Date: 2018-08-03
+# Update Time: 15:30:10
+# Description: AG veg type in foreground of FOV.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-10-30,12:00:00,9999-12-31,00:00:00,rosemountc6_AG_1000_01.tif,rosemountc6_2016_12_01_120000.jpg
+

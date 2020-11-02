@@ -1,0 +1,16 @@
+#
+# ROI List for marena
+#
+# Site: marena
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:43:18
+# Update Date: 2018-07-30
+# Update Time: 15:43:18
+# Description: midground field of view
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-06-12,13:30:02,9999-12-31,00:00:00,marena_GR_1000_01.tif,marena_2012_06_12_133002.jpg
+

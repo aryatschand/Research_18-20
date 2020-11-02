@@ -1,0 +1,16 @@
+#
+# ROI List for willamettepoplar
+#
+# Site: willamettepoplar
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-06
+# Creation Time: 17:07:48
+# Update Date: 2018-08-06
+# Update Time: 17:07:48
+# Description: forground poplar plantation
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-04-08,14:30:06,9999-12-31,00:00:00,willamettepoplar_DB_1000_01.tif,willamettepoplar_2015_06_07_120006.jpg
+

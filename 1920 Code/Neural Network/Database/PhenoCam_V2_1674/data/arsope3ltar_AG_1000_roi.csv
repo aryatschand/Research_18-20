@@ -1,0 +1,16 @@
+#
+# ROI List for arsope3ltar
+#
+# Site: arsope3ltar
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:56:34
+# Update Date: 2018-04-02
+# Update Time: 14:56:34
+# Description: entire AG land in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-04-10,14:28:06,9999-12-31,00:00:00,arsope3ltar_AG_1000_01.tif,arsope3ltar_2017_05_19_115805.jpg
+

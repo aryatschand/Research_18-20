@@ -1,0 +1,16 @@
+#
+# ROI List for sweetbriar
+#
+# Site: sweetbriar
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:28
+# Update Date: 2018-05-15
+# Update Time: 13:53:14
+# Description: canopy level DB in the background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-09-09,14:30:21,9999-12-31,23:59:59,sweetbriar_DB_1000_01.tif,sweetbriar_2014_10_29_113005.jpg
+

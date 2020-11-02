@@ -1,0 +1,27 @@
+#
+# ROI List for bitterootvalley
+#
+# Site: bitterootvalley
+# Veg Type: DB
+# ROI ID Number: 3000
+# Owner: bijan
+# Creation Date: 2015-07-31
+# Creation Time: 09:28:02
+# Update Date: 2018-04-23
+# Update Time: 09:58:19
+# Description: Deciduous trees in center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-09-16,00:00:00,2011-11-03,14:00:00,bitterootvalley_DB_3000_01.tif,bitterootvalley_2011_09_16_130022.jpg
+2011-11-03,14:00:16,2011-11-28,10:00:40,bitterootvalley_DB_3000_02.tif,bitterootvalley_2011_11_03_140016.jpg
+2011-11-28,10:00:41,2011-12-01,08:00:23,bitterootvalley_DB_3000_03.tif,bitterootvalley_2011_11_28_100041.jpg
+2011-12-01,08:00:24,2011-12-05,13:00:37,bitterootvalley_DB_3000_04.tif,bitterootvalley_2011_12_01_080024.jpg
+2011-12-05,13:00:38,2012-10-17,09:00:12,bitterootvalley_DB_3000_05.tif,bitterootvalley_2011_12_05_130038.jpg
+2012-10-17,09:00:13,2012-10-29,09:00:26,bitterootvalley_DB_3000_06.tif,bitterootvalley_2012_10_17_090013.jpg
+2012-10-29,09:00:27,2012-11-22,06:00:05,bitterootvalley_DB_3000_07.tif,bitterootvalley_2012_10_29_090027.jpg
+2012-11-22,06:00:06,2012-12-06,16:00:08,bitterootvalley_DB_3000_08.tif,bitterootvalley_2012_11_22_080017.jpg
+2012-12-06,16:00:09,2013-02-13,06:00:05,bitterootvalley_DB_3000_09.tif,bitterootvalley_2012_12_06_160009.jpg
+2013-02-13,06:00:06,9999-12-31,23:59:59,bitterootvalley_DB_3000_10.tif,bitterootvalley_2013_02_13_060006.jpg
+2013-01-01,06:00:06,2016-05-02,12:00:11,bitterootvalley_DB_3000_11.tif,bitterootvalley_2016_05_02_120011.jpg
+2016-05-03,12:00:13,9999-12-31,00:00:00,bitterootvalley_DB_3000_12.tif,bitterootvalley_2018_01_19_120017.jpg
+

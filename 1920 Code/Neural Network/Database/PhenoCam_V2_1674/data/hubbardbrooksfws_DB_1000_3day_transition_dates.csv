@@ -1,0 +1,25 @@
+#
+# Transition date estimate for hubbardbrooksfws
+#
+# Site: hubbardbrooksfws
+# Veg Type: DB
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2012
+# Year max: 2012
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:31:05
+# Spline RMSE gcc_mean: 0.00211
+# Spline RMSE gcc_50: 0.00322
+# Spline RMSE gcc_75: 0.00169
+# Spline RMSE gcc_90: 0.00157
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+hubbardbrooksfws,DB,1000,rising,gcc_90,2012-05-07,2012-05-10,2012-05-15,2012-05-06,2012-05-09,2012-05-13,2012-05-09,2012-05-12,2012-05-16,0.34017,0.34387,0.3522,0.33847,0.36355
+hubbardbrooksfws,DB,1000,rising,gcc_75,2012-05-07,2012-05-10,2012-05-15,2012-05-06,2012-05-09,2012-05-13,2012-05-09,2012-05-12,2012-05-16,0.33928,0.34292,0.35092,0.33764,0.36212
+hubbardbrooksfws,DB,1000,rising,gcc_50,2012-05-04,2012-05-08,2012-05-17,2012-05-01,2012-05-06,2012-05-14,2012-05-07,2012-05-11,2012-05-20,0.33995,0.34244,0.34785,0.33809,0.35759
+hubbardbrooksfws,DB,1000,rising,gcc_mean,2012-05-08,2012-05-11,2012-05-16,2012-05-06,2012-05-09,2012-05-13,2012-05-11,2012-05-13,2012-05-17,0.33819,0.34125,0.34755,0.33677,0.35674
+hubbardbrooksfws,DB,1000,falling,gcc_90,2012-09-23,2012-09-14,2012-09-03,2012-09-28,2012-09-17,2012-09-07,2012-09-18,2012-09-11,2012-08-28,0.34268,0.34614,0.35192,0.34055,0.36308
+hubbardbrooksfws,DB,1000,falling,gcc_75,2012-09-24,2012-09-16,2012-09-02,2012-09-28,2012-09-19,2012-09-07,2012-09-20,2012-09-12,2012-08-28,0.34118,0.34446,0.35066,0.33923,0.36168
+hubbardbrooksfws,DB,1000,falling,gcc_50,2012-09-28,2012-09-21,2012-09-06,2012-10-03,2012-09-25,2012-09-11,2012-09-24,2012-09-15,2012-09-01,0.33895,0.34169,0.34686,0.33701,0.35657
+hubbardbrooksfws,DB,1000,falling,gcc_mean,2012-09-25,2012-09-20,2012-09-08,2012-10-04,2012-09-24,2012-09-13,2012-09-21,2012-09-15,2012-09-01,0.33889,0.34137,0.34573,0.33719,0.35425

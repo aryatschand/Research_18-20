@@ -1,0 +1,21 @@
+#
+# Transition date estimate for cperheavy
+#
+# Site: cperheavy
+# Veg Type: GR
+# ROI ID Number: 1000
+# Aggregation period: 1day
+# Year min: 2018
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:07:37
+# Spline RMSE gcc_mean: 0.00184
+# Spline RMSE gcc_50: 0.00194
+# Spline RMSE gcc_75: 0.0018
+# Spline RMSE gcc_90: 0.0019
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+cperheavy,GR,1000,falling,gcc_90,2018-06-13,2018-06-11,2018-06-08,2018-06-14,2018-06-12,2018-06-09,2018-06-12,2018-06-10,2018-06-07,0.32894,0.34214,0.36914,0.32059,0.41231
+cperheavy,GR,1000,falling,gcc_75,2018-06-13,2018-06-11,2018-06-08,2018-06-14,2018-06-12,2018-06-09,2018-06-12,2018-06-10,2018-06-07,0.32731,0.341,0.36739,0.31949,0.41064
+cperheavy,GR,1000,falling,gcc_50,2018-06-13,2018-06-11,2018-06-08,2018-06-14,2018-06-12,2018-06-09,2018-06-12,2018-06-10,2018-06-07,0.32546,0.33937,0.36591,0.31799,0.40929
+cperheavy,GR,1000,falling,gcc_mean,2018-06-13,2018-06-11,2018-06-08,2018-06-14,2018-06-12,2018-06-09,2018-06-12,2018-06-10,2018-06-07,0.32594,0.3397,0.36615,0.31768,0.40897

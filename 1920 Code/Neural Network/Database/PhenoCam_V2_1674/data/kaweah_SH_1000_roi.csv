@@ -1,0 +1,16 @@
+#
+# ROI List for kaweah
+#
+# Site: kaweah
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 11:01:34
+# Update Date: 2018-06-18
+# Update Time: 11:01:34
+# Description: shrubs on the hill
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-07-13,12:00:00,9999-12-31,00:00:00,kaweah_SH_1000_01.tif,kaweah_2011_07_13_120000.jpg
+

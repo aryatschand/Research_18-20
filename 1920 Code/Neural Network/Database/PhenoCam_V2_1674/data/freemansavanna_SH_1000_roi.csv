@@ -1,0 +1,16 @@
+#
+# ROI List for freemansavanna
+#
+# Site: freemansavanna
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 16:21:57
+# Update Date: 2018-04-09
+# Update Time: 16:21:57
+# Description: entire FOV (mixed spp shrubs)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-06-19,19:15:00,9999-12-31,00:00:00,freemansavanna_SH_1000_01.tif,freemansavanna_2014_08_06_140105.jpg
+

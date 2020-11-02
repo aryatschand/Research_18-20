@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D19.HEAL.DP1.00042
+#
+# Site: NEON.D19.HEAL.DP1.00042
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-07
+# Creation Time: 14:41:19
+# Update Date: 2018-06-07
+# Update Time: 14:41:19
+# Description: Entire TN in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-06,12:00:05,9999-12-31,00:00:00,NEON.D19.HEAL.DP1.00042_TN_1000_01.tif,NEON.D19.HEAL.DP1.00042_2016_08_31_120006.jpg
+

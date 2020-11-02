@@ -1,0 +1,16 @@
+#
+# ROI List for coville
+#
+# Site: coville
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-07
+# Creation Time: 14:47:36
+# Update Date: 2018-06-11
+# Update Time: 10:26:16
+# Description: forground TN
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-09-16,12:00:00,2014-06-02,15:00:00,coville_TN_1000_01.tif,coville_2010_09_16_120000.jpg
+

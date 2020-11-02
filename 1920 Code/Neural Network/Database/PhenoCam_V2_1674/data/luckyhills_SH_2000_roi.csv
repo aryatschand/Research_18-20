@@ -1,0 +1,16 @@
+#
+# ROI List for luckyhills
+#
+# Site: luckyhills
+# Veg Type: SH
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 09:53:04
+# Update Date: 2018-06-18
+# Update Time: 09:53:04
+# Description: shrubland in FOV, change in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-01-26,10:52:41,9999-12-31,00:00:00,luckyhills_SH_2000_01.tif,luckyhills_2015_01_28_133110.jpg
+

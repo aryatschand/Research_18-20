@@ -1,0 +1,16 @@
+#
+# ROI List for bouldincorn
+#
+# Site: bouldincorn
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 16:10:56
+# Update Date: 2018-04-02
+# Update Time: 16:10:56
+# Description: canopy level AG in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-07-12,11:45:05,9999-12-31,00:00:00,bouldincorn_AG_1000_01.tif,bouldincorn_2017_07_12_114505.jpg
+

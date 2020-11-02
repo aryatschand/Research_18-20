@@ -1,0 +1,16 @@
+#
+# ROI List for freemanwood
+#
+# Site: freemanwood
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 16:26:31
+# Update Date: 2018-04-09
+# Update Time: 16:26:31
+# Description: DB trees in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-06-30,12:01:15,9999-12-31,00:00:00,freemanwood_DB_1000_01.tif,freemanwood_2013_03_06_120109.jpg
+

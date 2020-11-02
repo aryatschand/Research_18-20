@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D07.GRSM.DP1.00042
+#
+# Site: NEON.D07.GRSM.DP1.00042
+# Veg Type: UN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-21
+# Creation Time: 09:41:14
+# Update Date: 2018-08-21
+# Update Time: 09:41:14
+# Description: understory plants
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-01-24,12:30:07,9999-12-31,00:00:00,NEON.D07.GRSM.DP1.00042_UN_1000_01.tif,NEON.D07.GRSM.DP1.00042_2017_07_24_120005.jpg
+

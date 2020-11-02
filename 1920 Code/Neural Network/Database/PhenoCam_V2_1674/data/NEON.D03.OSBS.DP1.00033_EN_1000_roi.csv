@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D03.OSBS.DP1.00033
+#
+# Site: NEON.D03.OSBS.DP1.00033
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 11:41:49
+# Update Date: 2018-02-26
+# Update Time: 11:41:49
+# Description: canopy level EN in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-12-15,12:00:05,9999-12-31,00:00:00,NEON.D03.OSBS.DP1.00033_EN_1000_01.tif,NEON.D03.OSBS.DP1.00033_2017_01_31_120006.jpg
+

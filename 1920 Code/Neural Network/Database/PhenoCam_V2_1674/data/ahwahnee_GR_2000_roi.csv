@@ -1,0 +1,19 @@
+#
+# ROI List for ahwahnee
+#
+# Site: ahwahnee
+# Veg Type: GR
+# ROI ID Number: 2000
+# Owner: amyoung
+# Creation Date: 2018-09-06
+# Creation Time: 15:58:37
+# Update Date: 2018-09-06
+# Update Time: 15:58:37
+# Description: GR veg type in foreground. 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-05-01,12:00:16,2012-04-30,12:00:18,ahwahnee_GR_2000_01.tif,ahwahnee_2012_04_30_120018.jpg
+2012-05-04,12:00:04,2012-11-24,12:00:08,ahwahnee_GR_2000_02.tif,ahwahnee_2012_11_24_120008.jpg
+2012-11-25,12:00:12,2014-12-15,12:00:05,ahwahnee_GR_2000_03.tif,ahwahnee_2014_12_15_120005.jpg
+2014-12-16,12:00:06,2015-06-30,12:00:08,ahwahnee_GR_2000_04.tif,ahwahnee_2015_06_30_120008.jpg
+

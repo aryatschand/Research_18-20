@@ -1,0 +1,16 @@
+#
+# ROI List for uiefprairie
+#
+# Site: uiefprairie
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 10:30:53
+# Update Date: 2018-08-07
+# Update Time: 10:30:53
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-10-22,15:14:20,9999-12-31,00:00:00,uiefprairie_GR_1000_01.tif,uiefprairie_2008_10_23_121452.jpg
+

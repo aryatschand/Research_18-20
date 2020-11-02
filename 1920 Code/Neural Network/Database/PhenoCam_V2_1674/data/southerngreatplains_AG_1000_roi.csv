@@ -1,0 +1,17 @@
+#
+# ROI List for southerngreatplains
+#
+# Site: southerngreatplains
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-03
+# Creation Time: 16:26:01
+# Update Date: 2018-08-03
+# Update Time: 16:26:01
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-05-16,12:01:36,2012-09-13,12:01:03,southerngreatplains_AG_1000_01.tif,southerngreatplains_2012_05_24_120106.jpg
+2012-10-18,12:01:04,9999-12-31,00:00:00,southerngreatplains_AG_1000_02.tif,southerngreatplains_2013_05_14_113103.jpg
+

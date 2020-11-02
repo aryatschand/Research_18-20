@@ -1,0 +1,16 @@
+#
+# ROI List for arbutuslakeinlet
+#
+# Site: arbutuslakeinlet
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:21:49
+# Update Date: 2018-10-08
+# Update Time: 16:20:02
+# Description: canopy level evergreen
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-19,14:30:57,2017-12-08,12:00:06,arbutuslakeinlet_EN_1000_01.tif,arbutuslakeinlet_2017_05_06_120006.jpg
+

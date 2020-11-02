@@ -1,0 +1,19 @@
+#
+# Transition date estimate for imcrktussock
+#
+# Site: imcrktussock
+# Veg Type: TN
+# ROI ID Number: 1000
+# Aggregation period: 1day
+# Year min: 2013
+# Year max: 2013
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:35:56
+# Spline RMSE gcc_mean: 0.0012
+# Spline RMSE gcc_50: 0.00124
+# Spline RMSE gcc_75: 0.00148
+# Spline RMSE gcc_90: 0.00187
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+imcrktussock,TN,1000,rising,gcc_90,2013-06-08,2013-06-12,2013-06-16,2013-06-05,2013-06-11,2013-06-14,2013-06-09,2013-06-14,2013-06-17,0.3404,0.34204,0.3457,0.33938,0.3515
+imcrktussock,TN,1000,falling,gcc_90,2013-08-25,2013-08-19,2013-08-13,2013-08-29,2013-08-22,2013-08-15,2013-08-20,2013-08-15,2013-08-11,0.34235,0.34379,0.34675,0.34139,0.35157

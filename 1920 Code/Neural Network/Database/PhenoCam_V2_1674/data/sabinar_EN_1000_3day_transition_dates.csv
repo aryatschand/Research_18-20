@@ -1,0 +1,21 @@
+#
+# Transition date estimate for sabinar
+#
+# Site: sabinar
+# Veg Type: EN
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2017
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 17:32:48
+# Spline RMSE gcc_mean: 0.0022
+# Spline RMSE gcc_50: 0.00237
+# Spline RMSE gcc_75: 0.00253
+# Spline RMSE gcc_90: 0.00299
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+sabinar,EN,1000,rising,gcc_90,2018-02-22,2018-02-25,2018-03-01,2018-02-18,2018-02-23,2018-02-28,2018-02-23,2018-02-26,2018-04-14,0.3722,0.37565,0.38422,0.37022,0.39413
+sabinar,EN,1000,rising,gcc_75,2018-02-22,2018-02-25,2018-03-01,2018-02-18,2018-02-23,2018-02-28,2018-02-23,2018-02-26,2018-04-14,0.37033,0.37326,0.38013,0.36878,0.38778
+sabinar,EN,1000,falling,gcc_90,2017-08-06,2017-07-31,2017-07-15,2017-08-07,2017-08-01,2017-07-16,2017-07-26,2017-07-17,2017-07-06,0.37444,0.37673,0.38047,0.37309,0.3878
+sabinar,EN,1000,falling,gcc_75,2017-08-05,2017-07-30,2017-07-16,2017-08-06,2017-07-31,2017-07-17,2017-07-26,2017-07-18,2017-07-09,0.37329,0.37517,0.37899,0.3719,0.38605

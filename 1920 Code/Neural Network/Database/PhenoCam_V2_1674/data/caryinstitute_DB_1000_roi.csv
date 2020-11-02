@@ -1,0 +1,16 @@
+#
+# ROI List for caryinstitute
+#
+# Site: caryinstitute
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 14:05:46
+# Update Date: 2018-10-09
+# Update Time: 11:01:30
+# Description: canopy level DB
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-04-17,12:00:35,9999-12-31,00:00:00,caryinstitute_DB_1000_01.tif,caryinstitute_2012_02_28_114046.jpg
+

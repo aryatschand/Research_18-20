@@ -1,0 +1,16 @@
+#
+# ROI List for donanapajarera
+#
+# Site: donanapajarera
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-01-16
+# Creation Time: 10:01:17
+# Update Date: 2018-04-09
+# Update Time: 15:40:24
+# Description: deciduous trees in the top right and left of the FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-11-12,12:08:07,9999-12-31,00:00:00,donanapajarera_DB_1000_01.tif,donanapajarera_2017_11_12_120807.jpg
+

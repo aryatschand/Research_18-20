@@ -1,0 +1,16 @@
+#
+# ROI List for niwotridge
+#
+# Site: niwotridge
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-01
+# Creation Time: 08:22:29
+# Update Date: 2018-08-01
+# Update Time: 08:22:29
+# Description: EN veg type, canopy view. No major shifts in field of view.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-01-01,12:13:18,9999-12-31,00:00:00,niwotridge_EN_1000_01.tif,niwotridge_2009_08_04_115827.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for willowcreek
+#
+# Site: willowcreek
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:24
+# Update Date: 2018-05-15
+# Update Time: 14:19:40
+# Description: Deciduous trees in foreground and near background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-04-26,12:01:17,9999-12-31,23:59:59,willowcreek_DB_1000_01.tif,willowcreek_2012_06_01_100109.jpg
+

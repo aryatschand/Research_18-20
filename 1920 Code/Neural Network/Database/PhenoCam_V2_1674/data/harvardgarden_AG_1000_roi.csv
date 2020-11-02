@@ -1,0 +1,16 @@
+#
+# ROI List for harvardgarden
+#
+# Site: harvardgarden
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 09:24:42
+# Update Date: 2018-07-23
+# Update Time: 09:24:42
+# Description: agriculture plots
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-06-11,11:54:05,9999-12-31,00:00:00,harvardgarden_AG_1000_01.tif,harvardgarden_2016_06_11_115405.jpg
+

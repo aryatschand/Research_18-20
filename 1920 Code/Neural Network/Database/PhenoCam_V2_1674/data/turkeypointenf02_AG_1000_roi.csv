@@ -1,0 +1,21 @@
+#
+# ROI List for turkeypointenf02
+#
+# Site: turkeypointenf02
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-07
+# Creation Time: 14:03:10
+# Update Date: 2018-08-07
+# Update Time: 14:03:10
+# Description: AG veg type in background of FOV.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-05-02,12:01:31,2013-07-07,12:01:30,turkeypointenf02_AG_1000_01.tif,turkeypointenf02_2013_07_07_120130.jpg
+2013-07-08,12:01:30,2014-06-30,11:31:29,turkeypointenf02_AG_1000_02.tif,turkeypointenf02_2014_06_30_113129.jpg
+2014-07-02,11:31:30,2014-07-22,12:01:31,turkeypointenf02_AG_1000_03.tif,turkeypointenf02_2014_07_22_120131.jpg
+2014-07-25,12:01:30,2017-07-01,12:01:32,turkeypointenf02_AG_1000_04.tif,turkeypointenf02_2017_07_01_120132.jpg
+2017-07-02,12:01:29,2018-06-13,12:01:29,turkeypointenf02_AG_1000_05.tif,turkeypointenf02_2018_06_13_120129.jpg
+2018-06-14,12:01:29,9999-12-31,00:00:00,turkeypointenf02_AG_1000_06.tif,turkeypointenf02_2018_08_04_120130.jpg
+

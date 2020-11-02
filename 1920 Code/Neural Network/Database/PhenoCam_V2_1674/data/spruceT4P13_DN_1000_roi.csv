@@ -1,0 +1,16 @@
+#
+# ROI List for spruceT4P13
+#
+# Site: spruceT4P13
+# Veg Type: DN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-09
+# Creation Time: 11:33:57
+# Update Date: 2018-02-09
+# Update Time: 11:33:57
+# Description: 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-25,06:00:00,9999-12-31,00:00:00,spruceT4P13_DN_1000_01.tif,spruceT4P13_2015_08_29_120006.jpg
+

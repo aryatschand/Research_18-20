@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D09.DCFS.DP1.00033
+#
+# Site: NEON.D09.DCFS.DP1.00033
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 14:44:59
+# Update Date: 2018-02-26
+# Update Time: 14:44:59
+# Description: entire land FOV (not yet clear if vegetated)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-10-31,12:00:06,9999-12-31,00:00:00,NEON.D09.DCFS.DP1.00033_GR_1000_01.tif,NEON.D09.DCFS.DP1.00033_2017_11_15_120005.jpg
+

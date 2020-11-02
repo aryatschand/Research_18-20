@@ -1,0 +1,18 @@
+#
+# ROI List for turkeypointenf02
+#
+# Site: turkeypointenf02
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-20
+# Creation Time: 17:59:18
+# Update Date: 2018-08-03
+# Update Time: 11:30:47
+# Description: EN veg type. 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-05-06,12:01:34,2014-06-30,11:31:29,turkeypointenf02_EN_1000_01.tif,turkeypointenf02_2013_05_03_120130.jpg
+2014-07-01,10:31:28,2014-07-22,12:01:31,turkeypointenf02_EN_1000_02.tif,turkeypointenf02_2014_07_22_120131.jpg
+2014-07-25,12:01:30,9999-12-31,00:00:00,turkeypointenf02_EN_1000_03.tif,turkeypointenf02_2015_08_27_120131.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for merbleue
+#
+# Site: merbleue
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:48:39
+# Update Date: 2018-07-30
+# Update Time: 15:48:39
+# Description: shrubs in the wetland
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-11-19,12:01:04,9999-12-31,00:00:00,merbleue_WL_1000_01.tif,merbleue_2012_11_19_120104.jpg
+

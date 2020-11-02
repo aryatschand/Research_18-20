@@ -1,0 +1,16 @@
+#
+# ROI List for sagehen
+#
+# Site: sagehen
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-06
+# Creation Time: 17:30:35
+# Update Date: 2018-06-06
+# Update Time: 17:30:35
+# Description: EN forest. Field of view above canopy.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-10-05,17:56:05,9999-12-31,00:00:00,sagehen_EN_1000_01.tif,sagehen_2017_10_09_115606.jpg
+

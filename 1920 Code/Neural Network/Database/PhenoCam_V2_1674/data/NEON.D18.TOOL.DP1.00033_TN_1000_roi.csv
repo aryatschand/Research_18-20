@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D18.TOOL.DP1.00033
+#
+# Site: NEON.D18.TOOL.DP1.00033
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 16:00:19
+# Update Date: 2018-06-07
+# Update Time: 14:33:34
+# Description: Entire TN in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-02-24,12:00:06,9999-12-31,00:00:00,NEON.D18.TOOL.DP1.00033_TN_1000_01.tif,NEON.D18.TOOL.DP1.00033_2017_09_17_120005.jpg
+

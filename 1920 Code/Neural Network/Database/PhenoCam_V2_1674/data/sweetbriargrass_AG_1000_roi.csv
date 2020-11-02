@@ -1,0 +1,16 @@
+#
+# ROI List for sweetbriargrass
+#
+# Site: sweetbriargrass
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-03
+# Creation Time: 16:36:32
+# Update Date: 2018-08-03
+# Update Time: 16:36:32
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-03-24,14:30:06,9999-12-31,00:00:00,sweetbriargrass_AG_1000_01.tif,sweetbriargrass_2016_03_24_143006.jpg
+

@@ -1,0 +1,17 @@
+#
+# ROI List for huyckpreserveny
+#
+# Site: huyckpreserveny
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-05-14
+# Creation Time: 10:00:59
+# Update Date: 2018-04-30
+# Update Time: 13:19:37
+# Description: Birch on right of FOV.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-04-06,14:00:00,2016-11-04,12:59:59,huyckpreserveny_DB_1000_01.tif,huyckpreserveny_2015_04_15_120456.jpg
+2016-11-04,13:00:00,9999-12-31,23:59:59,huyckpreserveny_DB_1000_02.tif,huyckpreserveny_2016_11_04_130011.jpg
+

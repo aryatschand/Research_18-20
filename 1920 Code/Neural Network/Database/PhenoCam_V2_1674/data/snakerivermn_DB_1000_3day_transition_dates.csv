@@ -1,0 +1,24 @@
+#
+# Transition date estimate for snakerivermn
+#
+# Site: snakerivermn
+# Veg Type: DB
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2010
+# Year max: 2010
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 17:43:15
+# Spline RMSE gcc_mean: 0.00244
+# Spline RMSE gcc_50: 0.00456
+# Spline RMSE gcc_75: 0.00358
+# Spline RMSE gcc_90: 0.00352
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+snakerivermn,DB,1000,rising,gcc_90,2010-05-04,2010-05-15,2010-05-21,2010-05-01,2010-05-14,2010-05-19,2010-05-11,2010-05-17,2010-05-22,0.36152,0.37345,0.39824,0.35392,0.4367
+snakerivermn,DB,1000,rising,gcc_50,2010-04-18,2010-05-14,2010-05-21,2010-01-13,2010-05-11,2010-05-19,2010-04-29,2010-05-16,2010-05-22,0.35215,0.36479,0.38876,0.34391,0.42838
+snakerivermn,DB,1000,rising,gcc_mean,2010-04-24,2010-05-16,2010-05-21,2010-04-10,2010-05-15,2010-05-19,2010-05-01,2010-05-17,2010-05-22,0.35294,0.36569,0.39086,0.34454,0.42957
+snakerivermn,DB,1000,falling,gcc_90,2010-09-28,2010-09-22,2010-08-09,2010-09-30,2010-09-23,2010-08-21,2010-09-25,2010-09-20,2010-07-13,0.35196,0.36421,0.38529,0.34463,0.42539
+snakerivermn,DB,1000,falling,gcc_75,2010-09-29,2010-09-23,2010-08-11,2010-10-01,2010-09-24,2010-08-21,2010-09-26,2010-09-21,2010-07-13,0.3501,0.36119,0.38261,0.34296,0.42134
+snakerivermn,DB,1000,falling,gcc_50,2010-09-29,2010-09-23,2010-08-30,2010-10-02,2010-09-25,2010-09-15,2010-09-26,2010-09-20,2010-07-13,0.3487,0.35917,0.37839,0.34218,0.41443
+snakerivermn,DB,1000,falling,gcc_mean,2010-09-29,2010-09-24,2010-09-03,2010-10-01,2010-09-25,2010-09-17,2010-09-27,2010-09-22,2010-08-31,0.34824,0.35776,0.37582,0.34198,0.40769

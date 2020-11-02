@@ -1,0 +1,16 @@
+#
+# ROI List for bozeman
+#
+# Site: bozeman
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-08
+# Creation Time: 12:07:25
+# Update Date: 2018-08-08
+# Update Time: 12:07:25
+# Description: EN veg type on hilltop in background.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-11-11,11:18:05,9999-12-31,00:00:00,bozeman_EN_1000_01.tif,bozeman_2016_11_22_114806.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for daniel
+#
+# Site: daniel
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 14:15:03
+# Update Date: 2018-04-09
+# Update Time: 14:15:03
+# Description: exposed EN forest in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-05-14,12:02:00,9999-12-31,00:00:00,daniel_EN_1000_01.tif,daniel_2015_08_08_120200.jpg
+

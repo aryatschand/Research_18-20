@@ -1,0 +1,18 @@
+#
+# ROI List for woodshole
+#
+# Site: woodshole
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:28
+# Update Date: 2018-05-15
+# Update Time: 14:20:36
+# Description: Deciduous trees in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-04-14,15:30:00,2011-04-27,10:31:00,woodshole_DB_1000_01.tif,woodshole_2011_04_15_103001.jpg
+2011-04-27,11:00:01,2012-02-13,23:59:59,woodshole_DB_1000_02.tif,woodshole_2011_04_27_130001.jpg
+2012-02-14,00:00:00,9999-12-31,23:59:59,woodshole_DB_1000_03.tif,woodshole_2012_02_15_110258.jpg
+

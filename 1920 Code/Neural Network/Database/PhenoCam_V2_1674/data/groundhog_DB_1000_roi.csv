@@ -1,0 +1,16 @@
+#
+# ROI List for groundhog
+#
+# Site: groundhog
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-03-31
+# Creation Time: 11:25:12
+# Update Date: 2018-04-30
+# Update Time: 09:08:27
+# Description: Scattered deciduous trees
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-10-22,07:00:00,2012-03-05,12:00:00,groundhog_DB_1000_01.tif,groundhog_2008_10_22_123136.jpg
+

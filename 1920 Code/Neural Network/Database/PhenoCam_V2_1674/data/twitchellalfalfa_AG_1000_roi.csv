@@ -1,0 +1,16 @@
+#
+# ROI List for twitchellalfalfa
+#
+# Site: twitchellalfalfa
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-06
+# Creation Time: 15:30:07
+# Update Date: 2018-08-06
+# Update Time: 15:30:07
+# Description: AG veg type.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-05-24,12:11:00,9999-12-31,00:00:00,twitchellalfalfa_AG_1000_01.tif,twitchellalfalfa_2013_05_24_121100.jpg
+

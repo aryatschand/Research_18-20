@@ -1,0 +1,16 @@
+#
+# ROI List for groundhog
+#
+# Site: groundhog
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2016-03-29
+# Creation Time: 14:44:04
+# Update Date: 2018-04-30
+# Update Time: 09:10:23
+# Description: Continuation of DB 1000 - baseline shift
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-03-05,12:00:00,9999-12-31,23:59:59,groundhog_DB_2000_01.tif,groundhog_2012_03_05_123134.jpg
+

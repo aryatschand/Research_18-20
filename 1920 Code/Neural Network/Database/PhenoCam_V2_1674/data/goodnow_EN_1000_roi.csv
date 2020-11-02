@@ -1,0 +1,21 @@
+#
+# ROI List for goodnow
+#
+# Site: goodnow
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-06-06
+# Creation Time: 15:29:36
+# Update Date: 2018-06-06
+# Update Time: 15:29:36
+# Description: EN forest
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-12-02,10:59:52,2015-04-21,12:21:52,goodnow_EN_1000_01.tif,goodnow_2015_04_21_122152.jpg
+2015-04-22,11:51:22,2015-05-06,11:51:21,goodnow_EN_1000_02.tif,goodnow_2015_04_22_115122.jpg
+2015-05-07,11:45:22,2015-07-21,11:45:14,goodnow_EN_1000_03.tif,goodnow_2015_07_21_114514.jpg
+2015-07-22,11:45:14,2018-05-04,12:09:52,goodnow_EN_1000_04.tif,goodnow_2018_05_04_120952.jpg
+2018-05-05,16:04:56,2018-05-16,12:14:52,goodnow_EN_1000_05.tif,goodnow_2018_05_16_121452.jpg
+2018-05-05,16:04:56,9999-12-31,00:00:00,goodnow_EN_1000_06.tif,goodnow_2018_05_22_115949.jpg
+

@@ -1,0 +1,25 @@
+#
+# Transition date estimate for columbiamissouri
+#
+# Site: columbiamissouri
+# Veg Type: DB
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2007
+# Year max: 2007
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:05:55
+# Spline RMSE gcc_mean: 0.00179
+# Spline RMSE gcc_50: 0.00236
+# Spline RMSE gcc_75: 0.0023
+# Spline RMSE gcc_90: 0.0026
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+columbiamissouri,DB,1000,rising,gcc_90,2007-04-29,2007-05-02,2007-05-06,2007-04-28,2007-05-01,2007-05-04,2007-05-01,2007-05-04,2007-05-07,0.33366,0.34018,0.35318,0.33028,0.37406
+columbiamissouri,DB,1000,rising,gcc_75,2007-04-29,2007-05-02,2007-05-06,2007-04-28,2007-05-01,2007-05-05,2007-05-01,2007-05-04,2007-05-07,0.33286,0.33922,0.35185,0.32987,0.37314
+columbiamissouri,DB,1000,rising,gcc_50,2007-04-30,2007-05-02,2007-05-07,2007-04-28,2007-05-01,2007-05-05,2007-05-02,2007-05-04,2007-05-08,0.33338,0.33762,0.35303,0.32932,0.37098
+columbiamissouri,DB,1000,rising,gcc_mean,2007-04-30,2007-05-03,2007-05-07,2007-04-29,2007-05-02,2007-05-05,2007-05-02,2007-05-04,2007-05-08,0.33268,0.33993,0.35353,0.3294,0.37172
+columbiamissouri,DB,1000,falling,gcc_90,2007-11-01,2007-10-30,2007-10-26,2007-11-02,2007-10-31,2007-10-28,2007-10-30,2007-10-29,2007-10-25,0.31432,0.32322,0.33788,0.31432,0.35782
+columbiamissouri,DB,1000,falling,gcc_75,2007-11-01,2007-10-30,2007-10-27,2007-11-02,2007-10-31,2007-10-28,2007-10-30,2007-10-29,2007-10-26,0.31298,0.32203,0.33426,0.31095,0.35701
+columbiamissouri,DB,1000,falling,gcc_50,2007-11-01,2007-10-30,2007-10-27,2007-11-02,2007-10-31,2007-10-28,2007-10-30,2007-10-29,2007-10-26,0.31075,0.32004,0.33265,0.30865,0.35572
+columbiamissouri,DB,1000,falling,gcc_mean,2007-11-01,2007-10-31,2007-10-27,2007-11-02,2007-11-01,2007-10-29,2007-10-31,2007-10-29,2007-10-26,0.31047,0.31558,0.33425,0.3081,0.35612

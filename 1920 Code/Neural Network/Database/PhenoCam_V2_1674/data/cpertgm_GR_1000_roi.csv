@@ -1,0 +1,16 @@
+#
+# ROI List for cpertgm
+#
+# Site: cpertgm
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-17
+# Creation Time: 16:52:52
+# Update Date: 2018-07-17
+# Update Time: 16:52:52
+# Description: entire grassland in FOV 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-05-05,12:00:07,9999-12-31,00:00:00,cpertgm_GR_1000_01.tif,cpertgm_2016_05_05_120007.jpg
+

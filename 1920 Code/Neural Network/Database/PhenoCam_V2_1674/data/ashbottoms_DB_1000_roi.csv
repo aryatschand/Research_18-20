@@ -1,0 +1,16 @@
+#
+# ROI List for ashbottoms
+#
+# Site: ashbottoms
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2015-11-30
+# Creation Time: 13:27:34
+# Update Date: 2018-04-17
+# Update Time: 16:02:42
+# Description: Deciduous trees in back of field
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-01-01,00:00:00,9999-12-31,23:59:59,ashbottoms_DB_1000_01.tif,ashbottoms_2015_08_19_120006.jpg
+

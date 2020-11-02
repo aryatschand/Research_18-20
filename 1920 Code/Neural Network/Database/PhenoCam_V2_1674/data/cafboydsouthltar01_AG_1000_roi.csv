@@ -1,0 +1,15 @@
+#
+# ROI List for cafboydsouthltar01
+#
+# Site: cafboydsouthltar01
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: tmilliman
+# Creation Date: 2018-07-13
+# Creation Time: 18:50:25
+# Update Date: 2018-07-13
+# Update Time: 18:50:25
+# Description: AG field in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2018-05-22,00:00:00,9999-12-31,00:00:00,cafboydsouthltar01_AG_1000_01.tif,cafboydsouthltar01_2018_05_22_121706.jpg

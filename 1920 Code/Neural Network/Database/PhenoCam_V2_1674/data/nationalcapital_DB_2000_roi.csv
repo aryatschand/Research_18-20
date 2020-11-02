@@ -1,0 +1,52 @@
+#
+# ROI List for nationalcapital
+#
+# Site: nationalcapital
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-04-17
+# Creation Time: 10:51:12
+# Update Date: 2018-10-16
+# Update Time: 13:09:57
+# Description: Deciduous trees in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2009-10-08,13:05:00,2010-01-03,13:02:59,nationalcapital_DB_2000_01.tif,nationalcapital_2009_10_08_130500.jpg
+2010-01-03,13:03:00,2010-02-28,12:01:59,nationalcapital_DB_2000_02.tif,nationalcapital_2010_01_03_130300.jpg
+2010-02-28,12:02:00,2010-06-17,07:00:59,nationalcapital_DB_2000_03.tif,nationalcapital_2010_02_28_120200.jpg
+2010-06-17,07:01:00,2010-07-05,06:59:59,nationalcapital_DB_2000_04.tif,nationalcapital_2010_06_17_070100.jpg
+2010-07-05,07:00:00,2010-11-18,14:01:59,nationalcapital_DB_2000_05.tif,nationalcapital_2010_07_05_070000.jpg
+2010-11-18,14:02:00,2011-01-02,12:00:59,nationalcapital_DB_2000_06.tif,nationalcapital_2010_11_18_140200.jpg
+2011-01-02,12:01:00,2011-01-03,10:00:59,nationalcapital_DB_2000_07.tif,nationalcapital_2011_01_02_120100.jpg
+2011-01-03,10:01:00,2011-02-03,11:00:59,nationalcapital_DB_2000_08.tif,nationalcapital_2011_01_03_100100.jpg
+2011-02-03,11:01:00,2011-02-15,12:00:59,nationalcapital_DB_2000_09.tif,nationalcapital_2011_02_03_110100.jpg
+2011-02-15,12:01:00,2011-02-20,09:00:59,nationalcapital_DB_2000_10.tif,nationalcapital_2011_02_15_120100.jpg
+2011-02-20,09:01:00,2011-02-25,11:02:59,nationalcapital_DB_2000_11.tif,nationalcapital_2011_02_20_090100.jpg
+2011-02-25,11:03:00,2011-03-11,09:00:59,nationalcapital_DB_2000_12.tif,nationalcapital_2011_02_25_110300.jpg
+2011-03-11,09:01:00,2011-04-18,11:00:59,nationalcapital_DB_2000_13.tif,nationalcapital_2011_03_11_090100.jpg
+2011-04-18,11:01:00,2011-04-25,15:02:59,nationalcapital_DB_2000_14.tif,nationalcapital_2011_04_18_110100.jpg
+2011-04-25,15:03:00,2011-06-16,10:00:59,nationalcapital_DB_2000_15.tif,nationalcapital_2011_04_25_150300.jpg
+2011-06-16,10:01:00,2011-07-08,11:00:59,nationalcapital_DB_2000_16.tif,nationalcapital_2011_06_16_100100.jpg
+2011-07-08,11:01:00,2011-08-30,15:00:59,nationalcapital_DB_2000_17.tif,nationalcapital_2011_07_08_110100.jpg
+2011-08-30,15:01:00,2011-10-06,14:01:09,nationalcapital_DB_2000_18.tif,nationalcapital_2011_08_30_150100.jpg
+2011-10-06,14:01:10,2011-10-06,15:01:20,nationalcapital_DB_2000_19.tif,nationalcapital_2011_10_06_140110.jpg
+2011-10-06,15:01:21,2011-10-07,12:01:21,nationalcapital_DB_2000_20.tif,nationalcapital_2011_10_06_150121.jpg
+2011-10-07,12:01:22,2011-10-17,15:01:07,nationalcapital_DB_2000_21.tif,nationalcapital_2011_10_07_120122.jpg
+2011-10-17,15:01:08,2013-06-15,00:00:00,nationalcapital_DB_2000_22.tif,nationalcapital_2011_10_17_150108.jpg
+2013-06-15,00:00:01,2013-07-15,00:00:00,nationalcapital_DB_2000_23.tif,nationalcapital_2013_06_18_120245.jpg
+2013-07-15,00:00:01,2013-10-22,00:00:00,nationalcapital_DB_2000_24.tif,nationalcapital_2013_07_15_130058.jpg
+2013-10-22,00:00:01,2014-03-11,14:15:00,nationalcapital_DB_2000_25.tif,nationalcapital_2013_10_22_110219.jpg
+2014-03-12,00:00:00,2014-04-24,12:15:00,nationalcapital_DB_2000_26.tif,nationalcapital_2014_03_12_110053.jpg
+2014-04-24,13:00:00,2014-04-28,00:00:00,nationalcapital_DB_2000_27.tif,nationalcapital_2014_04_24_130046.jpg
+2014-04-28,00:00:00,2014-05-24,15:00:00,nationalcapital_DB_2000_28.tif,nationalcapital_2014_04_28_100043.jpg
+2014-06-02,14:00:00,2014-10-06,12:00:00,nationalcapital_DB_2000_29.tif,nationalcapital_2014_06_02_140051.jpg
+2014-10-15,00:00:00,2015-05-23,11:00:00,nationalcapital_DB_2000_30.tif,nationalcapital_2014_10_18_120051.jpg
+2015-06-03,00:00:00,2015-07-17,00:00:00,nationalcapital_DB_2000_31.tif,nationalcapital_2015_06_06_130055.jpg
+2015-07-17,00:00:00,2015-09-09,10:00:00,nationalcapital_DB_2000_32.tif,nationalcapital_2015_07_22_140052.jpg
+2015-09-09,10:00:00,2016-01-01,00:00:00,nationalcapital_DB_2000_33.tif,nationalcapital_2015_09_09_100502.jpg
+2016-01-01,00:00:00,2016-03-01,00:00:00,nationalcapital_DB_2000_34.tif,nationalcapital_2016_01_01_120041.jpg
+2016-03-01,00:00:00,2016-06-15,00:00:00,nationalcapital_DB_2000_35.tif,nationalcapital_2016_03_02_120155.jpg
+2016-06-15,00:00:00,2016-07-26,00:00:00,nationalcapital_DB_2000_36.tif,nationalcapital_2016_06_15_130100.jpg
+2016-07-26,00:00:00,9999-12-31,23:59:59,nationalcapital_DB_2000_37.tif,nationalcapital_2016_07_26_120053.jpg
+

@@ -1,0 +1,22 @@
+#
+# ROI List for harvardhemlock
+#
+# Site: harvardhemlock
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-23
+# Creation Time: 11:13:24
+# Update Date: 2019-01-10
+# Update Time: 10:03:30
+# Description: DB forest on the hill
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2010-06-08,11:48:31,2012-05-08,12:01:43,harvardhemlock_DB_1000_01.tif,harvardhemlock_2012_05_08_120143.jpg
+2012-05-10,12:01:44,2012-08-08,12:01:45,harvardhemlock_DB_1000_02.tif,harvardhemlock_2012_07_12_120143.jpg
+2012-08-09,12:01:44,2018-03-02,12:01:44,harvardhemlock_DB_1000_03.tif,harvardhemlock_2018_03_02_120144.jpg
+2018-03-03,12:01:43,2018-04-03,12:01:45,harvardhemlock_DB_1000_04.tif,harvardhemlock_2018_04_03_120145.jpg
+2018-04-05,12:01:44,2018-04-14,12:01:42,harvardhemlock_DB_1000_05.tif,harvardhemlock_2018_04_14_120142.jpg
+2018-04-16,12:01:43,2018-11-03,12:01:45,harvardhemlock_DB_1000_06.tif,harvardhemlock_2018_04_18_120144.jpg
+2018-11-04,12:01:43,9999-12-31,00:00:00,harvardhemlock_DB_1000_07.tif,harvardhemlock_2018_11_04_120143.jpg
+

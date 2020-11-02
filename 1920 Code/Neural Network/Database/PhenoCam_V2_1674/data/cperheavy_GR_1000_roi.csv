@@ -1,0 +1,17 @@
+#
+# ROI List for cperheavy
+#
+# Site: cperheavy
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-17
+# Creation Time: 16:50:22
+# Update Date: 2018-07-17
+# Update Time: 16:50:22
+# Description: entire grassland in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2018-05-24,12:11:07,2018-06-12,12:11:07,cperheavy_GR_1000_01.tif,cperheavy_2018_06_12_121107.jpg
+2018-06-13,12:11:06,9999-12-31,00:00:00,cperheavy_GR_1000_02.tif,cperheavy_2018_06_13_121106.jpg
+

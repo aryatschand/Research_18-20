@@ -1,0 +1,16 @@
+#
+# ROI List for gatesofthemountains
+#
+# Site: gatesofthemountains
+# Veg Type: GR
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-03-26
+# Creation Time: 12:10:04
+# Update Date: 2018-12-20
+# Update Time: 08:47:22
+# Description: Grassy patch in near left foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2011-08-11,08:54:00,9999-12-31,23:59:59,gatesofthemountains_GR_2000_01.tif,gatesofthemountains_2011_08_11_120100.jpg
+

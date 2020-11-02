@@ -1,0 +1,16 @@
+#
+# ROI List for oakville
+#
+# Site: oakville
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 09:44:27
+# Update Date: 2018-08-07
+# Update Time: 09:44:27
+# Description: foreground grass
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-08-07,12:00:07,9999-12-31,00:00:00,oakville_GR_1000_01.tif,oakville_2014_08_07_120007.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for bartlett
+#
+# Site: bartlett
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2014-11-01
+# Creation Time: 21:58:24
+# Update Date: 2018-04-17
+# Update Time: 16:35:09
+# Description: Deciduous trees in foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2006-07-01,00:00:00,2007-03-01,00:00:00,bartlett_DB_2000_01.tif,bartlett_2006_07_24_131339.jpg
+

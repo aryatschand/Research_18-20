@@ -1,0 +1,16 @@
+#
+# ROI List for umichbiological
+#
+# Site: umichbiological
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2015-01-30
+# Creation Time: 15:04:24
+# Update Date: 2018-05-15
+# Update Time: 14:12:21
+# Description: Deciduous trees in near background
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-03-29,00:00:00,9999-12-31,23:59:59,umichbiological_DB_2000_01.tif,umichbiological_2014_03_29_110006.jpg
+

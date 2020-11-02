@@ -1,0 +1,15 @@
+#
+# ROI List for spruceT0P06
+#
+# Site: spruceT0P06
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: ADR
+# Creation Date: 2018-02-21
+# Creation Time: 11:37:28
+# Update Date: 2018-02-21
+# Update Time: 17:39:49
+# Description: 
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-25,06:00:00,9999-12-31,00:00:00,spruceT0P06_EN_1000_01.tif,spruceT0P06_2015_11_01_120006.jpg

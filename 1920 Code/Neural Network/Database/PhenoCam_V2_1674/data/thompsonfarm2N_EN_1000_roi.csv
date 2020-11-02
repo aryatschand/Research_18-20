@@ -1,0 +1,16 @@
+#
+# ROI List for thompsonfarm2N
+#
+# Site: thompsonfarm2N
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-08-07
+# Creation Time: 13:30:38
+# Update Date: 2018-08-07
+# Update Time: 13:30:38
+# Description: Patch of EN veg type in foreground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2009-01-11,18:08:00,2010-01-11,12:06:00,thompsonfarm2N_EN_1000_01.tif,thompsonfarm2N_2010_01_11_120600.jpg
+

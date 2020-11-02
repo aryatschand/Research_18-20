@@ -1,0 +1,21 @@
+#
+# Transition date estimate for imcrkridge1
+#
+# Site: imcrkridge1
+# Veg Type: TN
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2014
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:34:59
+# Spline RMSE gcc_mean: 0.00087
+# Spline RMSE gcc_50: 0.00122
+# Spline RMSE gcc_75: 0.00128
+# Spline RMSE gcc_90: 0.00128
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+imcrkridge1,TN,1000,rising,gcc_90,2014-06-16,2014-06-24,2014-07-03,2014-06-15,2014-06-23,2014-07-02,2014-06-19,2014-06-26,2014-07-04,0.34237,0.34707,0.35464,0.33961,0.36947
+imcrkridge1,TN,1000,rising,gcc_75,2014-06-16,2014-06-23,2014-07-03,2014-06-15,2014-06-22,2014-07-02,2014-06-19,2014-06-25,2014-07-04,0.3417,0.34519,0.35281,0.3393,0.36512
+imcrkridge1,TN,1000,falling,gcc_90,2018-09-19,2018-09-04,2018-08-27,2018-09-22,2018-09-14,2018-09-14,2018-08-19,2018-08-12,2018-08-12,0.34134,0.34552,0.35364,0.33855,0.36851
+imcrkridge1,TN,1000,falling,gcc_75,2018-09-20,2018-09-05,2018-08-28,2018-09-22,2018-09-14,2018-09-14,2018-08-25,2018-08-12,2018-08-12,0.34056,0.34485,0.3534,0.3378,0.36827

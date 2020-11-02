@@ -1,0 +1,20 @@
+#
+# ROI List for sherman
+#
+# Site: sherman
+# Veg Type: GR
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 12:21:33
+# Update Date: 2018-08-07
+# Update Time: 12:21:33
+# Description: grass in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-01-01,11:45:00,2014-08-18,11:45:00,sherman_GR_1000_01.tif,sherman_2014_01_01_114500.jpg
+2014-08-19,11:45:00,2014-09-03,11:45:00,sherman_GR_1000_02.tif,sherman_2014_08_19_114500.jpg
+2014-09-04,11:45:00,2014-09-07,11:45:00,sherman_GR_1000_03.tif,sherman_2014_09_04_114500.jpg
+2014-09-08,11:45:00,2014-09-17,11:45:00,sherman_GR_1000_04.tif,sherman_2014_09_08_114500.jpg
+2014-09-18,11:45:00,9999-12-31,00:00:00,sherman_GR_1000_05.tif,sherman_2014_09_18_114500.jpg
+

@@ -1,0 +1,21 @@
+#
+# ROI List for harvardbarn
+#
+# Site: harvardbarn
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-11-21
+# Creation Time: 16:24:32
+# Update Date: 2018-04-30
+# Update Time: 09:21:03
+# Description: Part of the DB forest, (several shift in a mixed forest)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-03-23,14:31:07,2013-03-26,15:00:00,harvardbarn_DB_1000_01.tif,harvardbarn_2012_03_23_143107.jpg
+2013-03-27,14:01:03,2013-04-04,10:31:00,harvardbarn_DB_1000_02.tif,harvardbarn_2013_03_27_140103.jpg
+2013-04-04,10:31:01,2013-11-19,15:31:01,harvardbarn_DB_1000_03.tif,harvardbarn_2013_04_04_103101.jpg
+2013-11-19,15:31:02,2014-06-25,13:46:02,harvardbarn_DB_1000_04.tif,harvardbarn_2013_11_19_153102.jpg
+2014-07-09,10:01:03,2015-04-22,09:00:05,harvardbarn_DB_1000_07.tif,harvardbarn_2014_07_09_100103.jpg
+2015-04-22,09:46:02,9999-12-31,23:59:59,harvardbarn_DB_1000_08.tif,harvardbarn_2015_04_22_094602.jpg
+

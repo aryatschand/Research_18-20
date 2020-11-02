@@ -1,0 +1,15 @@
+#
+# ROI List for rosemountconv
+#
+# Site: rosemountconv
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: tmilliman
+# Creation Date: 2018-07-13
+# Creation Time: 15:12:01
+# Update Date: 2018-07-13
+# Update Time: 15:12:01
+# Description: AG field avoiding instruments.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-05-18,00:00:00,9999-12-31,23:59:59,rosemountconv_AG_1000_01.tif,rosemountconv_2017_05_18_130000.jpg

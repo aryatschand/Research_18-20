@@ -1,0 +1,15 @@
+#
+# ROI List for pace
+#
+# Site: pace
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: tmilliman
+# Creation Date: 2018-07-23
+# Creation Time: 14:22:48
+# Update Date: 2018-07-23
+# Update Time: 14:22:48
+# Description: Deciduous trees in foreground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-06-27,00:00:00,9999-12-31,23:59:59,pace_DB_1000_01.tif,pace_2017_06_27_122105.jpg

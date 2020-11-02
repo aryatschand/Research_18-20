@@ -1,0 +1,20 @@
+#
+# ROI List for smokypurchase
+#
+# Site: smokypurchase
+# Veg Type: DB
+# ROI ID Number: 3000
+# Owner: bijan
+# Creation Date: 2015-07-31
+# Creation Time: 14:29:06
+# Update Date: 2018-05-25
+# Update Time: 13:11:32
+# Description: Deciduous trees in near background center
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2008-07-03,00:00:00,2008-12-13,08:06:59,smokypurchase_DB_3000_01.tif,smokypurchase_2006_11_21_150000.jpg
+2008-12-13,08:07:00,2010-07-22,08:01:00,smokypurchase_DB_3000_02.tif,smokypurchase_2008_12_13_130700.jpg
+2010-07-28,16:01:00,2012-02-17,12:04:38,smokypurchase_DB_3000_03.tif,smokypurchase_2012_02_17_120438.jpg
+2012-02-18,12:06:45,2014-12-07,12:01:14,smokypurchase_DB_3000_04.tif,smokypurchase_2014_12_07_120114.jpg
+2014-12-07,12:01:14,2016-01-01,00:00:00,smokypurchase_DB_3000_05.tif,smokypurchase_2018_05_21_112911.jpg
+

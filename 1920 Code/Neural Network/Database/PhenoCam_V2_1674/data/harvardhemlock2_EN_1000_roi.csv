@@ -1,0 +1,16 @@
+#
+# ROI List for harvardhemlock2
+#
+# Site: harvardhemlock2
+# Veg Type: EN
+# ROI ID Number: 1000
+# Owner: amyoung
+# Creation Date: 2018-07-17
+# Creation Time: 11:09:00
+# Update Date: 2018-07-17
+# Update Time: 11:09:00
+# Description: EN veg type, canopy view.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-09-05,12:00:05,9999-12-31,00:00:00,harvardhemlock2_EN_1000_01.tif,harvardhemlock2_2018_07_14_120004.jpg
+

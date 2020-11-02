@@ -1,0 +1,16 @@
+#
+# ROI List for NEON.D04.LAJA.DP1.00033
+#
+# Site: NEON.D04.LAJA.DP1.00033
+# Veg Type: AG
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-02-26
+# Creation Time: 11:50:49
+# Update Date: 2018-03-07
+# Update Time: 11:28:23
+# Description: farm in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-12-14,16:45:05,9999-12-31,00:00:00,NEON.D04.LAJA.DP1.00033_AG_1000_01.tif,NEON.D04.LAJA.DP1.00033_2017_04_25_120005.jpg
+

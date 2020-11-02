@@ -1,0 +1,17 @@
+#
+# ROI List for northattleboroma
+#
+# Site: northattleboroma
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-05-07
+# Creation Time: 16:02:24
+# Update Date: 2018-08-03
+# Update Time: 13:42:37
+# Description: Deciduous trees in backgroud
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-04-11,00:00:00,2018-05-04,12:01:04,northattleboroma_DB_1000_01.tif,northattleboroma_2018_05_04_120104.jpg
+2018-05-05,11:31:02,9999-12-31,00:00:00,northattleboroma_DB_1000_02.tif,northattleboroma_2018_05_30_120104.jpg
+

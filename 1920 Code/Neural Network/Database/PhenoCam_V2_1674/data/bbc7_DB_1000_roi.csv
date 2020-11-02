@@ -1,0 +1,16 @@
+#
+# ROI List for bbc7
+#
+# Site: bbc7
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2017-08-03
+# Creation Time: 15:16:26
+# Update Date: 2018-04-23
+# Update Time: 09:41:15
+# Description: entire FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-11-02,12:00:06,9999-12-31,00:00:00,bbc7_DB_1000_01.tif,bbc7_2017_03_23_120007.jpg
+

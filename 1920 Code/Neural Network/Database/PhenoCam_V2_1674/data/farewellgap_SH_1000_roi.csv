@@ -1,0 +1,16 @@
+#
+# ROI List for farewellgap
+#
+# Site: farewellgap
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-07
+# Creation Time: 14:58:55
+# Update Date: 2018-08-07
+# Update Time: 14:58:55
+# Description: foreground shrubs
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2013-05-14,11:02:30,2016-07-02,10:00:20,farewellgap_SH_1000_01.tif,farewellgap_2016_07_02_100020.jpg
+

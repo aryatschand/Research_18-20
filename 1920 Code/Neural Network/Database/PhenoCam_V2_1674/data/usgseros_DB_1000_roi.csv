@@ -1,0 +1,16 @@
+#
+# ROI List for usgseros
+#
+# Site: usgseros
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2014-09-22
+# Creation Time: 14:04:22
+# Update Date: 2018-05-15
+# Update Time: 14:33:36
+# Description: trees near horizon
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-09-10,13:30:00,2017-12-31,23:59:59,usgseros_DB_1000_01.tif,usgseros_2014_09_10_133006.jpg
+

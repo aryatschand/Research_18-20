@@ -1,0 +1,71 @@
+last_updated: 2019-01-14
+project: PhenoCam Network
+project_url: https://phenocam.sr.unh.edu/
+fairuse_statement:
+    PhenoCam Fair Use Data Policy: Since its inception, the objective
+    of the PhenoCam network has been to serve as a repository for
+    phenologically-relevant, digital, repeat (time-lapse) imagery, and
+    to make that imagery, and derived data products, freely available
+    to a wide array of third-party data end-users, including
+    researchers, educators, and the general public. Thus, imagery from
+    the PhenoCam archive is made publicly available, without
+    restriction, for non-commercial scientific and educational
+    purposes, and we encourage you to download imagery and datasets
+    for use in your own research and teaching.  We request that all
+    publications using the dataset (1) properly cite the PhenoCam
+    dataset, the associated data descriptor, and other relevant
+    publications; and (2) include both a general acknowledgement for
+    the PhenoCam project and the appropriate site-specific
+    acknowledgements for every site used in your analysis. The text
+    for these acknowledgments is included in the metadata file
+    associated with each PhenoCam site.  Distribution and Re-use
+    Policy: The PhenoCam Dataset version 1.0 is distributed under a
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+    International License.  Acknowledgments: The development of
+    PhenoCam has been supported by the Northeastern States Research
+    Cooperative, NSF’s Macrosystems Biology program (award
+    EF-1065029), DOE’s Regional and Global Climate Modeling program
+    (award DE-SC0016011), and the US National Park Service Inventory
+    and Monitoring Program and the USA National Phenology Network
+    (grant number G10AP00129 from the United States Geological
+    Survey). PhenoCam collaborators, including site PIs and
+    technicians, are thanked for their efforts in support of PhenoCam.
+project_fairuse_url: https://phenocam.sr.unh.edu/webcam/fairuse_statement/
+phenocam_site:
+    sitename: coville
+    long_name: Lake Coville, Katmai National Park and Preserve, Alaska
+    lat: 58.8025
+    lon: -155.5629
+    elevation: 478
+    contact1: Amy Miller <Amy_E_Miller AT nps DOT gov>
+    contact2: Peter Kirchner <peter_kirchner AT nps DOT gov>
+    active: True
+    date_start: 2010-09-16
+    date_end: 2018-07-15
+    nimage: 17040
+    site_type: II
+    infrared_enabled: N
+    method: ftppush
+    utc_offset: -9
+    camera_description: Cannon Rebel, Campbel Scientific CC5 MPX
+    camera_orientation: E
+    group: NPS Alaska
+    flux_data: False
+    flux_networks: 
+    flux_sitenames: 
+    ecoregion: 2
+    MAP_site: None
+    MAP_daymet: 898.0
+    MAP_worldclim: 711.0
+    MAT_site: None
+    MAT_daymet: 0.75
+    MAT_worldclim: -0.1
+    primary_veg_type: TN
+    secondary_veg_type: 
+    dominant_species: Empetrum nigrum, Carex microchaeta, Alnus viridis ssp. sinuata, Calamagrostis canadensis
+    landcover_igbp: 7
+    wwf_biome: 11
+    koeppen_geiger: Dfc
+    site_acknowledgements:
+        Research at the Coville climate station is supported by the
+        National Park Service.

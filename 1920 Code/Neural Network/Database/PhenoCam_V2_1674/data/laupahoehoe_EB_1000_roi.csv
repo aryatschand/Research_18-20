@@ -1,0 +1,16 @@
+#
+# ROI List for laupahoehoe
+#
+# Site: laupahoehoe
+# Veg Type: EB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:25:44
+# Update Date: 2018-12-20
+# Update Time: 09:02:04
+# Description: foreground forest
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2016-11-14,13:59:15,9999-12-31,00:00:00,laupahoehoe_EB_1000_01.tif,laupahoehoe_2016_11_14_135915.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for monteblanco
+#
+# Site: monteblanco
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-08-09
+# Creation Time: 11:41:08
+# Update Date: 2018-08-09
+# Update Time: 11:41:08
+# Description: shrubs in the foreground
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-02-15,15:11:18,9999-12-31,00:00:00,monteblanco_SH_1000_01.tif,monteblanco_2017_02_15_151118.jpg
+

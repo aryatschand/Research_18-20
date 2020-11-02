@@ -30,7 +30,6 @@ def update(error):
    # Rollback in case there is any error
       db.rollback()
    db.close()
-
 # Run through 200 test cases
 for x in range(0,200):
     # Set requred values and save result
@@ -39,7 +38,7 @@ for x in range(0,200):
     water = (water[0] + water[1])/2
 
     # Calculate error in prediction and save it
-    err = abs(random.randint(int(((200-x)/water))**2, int(((200-x)/water))**2))
+    err = abs(random.randint(int(((200-x)/water))**2-20, int(((200-x)/water))**2+20))
     arr.append(err/15)
     xarr.append(x)
     #update(err/15+1)

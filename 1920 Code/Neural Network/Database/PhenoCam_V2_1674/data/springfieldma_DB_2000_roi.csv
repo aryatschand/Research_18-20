@@ -1,0 +1,16 @@
+#
+# ROI List for springfieldma
+#
+# Site: springfieldma
+# Veg Type: DB
+# ROI ID Number: 2000
+# Owner: bijan
+# Creation Date: 2018-05-15
+# Creation Time: 14:54:46
+# Update Date: 2018-05-15
+# Update Time: 14:54:46
+# Description: DB tree in left FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-04-17,12:01:05,2018-03-15,12:01:04,springfieldma_DB_2000_01.tif,springfieldma_2018_03_15_120104.jpg
+

@@ -1,0 +1,16 @@
+#
+# ROI List for donanafuenteduque
+#
+# Site: donanafuenteduque
+# Veg Type: WL
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-09
+# Creation Time: 14:16:30
+# Update Date: 2018-04-09
+# Update Time: 14:16:30
+# Description: entire wetland in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-11-11,19:29:55,9999-12-31,00:00:00,donanafuenteduque_WL_1000_01.tif,donanafuenteduque_2017_11_12_115411.jpg
+

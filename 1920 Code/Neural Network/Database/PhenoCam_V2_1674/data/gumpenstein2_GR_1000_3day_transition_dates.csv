@@ -1,0 +1,22 @@
+#
+# Transition date estimate for gumpenstein2
+#
+# Site: gumpenstein2
+# Veg Type: GR
+# ROI ID Number: 1000
+# Aggregation period: 3day
+# Year min: 2018
+# Year max: 2019
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:18:43
+# Spline RMSE gcc_mean: 0.0107
+# Spline RMSE gcc_50: 0.01337
+# Spline RMSE gcc_75: 0.01221
+# Spline RMSE gcc_90: 0.01535
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+gumpenstein2,GR,1000,rising,gcc_90,2018-04-03,2018-04-07,2018-04-16,2018-03-27,2018-03-30,2018-04-10,2018-04-09,2018-04-12,2018-04-20,0.36213,0.37236,0.39249,0.35675,0.42547
+gumpenstein2,GR,1000,falling,gcc_90,2018-12-12,2018-12-02,2018-11-16,2019-01-17,2018-12-08,2018-11-22,2018-12-04,2018-11-25,2018-11-10,0.3504,0.36188,0.38487,0.34206,0.42642
+gumpenstein2,GR,1000,falling,gcc_75,2018-12-12,2018-12-06,2018-11-16,2018-12-17,2018-12-11,2018-11-23,2018-12-07,2018-11-23,2018-11-09,0.34454,0.35671,0.38008,0.33716,0.42095
+gumpenstein2,GR,1000,falling,gcc_50,2018-12-12,2018-12-05,2018-11-15,2018-12-18,2018-12-11,2018-11-25,2018-12-06,2018-11-28,2018-11-11,0.34045,0.35237,0.37523,0.33235,0.4143
+gumpenstein2,GR,1000,falling,gcc_mean,2018-12-10,2018-11-23,2018-11-12,2018-12-14,2018-12-08,2018-11-17,2018-12-03,2018-11-18,2018-11-08,0.34474,0.35677,0.37834,0.33765,0.41573

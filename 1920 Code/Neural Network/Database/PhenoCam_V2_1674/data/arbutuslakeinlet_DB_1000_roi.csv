@@ -1,0 +1,16 @@
+#
+# ROI List for arbutuslakeinlet
+#
+# Site: arbutuslakeinlet
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-04-02
+# Creation Time: 14:07:07
+# Update Date: 2018-04-02
+# Update Time: 14:07:07
+# Description: canopy level DB (only a small part of FOV is DB)
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2015-08-19,14:30:57,9999-12-31,00:00:00,arbutuslakeinlet_DB_1000_01.tif,arbutuslakeinlet_2017_05_06_120006.jpg
+

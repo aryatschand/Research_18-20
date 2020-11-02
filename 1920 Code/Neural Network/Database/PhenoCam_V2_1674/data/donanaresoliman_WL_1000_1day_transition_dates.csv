@@ -1,0 +1,21 @@
+#
+# Transition date estimate for donanaresoliman
+#
+# Site: donanaresoliman
+# Veg Type: WL
+# ROI ID Number: 1000
+# Aggregation period: 1day
+# Year min: 2018
+# Year max: 2018
+# Final Processing Date: 2019-01-14
+# Final Processing Time: 16:09:15
+# Spline RMSE gcc_mean: 0.00093
+# Spline RMSE gcc_50: 0.00104
+# Spline RMSE gcc_75: 0.00087
+# Spline RMSE gcc_90: 0.00088
+#
+site,veg_type,roi_id,direction,gcc_value,transition_10,transition_25,transition_50,transition_10_lower_ci,transition_25_lower_ci,transition_50_lower_ci,transition_10_upper_ci,transition_25_upper_ci,transition_50_upper_ci,threshold_10,threshold_25,threshold_50,min_gcc,max_gcc
+donanaresoliman,WL,1000,rising,gcc_90,2018-03-01,2018-03-02,2018-03-03,2018-02-28,2018-03-01,2018-03-02,2018-03-02,2018-03-03,2018-03-04,0.32746,0.33164,0.3363,0.32796,0.34362
+donanaresoliman,WL,1000,rising,gcc_75,2018-03-01,2018-03-02,2018-03-04,2018-02-28,2018-03-01,2018-03-03,2018-03-02,2018-03-03,2018-03-05,0.3268,0.33091,0.3388,0.32747,0.34799
+donanaresoliman,WL,1000,rising,gcc_50,2018-03-01,2018-03-02,2018-03-04,2018-02-28,2018-03-01,2018-03-03,2018-03-02,2018-03-03,2018-03-05,0.32632,0.3304,0.33816,0.32655,0.34642
+donanaresoliman,WL,1000,rising,gcc_mean,2018-03-01,2018-03-02,2018-03-04,2018-02-28,2018-03-01,2018-03-03,2018-03-02,2018-03-03,2018-03-05,0.32617,0.33032,0.33813,0.32658,0.34641

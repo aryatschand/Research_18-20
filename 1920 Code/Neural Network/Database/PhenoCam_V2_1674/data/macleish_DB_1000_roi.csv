@@ -1,0 +1,16 @@
+#
+# ROI List for macleish
+#
+# Site: macleish
+# Veg Type: DB
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-07-30
+# Creation Time: 15:34:36
+# Update Date: 2018-07-30
+# Update Time: 15:34:36
+# Description: mexied deciduous trees
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2017-02-11,10:35:05,9999-12-31,00:00:00,macleish_DB_1000_01.tif,macleish_2017_11_10_120505.jpg
+

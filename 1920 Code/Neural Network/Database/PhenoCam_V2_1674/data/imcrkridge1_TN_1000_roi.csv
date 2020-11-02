@@ -1,0 +1,16 @@
+#
+# ROI List for imcrkridge1
+#
+# Site: imcrkridge1
+# Veg Type: TN
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-07
+# Creation Time: 14:16:13
+# Update Date: 2018-06-07
+# Update Time: 14:16:13
+# Description: Entire TN in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2012-06-04,18:06:13,9999-12-31,00:00:00,imcrkridge1_TN_1000_01.tif,imcrkridge1_2012_06_04_180613.jpg
+

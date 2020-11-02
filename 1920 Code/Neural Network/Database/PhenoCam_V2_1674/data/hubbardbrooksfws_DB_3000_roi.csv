@@ -1,0 +1,16 @@
+#
+# ROI List for hubbardbrooksfws
+#
+# Site: hubbardbrooksfws
+# Veg Type: DB
+# ROI ID Number: 3000
+# Owner: bijan
+# Creation Date: 2016-05-06
+# Creation Time: 13:08:11
+# Update Date: 2018-04-30
+# Update Time: 13:14:57
+# Description: Deciduous tree in foreground.
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-08-08,00:00:00,9999-12-31,23:59:59,hubbardbrooksfws_DB_3000_01.tif,hubbardbrooksfws_2014_08_08_120004.jpg
+

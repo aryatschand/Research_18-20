@@ -1,0 +1,16 @@
+#
+# ROI List for sevilletashrub
+#
+# Site: sevilletashrub
+# Veg Type: SH
+# ROI ID Number: 1000
+# Owner: bijan
+# Creation Date: 2018-06-18
+# Creation Time: 10:08:05
+# Update Date: 2018-06-18
+# Update Time: 10:08:05
+# Description: shrubs in FOV
+#
+start_date,start_time,end_date,end_time,maskfile,sample_image
+2014-10-29,14:00:06,9999-12-31,00:00:00,sevilletashrub_SH_1000_01.tif,sevilletashrub_2014_10_29_140006.jpg
+
