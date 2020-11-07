@@ -131,15 +131,13 @@ plt.plot(test_data)
 
 #Create unscaled training data and test data objects
 
-unscaled_training_data = pd.read_csv('kansasdata.csv')
+unscaled_training_data = pd.read_csv('data.csv')
 
 unscaled_test_data = pd.read_csv('test.csv')
 
 #Concatenate the unscaled data
 
 all_data = pd.concat((unscaled_training_data['Crop Yield'], unscaled_test_data['Crop Yield']), axis = 0)
-
-#Create our x_test_data object, which has each January day + the 40 prior days
 
 x_test_data = all_data[len(all_data) - len(test_data) - 5:].values
 
@@ -185,10 +183,6 @@ plt.clf() #This clears the first prediction plot from our canvas
 
 plt.plot(unscaled_predictions)
 
-#Plotting the predicted values against Facebook's actual stock price
-
 plt.plot(unscaled_predictions, color = '#135485', label = "Predictions")
 
 plt.plot(test_data, color = 'black', label = "Real Data")
-
-plt.title('Facebook Stock Price Predictions')
