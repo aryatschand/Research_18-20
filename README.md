@@ -2,6 +2,7 @@
 
 Implementation of Novel Semi-Supervised Machine Learning Model into Autonomous Irrigation Network Optimized for Power Self-Sufficiency
 Written By Arya Tschand 2018-2020
+
 Presentation Video - https://youtu.be/rbFbLL9Grxo
 
 US Provisional Patent Application Number 62799365
