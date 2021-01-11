@@ -7,6 +7,8 @@ Presentation Video - https://youtu.be/rbFbLL9Grxo
 US Provisional Patent Application Number 62799365
 US Utility Patent Application Number 16730499
 
+Written in Arduino(C++), VB.net, MySQL, Swift, Python
+
 ## Inspiration
 While visiting my grandparents in Delhi, I gazed in utter disbelief across endless fields of wilted crops. From conversations with local farmers, I learned that water scarcity was at the root of these crop failures. My growing curiosity led me to investigate how extensive this crisis was worldwide. Like an idle engine waiting for ignition, I found the spark that pushed me to the extent of my creativity and resilience, leading me to pursue water usage inefficiency as the heart of my research project.
 
@@ -19,5 +21,3 @@ In this project, a three-component internet-of-things (IoT)-based irrigation sys
 An unsupervised recurrent neural network (RNN) component of the irrigation system allows the model to identify correlations between data points and resulting crop health without requiring extensive datasets to provide predictions for optimal irrigation volumes. A many-to-one approach was utilized in the model with a sequence of data points inputted for a single integer output. Long Short Term memory (LSTM) units were found to have better accuracy, and its bidirectional analysis of past and present iterations allows better context analysis of the data and more accurate irrigation volume predictions.
 
 The resulting predicted irrigation volume is executed by an Arduino Nano-based irrigation micropiece to dynamically adjust water flow to each crop for individualized irrigation. Induction from water flow through irrigation pipes generates current, reflecting complete and scalable power self-sufficiency at an excess margin of 25.8%.
-
-Written in Arduino(C++), VB.net, MySQL, Swift, Python
