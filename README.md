@@ -1,6 +1,7 @@
 # Research_18-20
 
 Implementation of Novel Semi-Supervised Machine Learning Model into Autonomous Irrigation Network Optimized for Power Self-Sufficiency
+
 Written By Arya Tschand 2018-2020
 
 Presentation Video - https://youtu.be/rbFbLL9Grxo
