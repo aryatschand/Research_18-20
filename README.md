@@ -7,6 +7,7 @@ Written By Arya Tschand 2018-2020
 Presentation Video - https://youtu.be/rbFbLL9Grxo
 
 US Provisional Patent Application Number 62799365
+
 US Utility Patent Application Number 16730499
 
 Written in Arduino(C++), VB.net, MySQL, Swift, Python
