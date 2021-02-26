@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-import fullRNN
+import formatData
 import getIrrigation
 import random
 import base64
@@ -8,6 +8,7 @@ import AnalyzeImage
 import GetCommand
 import updateDrone
 import getRFIDLocation
+import modelRun
 from datetime import datetime
 
 app = Flask(__name__)
@@ -40,7 +41,8 @@ def home():
             #color = int(AnalyzeImage.color(str(now)))
             color = 20
             plant_num = args["number"]
-            fullRNN.getWater(plant_num, temp, light, color, str(now))
+            model = modelRun.build_model()
+            model.test(formatData.getWater(plant_num, temp, light, color, str(now)))
             updateDrone.updateDrone(0, plant_num)
             return "success"
 

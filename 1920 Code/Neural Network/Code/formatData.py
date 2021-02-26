@@ -5,7 +5,7 @@ import GetIdealColor
 import insertPoint
 import timeit
 
-# Main RNN runner function
+# Main data format runner function
 def getWater(plant_num, temp, light, color, now):
     # Get new data points
     newTemp = temp
