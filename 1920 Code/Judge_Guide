@@ -1,0 +1,18 @@
+Implementation of Novel Semi-Supervised Machine Learning Model into Autonomous Irrigation Network Optimized for Power Self-Sufficiency
+Written in Arduino(C++), VB.net, SQL, Swift, Python
+
+Folders:
+*** Important (Recommended Read)- Contains program files with the highest functionality for the project
++ Full Code/Drone - Python Raspberry Pi code for quadcopter drone functionality
++ Full Code/iOS Interface - Swift code for iOS interface app
++ Full Code/Micro-Piece - Arduino code for Arduino Nano and NodeMCU micropiece functionality
++ Full Code/Neural Network - Python code for local area network flask server, data formatting, and neural network model
++ Full Code/SQL - SQL queries for database input/outputs
+
+Important Files (Located in 'Important' Folder)
+* app.py (located in /Full Code/Neural Network/Code) - Python code to create localhost flask server, direct HTTP requests to corresponding functions based on parameters, and return response
+* FindIdealW.py (located in /Full Code/Neural Network/Code) - Python code to calculate weights for each environmental variable for neural network analysis
+* full.sql (located in /Full Code/SQL) - SQL query set used by Python code to input new data points into MySQL database and output desired data set for analysis
+* MainProgram.py (Located in /Full Code/Drone) - Python code run on Drone's Raspberry Pi to handle RFID scanning for relative location, environmental data collection, and LAN requests to server
+* ModelRun.py (Located in /Full Code/Neural Network/Code) - Python code to create and train a current instance of the recurrent neural network model using TensorFlow
+* NodeMCU.ino (Located in /Full Code/Micro-Piece/NodeMCU) - Arduino C++ code to handle commands from the server and adjust irrigation volume to each crop accordingly
