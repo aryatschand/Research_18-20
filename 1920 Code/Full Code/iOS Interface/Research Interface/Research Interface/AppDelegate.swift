@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Research Interface
 //
-//  Created by Arya Tschand on 12/31/19.
-//  Copyright © 2019 aryatschand. All rights reserved.
+//  Created by AT on 12/31/19.
+//  Copyright © 2020 at. All rights reserved.
 //
 
 import UIKit
